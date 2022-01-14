@@ -1,0 +1,1084 @@
+.supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(5) {
+  font-family: monospace;
+  /* float: right; */
+  font-size: 14px;
+}
+
+.salesQtnTab > h3{
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+  font-weight: 600;
+  color: #000;
+}
+.invoicefinanceLogin > h2{
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+  font-weight: 600;
+  color: #000;
+}
+.salesOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+}
+.MuiFormGroup-root {
+  display: inline-table !important;
+}
+.invoiceOverviewAction {
+  margin-bottom: 20px;
+}
+.invoiceOverviewAction .financeBtn {
+  color: #fff;
+  background: #304ffe;
+  line-height: normal;
+}
+.invoiceOverviewAction .financeBtn:hover {
+  color: #fff;
+  background: #304ffe;
+  line-height: normal;
+}
+.invoiceOverviewAction .financeBtn:disabled {
+  color: #fff;
+  background: #6377e4;
+  line-height: normal;
+}
+.invoiceOverviewAction .declinedBtn {
+  border: 1px solid lightgray;
+  line-height: normal;
+  margin-right: 10px;
+}
+.invoiceOverviewAction .declinedBtn:hover {
+  border: 1px solid black;
+  line-height: normal;
+}
+.supplierTable  .ReactTable.-striped .rt-tr.-odd{
+  background: #fff;
+}
+
+.supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3) {
+  font-weight: 600;
+}
+.supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3) {
+  color: #304ffe;
+}
+
+/* .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6) {
+  color: red;
+} */
+
+.supplierTable .ReactTable .rt-thead .rt-tr .rt-th:last-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.supplierTable .ReactTable .rt-thead .rt-tr .rt-th:last-child .pretty{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:last-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:last-child .pretty{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.financingDetails {
+  max-width: 700px;
+}
+
+.dateRangeBtn {
+  width: 200px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+.dateRangeBtn svg {
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+/*******************salesaction css Starts*****************************/
+
+.salesaction .saleactionTwo {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.salesaction .saleactionTwo .MuiInputLabel-outlined{
+  font-size: 15px;
+}
+
+.salesaction .saleactionTwo > button {
+  background: #304ffe;
+  color: #fff;
+  min-width: 115px;
+  margin-left: 10px;
+}
+
+.salesaction .saleactionTwo > .MuiGrid-container .MuiFormControl-root {
+  margin: 0px;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+}
+
+.salesaction
+  .saleactionTwo
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputLabel-formControl.MuiInputLabel-shrink {
+  transform: translate(5px, -6.5px) scale(0.75);
+  transform-origin: top left;
+  background: #fff;
+  padding: 0px 5px;
+}
+.salesaction
+  .saleactionTwo
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root::before {
+  display: none;
+}
+.salesaction
+  .saleactionTwo
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root::after {
+  display: none;
+}
+
+.salesaction
+  .saleactionTwo
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root
+  input {
+  padding: 5px;
+}
+
+.salesaction
+  .saleactionTwo
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root
+  .MuiInputAdornment-root
+  .MuiIconButton-root
+  svg {
+  width: 15px;
+  height: auto;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.salesaction
+  .saleactionTwo
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInput-formControl {
+  margin-top: 10px;
+}
+
+/*******************salesaction css Ends*****************************/
+
+/************************financeDetailModal css***********************/
+.financeDetailModal .MuiDialogTitle-root {
+  display: none;
+}
+.financeDetailModal .MuiDialog-paperWidthSm {
+  max-width: 1500px;
+  width: 100%;
+  border-radius: 15px;
+}
+.financeDetailModal .modalHead {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.financeDetailModal .modalHead .MuiButton-text{
+  padding: 0px;
+  min-width: auto;
+  margin-left: 10px;
+}
+.financeDetailModal .modalHead .MuiButton-text svg{
+  width: 20px;
+  height: auto;
+}
+.financeDetailModal .modalHead > h3 {
+  width: calc(100% - 30px);
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
+  margin: 0px;
+}
+.financeDetailModal .financetablefirst {
+  margin-bottom: 10px;
+}
+.financeDetailModal .financetablefirst .table {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+.financeDetailModal .financetablefirst .table thead {
+  background: #f4f4fb;
+  display: flex;
+}
+
+.financeDetailModal .financetablefirst .table thead tr {
+  display: flex;
+  width: 100%;
+}
+.financeDetailModal .financetablefirst .table thead tr th {
+  padding: 10px 15px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  width: 16.66%;
+  border-top: none;
+  border-bottom-width: 1px;
+}
+.financeDetailModal .financetablefirst .table tbody {
+  display: block;
+}
+.financeDetailModal .financetablefirst .table tbody tr {
+  display: flex;
+}
+.financeDetailModal .financetablefirst .table tbody tr td {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+  width: 16.66%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 16.66%;
+  border-top: none;
+}
+.financeDetailModal .financetablefirst .table tbody tr td span.label{
+  display: none;
+}
+.financeDetailModal .financetablefirst .table tbody tr td span{
+  display: inline-block;
+  word-break: break-all;
+  word-break: break-word;
+  font-size: 14px;
+}
+/*********/
+.financeDetailModal .financetableSecond {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.financeDetailModal .financetableSecond .table {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 0px;
+}
+.financeDetailModal .financetableSecond .table thead {
+  background: #f4f4fb;
+  display: flex;
+}
+
+.financeDetailModal .financetableSecond .table thead tr {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.financeDetailModal .financetableSecond .table thead tr th {
+  padding: 10px 15px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  width: 16.66% !important;
+  text-align: left;
+  border-bottom:none;
+  border-top: none;
+}
+.financeDetailModal .financetableSecond .table tbody {
+  display: block;
+}
+.financeDetailModal .financetableSecond .table tbody tr {
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+}
+.financeDetailModal .financetableSecond .table tbody tr:last-child{
+  border-bottom: none;
+}
+.financeDetailModal .financetableSecond .table tbody tr td span.status {
+  color: #5bae58;
+  padding: 5px;
+  border-radius: 4px;
+  background: #f2f9f2;
+}
+.financeDetailModal .financetableSecond .table tbody tr td span.label{
+  display: none;
+}
+.financeDetailModal .financetableSecond .table tbody tr td span{
+  display: inline-block;
+  font-size: 14px;
+  word-break: break-all;
+  word-break: break-word;
+  white-space: normal;
+}
+/* .financeDetailModal
+  .financetableSecond
+  .table
+  tbody
+  tr
+  td
+  > span:nth-last-child(2) {
+  width: 100%;
+  background-color: rgb(118, 218, 118);
+} */
+.financeDetailModal .financetableSecond .table tbody tr td {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+  width: 16.66%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: none;
+min-width: auto !important;
+  white-space: nowrap;
+  word-break: break-all;
+  word-break: break-word;
+  max-width: 100% !important;
+}
+.financeDetailModal .financetableSecond .table tbody tr td a {
+  display: inline-block;
+  color: #4965fe;
+  white-space: nowrap;
+}
+.financeDetailModal .selectBtn {
+  margin: 0px;
+  text-align: right;
+  /* display: flex; */
+  /* align-items: center; */
+  padding: 15px 10px 0px 0px;
+}
+.financeDetailModal .financeBtn {
+  color: #fff;
+  background: #304ffe;
+  line-height: normal;
+  padding: 10px;
+}
+.financeDetailModal .financeBtn:hover {
+  color: #fff;
+  background: #304ffe;
+  line-height: normal;
+  /* padding: 15px; */
+}
+
+/********************************************************************/
+
+/********************financeDeclinePopup css *************************/
+.financeDeclinePopup .MuiDialog-paperWidthSm {
+  max-width: 400px;
+  width: 100%;
+}
+.financeDeclinePopup .confirmDeclinePopup {
+  text-align: center;
+}
+.financeDeclinePopup .confirmDeclinePopup h3 {
+  color: #304ffe;
+}
+.financeDeclinePopup .confirmDeclinePopup .actionBtns {
+  float: right;
+  margin-top: 45px;
+}
+.financeDeclinePopup .confirmDeclinePopup .cancelBtn {
+  color: grey;
+  font-weight: 600;
+}
+.financeDeclinePopup .confirmDeclinePopup .confirmBtn {
+  color: #304ffe;
+  font-weight: 600;
+}
+
+/**************************************************************/
+
+
+@media screen and (max-width:767px){
+  .invoicefinanceLogin{
+    min-height: auto;
+    position: fixed;
+    top: 80px;
+    height: calc(100% - 100px);
+    width: calc(100% - 0px);
+    left: 0px;
+    padding: 0px 20px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: 0px;
+  }
+  .invoicefinanceLogin::-webkit-scrollbar{
+    display: none;
+  }
+
+  .invoicefinanceOverviewTable .ReactTable .rt-thead{
+    display: none;
+  }
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody{
+    min-width: auto !important;
+  }
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    position: relative;
+    padding-left: 130px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+    width: 100% !important;
+    max-width: 100% !important;
+   padding-left: 0px; 
+  }
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+    position: relative;
+    padding-left: 60px;
+  } 
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+    content: "S no. :";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+    content: "Supplier Name :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+    content: "Pending Invoices :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(4)::before{
+    content: "Invoice Financed :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+
+
+
+  .invoiceFinanceDeclinedTable .ReactTable .rt-thead{
+    display: none;
+  }
+  .invoiceFinanceDeclinedTable .ReactTable .rt-tbody{
+    min-width: auto !important;
+  }
+  .invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    position: relative;
+    padding-left: 130px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+    width: 100% !important;
+    max-width: 100% !important;
+   padding-left: 0px; 
+  }
+  .invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+    position: relative;
+    padding-left: 60px;
+  } 
+  .invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+    content: "S no. :";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+    content: "Supplier Name:";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+    content: "Decline Invoice :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .financeDetailModal .modalHead > h3 {
+    font-size: 18px;
+  }
+  .financeDetailModal .financetablefirst .table{
+    border: none;
+  }
+  .financeDetailModal .financetablefirst .table thead{
+    display: none;
+  }
+  .financeDetailModal .financetablefirst .table tbody tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .financeDetailModal .financetablefirst .table tbody tr td{
+    width: 50%;
+    align-items: flex-start;
+    padding: 5px 10px;
+  }
+  .financeDetailModal .financetablefirst .table tbody tr td span{
+    font-size: 14px;
+  }
+  .financeDetailModal .financetablefirst .table tbody tr td span.label{
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    min-width: 120px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .financeDetailModal .financetablefirst .table tbody tr td span.label::after{
+    content: ":";
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+  .financeDetailModal .financetableSecond .table thead{
+    display: none;
+  }
+  .financeDetailModal .financetableSecond .table{
+    border: none;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr{
+flex-wrap: wrap;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-bottom: 10px;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td{
+    width: 50% !important;
+    align-items: flex-start;
+    padding: 5px 10px;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td span{
+    font-size: 14px;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td span.label{
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    min-width: 90px;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td span.label::after{
+    content: ":";
+    display: inline-block;
+    position: absolute;
+    color: #000;
+    font-weight: 600;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .financeDetailModal .financetableSecond .table tbody tr:last-child{
+    border-bottom: 1px solid #ccc;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td a{
+    padding: 5px;
+    border-radius: 4px;
+   background:rgba(73, 101, 254,0.1);
+  }
+
+
+  /* ========================================================================== */
+
+  
+
+  .supplierTable .ReactTable .rt-thead .rt-tr .rt-th{
+    display: none;
+  }
+  .supplierTable .ReactTable .rt-thead{
+    min-width: auto !important;
+    background: transparent !important;
+  }
+  .supplierTable .ReactTable .rt-thead .rt-tr{
+    height: auto;
+    min-height: auto;
+  }
+  .supplierTable .ReactTable .rt-thead .rt-tr .rt-th:last-child{
+    display: inline-flex;
+    width: 110px !important;
+    flex: auto !important;
+    max-width: 110px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    height: 34px;
+  }
+  .supplierTable .ReactTable .rt-thead .rt-tr .rt-th:last-child .pretty{
+    justify-content: flex-end;
+  }
+  .supplierTable .ReactTable .rt-thead .rt-tr .rt-th:last-child .selectallCheck{
+    position: relative;
+    padding-right: 75px;
+  }
+  .supplierTable .ReactTable .rt-thead .rt-tr .rt-th:last-child .selectallCheck::after{
+    content: "Select All";
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+  }
+  .supplierTable .ReactTable .rt-tbody{
+    min-width: auto !important;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    position: relative;
+    padding-left: 130px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+    padding-right: 35px;
+  }
+  /* .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+    position: relative;
+    padding-left: 60px;
+  } 
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+    content: "S no. :";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  } */
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1)::before{
+    content: "Buyer's Name :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+    content: "Credit Term :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+    content: "Invoice No. :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(4)::before{
+    content: "Currency :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(5)::before{
+    content: "Invoice Amt. :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6)::before{
+    content: "Invoice Date :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(7)::before{
+    content: "Invoice Due Date :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(8){
+    padding-left: 10px !important;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 0px;
+  }
+}
+
+
+
+/*********************invoicefinanceOverviewTable css*************/
+/* .invoicefinanceOverviewTable */
+.invoicefinanceOverviewTable {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.invoicefinanceOverviewTable .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.invoicefinanceOverviewTable .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.invoicefinanceOverviewTable .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+.invoicefinanceOverviewTable.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+}
+.invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: #f4f4fb ;
+}
+.invoicefinanceOverviewTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: pointer;
+  font-size: 14px;
+}
+/*****************************************************************/
+
+
+/*****************************invoiceFinanceDeclinedTable css***************/
+/* .invoiceFinanceDeclinedTable */
+
+
+.invoiceFinanceDeclinedTable {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.invoiceFinanceDeclinedTable .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.invoiceFinanceDeclinedTable .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.invoiceFinanceDeclinedTable .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+/* .invoicefinanceOverviewTable.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+} */
+.invoiceFinanceDeclinedTable .ReactTable.-striped .rt-tr.-odd{
+  background: #fff;
+}
+.invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: #f4f4fb;
+}
+.invoiceFinanceDeclinedTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  /* cursor: pointer; */
+  font-size: 14px;
+}
+
+
+
+
+
+
+/*****************************************************************************/
+
+
+@media screen and (max-width:575px){
+ 
+  .invoiceFinanceDeclinedTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .invoicefinanceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important; 
+  }
+  .financeDetailModal .financetablefirst .table tbody tr td{
+    width: 100% !important;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td{
+    width: 100% !important;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td:nth-child(5){
+    width: 50% !important;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td:nth-child(6){
+    width: 50% !important;
+  }
+
+  .financeDetailModal .MuiDialog-paperWidthSm{
+    position:absolute;
+    margin: 0px;
+    width: calc(100% - 30px);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    max-height: calc(100% - 30px);
+    height: auto;
+    border-radius: 4px;
+  }
+  .financeDetailModal .selectBtn{
+    padding: 10px 10px 0px 0px;
+  }
+  .subinvoiefinanceHead .invoiceOverviewAction{
+    width: 100%;
+    padding-left: 15px;
+    flex-wrap: wrap;
+  }
+  .supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+
+.subinvoiefinanceHead{
+  display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+.subinvoiefinanceHead > h2{
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-left: 15px;
+}
+.subinvoiefinanceHead .supplierTable{
+  width: 100%;
+}
+.subinvoiefinanceHead .invoiceOverviewAction{
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: auto;
+padding-right: 15px;
+display: flex;
+    align-items: center;
+}
+.subinvoiefinanceHead .invoiceOverviewAction .MuiFormControl-root .MuiFormControlLabel-root .MuiFormControlLabel-label{
+  font-size: 16px;
+}
+
+.saleModaleTemplate.invoicefinancModal .MuiDialogTitle-root{
+  text-align: right;
+  border-bottom: 1px solid #cccc;
+  padding: 0px 15px 10px 15px !important;
+}
+.saleModaleTemplate.invoicefinancModal .MuiDialogTitle-root .MuiIconButton-root{
+  position: relative;
+  padding: 5px;
+  margin-top: -5px;
+  right: 0;
+}
+
+@media screen and (max-width:479px){
+  .subinvoiefinanceHead .invoiceOverviewAction .MuiFormControl-root{
+    width: 100%;
+  }
+  
+}
+
+
+
+/**************************supplierTable css**********************/
+/* .supplierTable */
+.supplierTable {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.supplierTable .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.supplierTable .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.supplierTable .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.supplierTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+  position: relative;
+}
+/* .invoicefinanceOverviewTable.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+} */
+.supplierTable .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: #f4f4fb;
+}
+.supplierTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  /* cursor: pointer; */
+  font-size: 14px;
+}
+.supplierTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3){
+  cursor: pointer;
+}
+/*******************************************************************/
+
+
+@media screen and (max-width:1199px){
+  .financeDetailModal .financetableSecond .table thead tr th:nth-child(1){
+    width: 20% !important;
+  }
+  .financeDetailModal .financetableSecond .table thead tr th:nth-child(2){
+    width: 15% !important;
+  }
+  .financeDetailModal .financetableSecond .table thead tr th:nth-child(3){
+    width: 20% !important;
+  }
+  .financeDetailModal .financetableSecond .table thead tr th:nth-child(4){
+    width: 15% !important;
+  }
+  .financeDetailModal .financetableSecond .table thead tr th:nth-child(5){
+    width: 15% !important;
+  }
+  .financeDetailModal .financetableSecond .table thead tr th:nth-child(6){
+    width: 15% !important;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td:nth-child(1){
+    width: 20%;
+  }
+  
+  .financeDetailModal .financetableSecond .table tbody tr td:nth-child(2){
+    width: 15%;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td:nth-child(3){
+    width: 20%;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td:nth-child(4){
+    width: 15%;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td:nth-child(5){
+    width: 15%;
+  }
+  .financeDetailModal .financetableSecond .table tbody tr td:nth-child(6){
+    width: 15%;
+  }
+}

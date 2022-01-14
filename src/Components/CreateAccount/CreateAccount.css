@@ -1,0 +1,1306 @@
+.CompanySection {
+  display: flex;
+  padding: 0px 0px;
+  /* height: 100vh; */
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: 0px;
+}
+.CompanySection::-webkit-scrollbar {
+  display: none;
+}
+.CompanySection .signBack {
+  width: 50%;
+  background: url(../../assets/SignBackground.png) no-repeat;
+  background-position: right center;
+  background-size: cover;
+  /* position: relative; */
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+}
+.CompanySection .signBack .logo {
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -40%);
+  left: 50%;
+  top: 40%;
+}
+/* .signMain .signBack .logo svg {
+    width: 50px;
+    height: auto;
+  } */
+
+.CompanySection .signBack .logoText {
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -53%);
+  left: 50%;
+  top: 53%;
+  color: #fff;
+  font-size: 40px;
+}
+
+.CompanySection .Company {
+  padding: 100px 70px 100px 70px;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+  margin-left: auto;
+  position: relative;
+}
+
+.CompanySection .Company .logoPart{
+  display: none;
+}
+.CompanySection .Company::-webkit-scrollbar {
+  display: none;
+}
+.CompanySection .Company > .companies > form {
+  width: 100%;
+  max-width: 480px;
+  margin: 0px auto;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .formComponent
+  .CreatePersonalInformation {
+  display: flex;
+  flex-wrap: wrap;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .formComponent
+  .CreatePersonalInformation
+  > div {
+  width: 100%;
+}
+.CompanySection .Company > h2 {
+  font-size: 45px;
+  margin: 0px 0px 20px 0px;
+  color: #FE6B00;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Proxima Nova Alt Lt';
+}
+.CompanySection .Company > h4 {
+  font-size: 22px;
+  margin: 0px 0px 20px 0px;
+  color: #000;
+  font-weight: 600;
+  width: 100%;
+  max-width: 500px;
+}
+.CompanySection .Company > .companies > form .CreateAccount {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: flex-end; */
+}
+.CompanySection .Company > .companies > form .CreateAccount > div {
+  width: 100%;
+}
+.CompanySection .Company > .companies > form .CreateAccount > div:nth-child(7) {
+  width: calc(100% - 40px);
+}
+.CompanySection .Company > .companies > form .CreateAccount > div:nth-child(8) {
+  width: auto;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControl-root {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControl-root  .MuiInputLabel-root{
+    font-size: 16px;
+  }
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControl-root
+  label
+  + .MuiInput-formControl {
+  margin-top: 14px;
+}
+.companies .CreateAccount > div > .MuiFormControl-root .MuiFormHelperText-root {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+  margin-top: 2px;
+  line-height: normal;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControl-root
+  .MuiInputBase-root::before {
+  display: none;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControl-root
+  .MuiInputBase-root::after {
+  display: none;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControl-root
+  .MuiFormLabel-root {
+  color: #000;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControlLabel-root {
+  margin-right: 0px;
+  margin-left: 0px;
+  display: flex;
+  align-items: flex-start;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControlLabel-root
+  > .MuiIconButton-root {
+  padding-top: 4px;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControlLabel-root
+  > .MuiFormControlLabel-label {
+  font-size: 14px;
+  color: #000;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  > .formComponent
+  .MuiDialogActions-root {
+  margin-top: 10px;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  > .formComponent
+  .MuiDialogActions-root
+  .MuiButton-root {
+  border-radius: 4px;
+  width: 100%;
+  background: #FE6B00 !important;
+  color: #fff !important;
+  border: none !important;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  > .formComponent
+  .MuiDialogActions-root
+  div {
+  width: 100%;
+}
+
+.Company .create {
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+}
+
+.Company .create a {
+  color: #304ffe;
+  text-decoration: underline;
+}
+
+/************************************/
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControl-root {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControl-root
+  .MuiFormHelperText-root {
+  position: absolute;
+  top: 100%;
+  margin-top: 2px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControl-root
+  label
+  + .MuiInput-formControl {
+  margin-top: 14px;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControl-root
+  .MuiInputBase-root::before {
+  display: none;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControl-root
+  .MuiInputBase-root::after {
+  display: none;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControl-root
+  .MuiFormLabel-root {
+  color: #000;
+  font-size: 16px;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControlLabel-root {
+  margin-right: 0px;
+  margin-left: 0px;
+  display: flex;
+  align-items: flex-start;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControlLabel-root
+  > .MuiIconButton-root {
+  padding-top: 4px;
+}
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControlLabel-root
+  > .MuiFormControlLabel-label {
+  font-size: 14px;
+  color: #000;
+}
+
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  .userRole > div{
+  max-width: 50%;
+}
+
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  .userTitle {
+  max-width: 25%;
+}
+
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  .mobileCode {
+  max-width: 80px;
+  margin-right: 15px;
+}
+
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  .mobileNumber {
+  max-width: calc(100% - 95px) !important;
+}
+
+/* .CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div:nth-child(1) {
+  max-width: 100px;
+} */
+
+/* .CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div:nth-child(4) {
+  max-width: 80px;
+  margin-right: 15px;
+}
+
+.CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div:nth-child(5) {
+  max-width: calc(100% - 95px) !important;
+} */
+/******************************************/
+
+/*****************verificaitonField css **************/
+
+.CompanySection.VerificationSection {
+  display: flex;
+  padding: 0px 0px;
+  /* height: 100vh; */
+}
+
+.verificaitonSection {
+  padding: 100px 70px 100px 70px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.verificaitonSection .verificaitonField {
+  width: 400px;
+  margin: 0px auto;
+}
+.verificaitonSection .verificaitonField > h2 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+}
+.verificaitonSection .verificaitonField > h2::before {
+  content: '';
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background: #FE6B00;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+.verificaitonSection .verificaitonField .phoneicon {
+  display: block;
+  text-align: center;
+}
+.verificaitonSection .verificaitonField .phoneicon svg {
+  width: 70px;
+  height: auto;
+}
+.verificaitonSection .verificaitonField > .otpmsg {
+  margin: 20px 0px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.verificaitonSection .verificaitonField > .otpmsg > span {
+  display: block;
+}
+.verificaitonSection .verificaitonField > span {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px 0px 10px 0px;
+}
+.verificaitonSection .verificaitonField > ul {
+  display: flex;
+  align-items: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
+.verificaitonSection .verificaitonField > ul > li {
+  list-style: none;
+  margin-right: 10px;
+}
+.verificaitonSection .verificaitonField > ul > li .MuiFormControl-root input {
+  text-align: center;
+  font-size: 16px !important;
+}
+.verificaitonSection
+  .verificaitonField
+  > ul
+  > li
+  .MuiFormControl-root
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.23) !important;
+}
+.verificaitonSection .verificaitonField > ul > li:last-child {
+  margin-right: 0px;
+}
+.verificaitonSection .verificaitonField .verifyBtn {
+  border-radius: 4px;
+  width: 100%;
+  background: #FE6B00 !important;
+  color: #fff !important;
+  padding: 6px 8px;
+  border: none;
+  line-height: 1.75;
+  margin-top: 15px;
+}
+.verificaitonSection .verificaitonField .resendcode {
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+}
+.verificaitonSection .verificaitonField .resendcode {
+  font-size: 16px;
+  color: #000;
+}
+.verificaitonSection .verificaitonField .resendcode > a {
+  color: #304ffe;
+  margin-left: 5px;
+}
+/*****************************************************/
+
+/*************emailverifyfield css********************/
+
+.EmailVerificationSection.CompanySection {
+  display: flex;
+  padding: 0px 0px;
+  height: 100vh;
+}
+.emailverificationSection {
+  padding: 100px 70px 100px 70px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.emailverificationSection .emailverifyfield {
+  width: 400px;
+  margin: 0px auto;
+}
+.emailverificationSection .emailverifyfield > h2 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+}
+.emailverificationSection .emailverifyfield > h2::before {
+  content: '';
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background: #FE6B00;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+.emailverificationSection .emailverifyfield .mailIcon {
+  display: block;
+  text-align: center;
+}
+.emailverificationSection .emailverifyfield .mailIcon svg {
+  width: 70px;
+  height: auto;
+}
+.emailverificationSection .emailverifyfield .verifyemailnotify {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  margin: 20px 0px;
+}
+.emailverificationSection .emailverifyfield .verifyemailnotify > span {
+  display: block;
+  text-align: center;
+}
+
+.emailverificationSection .emailverifyfield .veriflyemailLink {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.emailverificationSection .emailverifyfield .veriflyemailLink > span {
+  display: block;
+  text-align: center;
+}
+.emailverificationSection .emailverifyfield .resendemail {
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+.emailverificationSection .emailverifyfield .resendemail > span {
+  display: inline-block;
+}
+.emailverificationSection .emailverifyfield .resendemail > span > a {
+  color: #304ffe;
+  margin-left: 5px;
+}
+/*****************************************************/
+
+@media screen and (max-width: 1440px) {
+  .Company .create{
+    margin-top: 10px;
+  }
+  .stepperSection .MuiStepper-root .MuiStepLabel-labelContainer .MuiStepLabel-label{
+    line-height: normal;
+  }
+  .stepperSection{
+    margin-bottom: 10px !important;
+  }
+  .CompanySection .Company > h2 {
+    font-size: 35px;
+    margin: 0px 0px 15px 0px;
+  }
+  .CompanySection .Company > h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .CompanySection {
+    /* height: 100%; */
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: 0px;
+  }
+  .CompanySection::-webkit-scrollbar {
+    display: none;
+  }
+  .CompanySection .Company {
+    padding: 35px 30px 35px 30px;
+  }
+}
+
+/***************stepperSection css***************/
+.stepperSection {
+  width: 100%;
+  margin-bottom: 15px;
+  max-width: 500px;
+}
+.stepperSection .MuiStepper-root {
+  padding: 0px;
+}
+.stepperSection
+  .MuiStepper-root
+  .MuiStepLabel-labelContainer
+  .MuiStepLabel-label {
+  margin-top: 3px;
+  color: #000;
+  opacity: 0.5;
+}
+.stepperSection .MuiStepper-root .MuiStep-root {
+  padding: 0px;
+}
+.stepperSection
+  .MuiStepper-root
+  .MuiStep-root:first-child
+  .MuiStepLabel-iconContainer {
+  width: 100%;
+  justify-content: flex-end;
+  background: #f0f1f4;
+  border-radius: 10px 0px 0px 10px;
+  padding: 2px 0px;
+  height: 22px;
+}
+.stepperSection
+  .MuiStepper-root
+  .MuiStep-root:last-child
+  .MuiStepLabel-iconContainer {
+  width: 100%;
+  justify-content: flex-end;
+  background: #f0f1f4;
+  border-radius: 0px 10px 10px 0px;
+  padding: 2px 0px;
+  box-sizing: border-box;
+  height: 22px;
+}
+/* .stepperSection
+  .MuiStepper-root
+  .MuiStep-root:last-child
+  .MuiStepLabel-iconContainer svg{
+    display: none;
+  } */
+.stepperSection .MuiStepper-root .MuiStepConnector-root {
+  display: none;
+}
+
+.stepperSection
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiStepLabel-iconContainer
+  .MuiStepIcon-root
+  .MuiStepIcon-text {
+  fill: transparent;
+}
+
+.stepperSection
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiStepLabel-iconContainer
+  .MuiStepIcon-root {
+  color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+.stepperSection
+  .MuiStepper-root
+  .MuiStep-root:first-child
+  .MuiStepLabel-iconContainer {
+  background: #FE6B00;
+}
+.stepperSection
+  .MuiStepper-root
+  .MuiStep-root:first-child
+  .MuiStepLabel-iconContainer
+  .MuiStepIcon-root.MuiStepIcon-completed {
+  color: #fff;
+  border: none;
+}
+
+.stepperSection
+  .MuiStepper-root.full-completed
+  .MuiStep-root:last-child
+  .MuiStepLabel-iconContainer {
+  background: #FE6B00;
+}
+  /* border-radius: 10px; */
+
+.stepperSection
+  .MuiStepper-root.full-completed
+  .MuiStep-root:last-child
+  .MuiStepLabel-iconContainer
+  .MuiStepIcon-root.MuiStepIcon-completed {
+  color: #fff;
+  border: none;
+}
+/*******************************************/
+
+/***********************buyerProcess******************/
+.buyerVerificationCompleted .MuiDialog-paperWidthSm {
+  max-width: 650px;
+}
+
+.buyerVerificationCompleted .buyerModalDocumentHead svg {
+  display: block;
+  margin: 5px auto 0px;
+  fill: #FE6B00;
+}
+.buyerVerificationCompleted .buyerModalDocumentHead > h5 {
+  margin: 10px 0px;
+  text-align: center;
+  color: #FE6B00;
+  font-size: 22px;
+  line-height: normal;
+}
+.buyerVerificationCompleted .buyerModalDocumentHead > ul {
+  margin: 0px;
+  padding: 0px;
+}
+.buyerVerificationCompleted .buyerModalDocumentHead > ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.buyerVerificationCompleted .buyerVerificationDocumentOrder {
+  margin: 0px 10px;
+  background: #f6f6f6;
+  padding: 10px;
+  margin-top: 10px;
+}
+.buyerVerificationCompleted
+  .buyerVerificationDocumentOrder
+  .successfullmessageBodytitle
+  > h3 {
+  border-bottom: 1px solid #707070;
+  margin: 0px;
+}
+.buyerVerificationCompleted
+  .buyerVerificationDocumentOrder
+  .successfullmessageBodytitle
+  > h3
+  span {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #FE6B00;
+}
+.buyerVerificationCompleted .buyerVerificationDocumentOrder ul {
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+.buyerVerificationCompleted .buyerVerificationDocumentOrder ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.buyerVerificationCompleted .buyerVerificationDocumentOrder ul li span {
+  display: inline-block;
+  word-break: break-all;
+  word-break: break-word;
+  font-size: 14px;
+  color: #000;
+}
+.buyerVerificationCompleted
+  .buyerVerificationDocumentOrder
+  ul
+  li
+  span:nth-child(1) {
+  width: 110px;
+}
+.buyerVerificationCompleted
+  .buyerVerificationDocumentOrder
+  ul
+  li
+  span:nth-child(2) {
+  width: 10px;
+  text-align: center;
+}
+.buyerVerificationCompleted
+  .buyerVerificationDocumentOrder
+  ul
+  li
+  span:nth-child(3) {
+  width: calc(100% - 140px);
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.buyerVerificationCompleted h5 {
+  font-size: 16px;
+  margin: 10px 0px 5px 0px;
+  text-align: center;
+  color: #000;
+}
+/* .buyerVerificationCompleted .progressSteps .MuiStepper-root {
+  padding: 0px;
+}
+
+.buyerVerificationCompleted
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-completed
+  .MuiStepIcon-root.MuiStepIcon-completed {
+  color: #1fa81b;
+}
+.buyerVerificationCompleted
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-completed
+  .MuiStepLabel-labelContainer
+  .MuiTypography-root {
+  color: #1fa81b !important;
+  margin-top: 5px !important;
+}
+.buyerVerificationCompleted
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiStepLabel-labelContainer
+  .MuiTypography-root {
+  margin-top: 5px;
+  color: #000;
+}
+.buyerVerificationCompleted
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiStepIcon-text {
+  display: none;
+}
+.buyerVerificationCompleted
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiSvgIcon-root {
+  color: #f1f1f1;
+}
+.buyerVerificationCompleted
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiStepConnector-line {
+  border-color: #f1f1f1;
+} */
+
+/* .buyerVerificationCompleted
+  .progressSteps
+  .MuiStep-completed
+  .MuiStepConnector-completed
+  .MuiStepConnector-line {
+  border-color: #1fa81b;
+} */
+
+.buyerVerificationCompleted .MuiDialogActions-root {
+  padding: 10px 15px !important;
+}
+
+.buyerVerificationCompleted .MuiDialogActions-root button:first-child {
+  background: #fff !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  border-radius: 4px;
+  margin-right: 10px;
+  min-width: 100px !important;
+}
+.buyerVerificationCompleted .MuiDialogActions-root button:first-child:hover {
+  background: #fff !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  border-radius: 4px;
+  margin-right: 10px;
+  min-width: 100px !important;
+}
+.buyerVerificationCompleted .MuiDialogActions-root button:last-child {
+  border: none !important;
+  color: #fff !important;
+  border-radius: 4px;
+  background: #FE6B00 !important;
+  min-width: 100px !important;
+  margin-right: 30px;
+}
+
+.buyerVerificationCompleted .MuiDialogActions-root button:last-child:hover {
+  border: none !important;
+  color: #fff !important;
+  border-radius: 4px;
+  background: #FE6B00 !important;
+  min-width: 100px !important;
+  margin-right: 30px;
+}
+/*******************************************************/
+
+/**************ApprovedFinancialTemplate css*************************/
+.ApprovedFinancialTemplate .MuiDialog-paperWidthSm {
+  width: 100%;
+  max-width: 750px;
+}
+
+.ApprovedFinancialTemplate .salesDocumentHead svg {
+  display: block;
+  margin: 0px auto;
+  fill: #304ffe;
+}
+.ApprovedFinancialTemplate .salesDocumentHead > h5 {
+  margin: 10px 0px;
+  text-align: center;
+  color: #304ffe;
+  font-size: 22px;
+  line-height: normal;
+}
+.ApprovedFinancialTemplate .salesDocumentHead > ul {
+  margin: 0px;
+  padding: 0px;
+}
+.ApprovedFinancialTemplate .salesDocumentHead > ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+.ApprovedFinancialTemplate .salesDocumentOrder {
+  margin: 0px 20px 0px 20px;
+  background: #f6f6f6;
+  padding: 10px;
+  margin-top: 10px;
+}
+.ApprovedFinancialTemplate
+  .salesDocumentOrder
+  .successfullmessageBodytitle
+  > h3 {
+  border-bottom: 1px solid #707070;
+  margin: 0px;
+}
+.ApprovedFinancialTemplate
+  .salesDocumentOrder
+  .successfullmessageBodytitle
+  > h3
+  span {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #304ffe;
+}
+.ApprovedFinancialTemplate .salesDocumentOrder ul {
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+.ApprovedFinancialTemplate .salesDocumentOrder ul li {
+  list-style: none;
+  margin-bottom: 12px;
+  display: flex;
+}
+.ApprovedFinancialTemplate .salesDocumentOrder ul li span {
+  display: inline-block;
+  word-break: break-all;
+  word-break: break-word;
+  font-size: 14px;
+  color: #000;
+}
+.ApprovedFinancialTemplate .salesDocumentOrder ul li span:nth-child(1) {
+  width: 110px;
+}
+.ApprovedFinancialTemplate .salesDocumentOrder ul li span:nth-child(2) {
+  width: 10px;
+  text-align: center;
+}
+.ApprovedFinancialTemplate .salesDocumentOrder ul li span:nth-child(3) {
+  width: calc(100% - 120px);
+  font-weight: 600;
+  padding-left: 15px;
+}
+.ApprovedFinancialTemplate h5 {
+  font-size: 16px;
+  margin: 10px 0px 5px 0px;
+  text-align: center;
+  color: #000;
+}
+/***********************************************************/
+
+
+@media screen and (max-width:991px){
+  .CompanySection .Company{
+    width: 50% !important;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControl-root  .MuiInputLabel-root{
+    font-size: 12px;
+  }
+
+  .CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControl-root
+  .MuiFormLabel-root {
+  font-size: 12px;
+}
+  
+}
+
+@media screen and (max-width:767px){
+  .CompanySection .Company .logoPart{
+    display: block;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -140px;
+  }
+  .CompanySection .Company .logoPart .logo{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .CompanySection .Company .logoPart  .logoText{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  .CompanySection{
+    background: url(../../assets/SignBackground.png) no-repeat;
+    background-position: right center;
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .CompanySection .signBack{
+    display: relative;
+  }
+  .CompanySection .Company{
+    width: calc(100% - 30px) !important;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 30px;
+    margin: 0px auto;
+  }
+  .CompanySection .Company {
+    padding: 30px 30px 30px 30px;
+  }
+  .CompanySection .Company > .companies > form .CreateAccount > div > .MuiFormControl-root{
+    margin-bottom: 10px;
+  }
+  .companies .CreateAccount > div > .MuiFormControl-root .MuiFormHelperText-root{
+    margin-top: 0px;
+  }
+  .CompanySection .Company > h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .Company .create{
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .CompanySection .stepperSection{
+    margin-bottom: 10px;
+  }
+  .CompanySection .Company > h4{
+    margin-bottom: 5px;
+  }
+
+  .CompanySection .Company .logoPart{
+    top: -100px;
+  }
+  .CompanySection .Company > .companies > form .CreateAccount > div > .MuiFormControl-root .MuiFormLabel-root{
+    font-size: 14px;
+  }
+  .CompanySection .Company .logoPart .logo svg{
+    width: 50px;
+    height: auto;
+  }
+  .CompanySection .Company{
+    margin-top: 85px ;
+  }
+  .CompanySection .formComponent{
+    max-height: 450px;
+    overflow-y: auto;
+    scrollbar-width: 0px;
+    -ms-overflow-style: none;
+  }
+  .CompanySection .formComponent::-webkit-scrollbar{
+    display: none;
+  }
+  .CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControl-root  .MuiInputLabel-root{
+    font-size: 12px;
+  }
+
+  .CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControl-root
+  .MuiFormLabel-root {
+  font-size: 12px;
+}
+}
+
+
+@media screen and (max-width:575px){
+  .CompanySection .Company{
+    padding: 20px 15px;
+  }
+  .CompanySection .formComponent{
+    max-height: 285px;
+  }
+  .CompanySection .Company .backLink{
+    margin-bottom: 0px;
+  }
+  .CompanySection .Company > h2{
+    font-size: 22px;
+  }
+  .CompanySection .Company > h4{
+    font-size: 15px;
+  }
+  /* .CompanySection .Company .logoPart{
+    top: -100px;
+  }
+  .CompanySection .Company > .companies > form .CreateAccount > div > .MuiFormControl-root .MuiFormLabel-root{
+    font-size: 14px;
+  }
+  .CompanySection .Company .logoPart .logo svg{
+    width: 50px;
+    height: auto;
+  }
+  .CompanySection .Company{
+    margin-top: 85px ;
+  }
+  .CompanySection .formComponent{
+    max-height: 295px;
+    overflow-y: auto;
+    scrollbar-width: 0px;
+    -ms-overflow-style: none;
+  }
+  .CompanySection .formComponent::-webkit-scrollbar{
+    display: none;
+  }
+  .CompanySection
+  .Company
+  > .companies
+  > form
+  .CreateAccount
+  > div
+  > .MuiFormControl-root  .MuiInputLabel-root{
+    font-size: 12px;
+  }
+
+  .CompanySection
+  .Company
+  > .companies
+  > form
+  .CreatePersonalInformation
+  > div
+  > .MuiFormControl-root
+  .MuiFormLabel-root {
+  font-size: 12px;
+} */
+
+}
+
+@media screen and (max-width:375px){
+  .CompanySection .Company > .companies > form .CreateAccount > div:nth-child(7){
+    width: calc(100%  - 30px);
+  }
+  .CompanySection .Company > .companies > form .CreateAccount > div:nth-child(7) .MuiFormControl-root .MuiInputLabel-root{
+    white-space: nowrap;
+    font-size: 10.7px;
+  }
+  .CompanySection .Company > .companies > form .CreateAccount > div:nth-child(8) svg{
+    width: 20px;
+    height: auto;
+  }
+  .CompanySection .Company .backLink button svg{
+    width: 18px;
+    height: auto;
+  }
+  .CompanySection .formComponent{
+    max-height: 230px;
+  }
+  .CompanySection .Company {
+    margin-top:90px;
+}
+.CompanySection .Company .logoPart{
+  top: -90px;
+}
+.CompanySection .Company .logoPart .logo svg{
+  width: 45px;
+  height: auto;
+}
+}
+
+
+
+
+.CompanySection .Company .backLink{
+  margin-right: 0px;
+  margin-left: auto;
+  margin-top: -19px;
+  margin-bottom: -10px;
+}
+.CompanySection .Company .backLink:empty{
+  display: none
+}
+.CompanySection .Company .backLink button{
+  background: #FE6B00;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 10px;
+}

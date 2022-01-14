@@ -1,0 +1,258 @@
+.investorImportTemplate {
+    /* max-width: 750px; */
+    margin: 0px auto;
+}
+.investorImportTemplate .investorDetailsSection{
+  padding: 0px;
+}
+/* .investor {
+    background: #fbfbfb;
+    padding: 30px 0px;
+}
+
+.investorDetailsSection .investorDetailBody span {
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    word-break: break-all;
+    word-break: break-word;
+  } */
+
+  .investorDetailsSection {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    /* margin-left: 15px; */
+  }
+  
+  .investorDetailsSection .noaDetailHead > h5 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+  }
+  .investorDetailsSection .noaDetailHead > h4 {
+    font-size: 14px;
+    text-align: center;
+    margin: 30px 0px;
+    text-align: center;
+  }
+  .investorDetailsSection .noaDetailHead > h4 span {
+    display: inline-block;
+    border-bottom: 1px solid #000;
+  }
+  .investorDetailsSection .noaDetailHead p {
+    margin: 0px;
+    font-size: 14px;
+    color: #000;
+  }
+  .investorDetailsSection .noaDetailHead ul {
+    margin: 20px 0px;
+    padding: 0px;
+  }
+  .investorDetailsSection .noaDetailHead ul li {
+    list-style: none;
+  }
+  .investorDetailsSection .noaDetailHead ul li span {
+    font-size: 14px;
+    color: #000;
+  }
+  .investorDetailsSection .noaDetailHead span {
+    display: block;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .investorDetailsSection .noaDetailBody p {
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+    color: #000;
+    line-height: normal;
+  }
+  .investorDetailsSection .noaDetailBody .accountInfo {
+    margin: 30px 0px;
+    padding: 0px;
+  }
+  .investorDetailsSection .noaDetailBody .accountInfo li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .investorDetailsSection .noaDetailBody .accountInfo li span {
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    margin: 0px;
+  }
+  .investorDetailsSection .noaDetailBody span {
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    /* margin-bottom: 15px; */
+    word-break: break-all;
+    word-break: break-word;
+  }
+  
+  .investorDetailsSection .noaDetailBody .signedSection {
+    margin: 30px 0px;
+    padding: 0px;
+  }
+  .investorDetailsSection .noaDetailBody .signedSection li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .investorDetailsSection .noaDetailBody .signedSection li span {
+    display: inline-block;
+    margin: 0px;
+  }
+  
+  .investorDetailsSection .noaDetailBody .bottomStatement {
+    font-size: 14px;
+    margin: 0px;
+  }
+  .investorDetailsSection .noaDetailBody .bottomStatement span {
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    margin: 0px;
+  }
+  .investorDetailsSection .noaDetailBody .bottomStatement span a {
+    text-decoration: underline;
+    display: inline-block;
+    color: #304ffe;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable {
+    display: block;
+    /* border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc; */
+    margin-bottom:0px;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable thead {
+    display: block;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable thead tr {
+    display: flex;
+    min-height: 50px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable thead tr th {
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable thead tr th:nth-child(1) {
+    width: 45%;
+    border-right: 1px solid #ccc;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable thead tr th:nth-child(2) {
+    width: 20%;
+    border-right: 1px solid #ccc;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable thead tr th:nth-child(3) {
+    width: 35%;
+  }
+  
+  .investorDetailsSection .noaDetailBody .noaassignmentTable tbody {
+    display: block;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr {
+    display: flex;
+    min-height: 50px;
+    border-bottom: 1px solid #ccc;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td {
+    display: flex;
+    align-items: flex-start;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    word-break: break-all;
+    word-break: break-word;
+    white-space: normal;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td  span{
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td  span.label{
+    display: none;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td:nth-child(1) {
+    width: 45%;
+    border-right: 1px solid #ccc;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td:nth-child(2) {
+    width: 20%;
+    border-right: 1px solid #ccc;
+  }
+  .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td:nth-child(3) {
+    width: 35%;
+  }
+  .investorDetailsSection .noaDetailBody .recievablestatemnt {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  .investorDetailsSection .noaDetailBody .recievablestatemnt p {
+    margin: 0px;
+  }
+
+
+
+  @media screen and (max-width:767px){
+    .investorDetailsSection .noaDetailBody .noaassignmentTable thead{
+      display: none;
+    }
+    .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span.label{
+      display: inline-block;
+      font-weight: 600;
+      width: 175px;
+      position: relative;
+    }
+    .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span.label::after{
+      content: ":";
+      display: inline-block;
+      font-weight: 600;
+      color: #000;
+      position: absolute;
+      right: 5px;
+      top: 0;
+    }
+    .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span{
+      width: calc(100% - 175px);
+      word-break: break-all;
+      word-break: break-word;
+    }
+    .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td{
+      width: 100% !important;
+      border-right: none !important;
+    }
+    .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr{
+      flex-wrap: wrap;
+      /* border-bottom: none; */
+    }
+    .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr:last-child{
+      border-bottom: none;
+    }
+  }
+
+  @media screen and (max-width:399px){
+    .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span.label{
+      display: inline-block;
+      font-weight: 600;
+      width: 120px;
+      position: relative;
+      padding-right: 5px;
+    }
+    .investorDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span{
+      width: calc(100% - 120px);
+      word-break: break-all;
+      word-break: break-word;
+    }
+  }

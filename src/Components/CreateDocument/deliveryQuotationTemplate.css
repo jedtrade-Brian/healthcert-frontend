@@ -1,0 +1,296 @@
+.deliveryQuotationTemplate {
+  padding: 15px;
+  border: 1px solid #cccc;
+  max-width: 700px;
+
+}
+.deliveryQuotationTemplate .deliveryQuotationLogo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.deliveryQuotationTemplate .deliveryQuotationLogo > h3 {
+  font-size: 18px;
+  color: #000;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.deliveryQuotationTemplate .deliveryQuotationLogo .logo {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deliveryQuotationTemplate .deliveryQuotationLogo .addresspart {
+  max-width: 200px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.deliveryQuotationTemplate .deliveryQuotationLogo .addresspart ul {
+  margin: 0px;
+  padding: 0px;
+}
+.deliveryQuotationTemplate .deliveryQuotationLogo .addresspart ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.deliveryQuotationTemplate .deliveryQuotationLogo .addresspart ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.deliveryQuotationTemplate .centerhead {
+  margin: 10px 0px;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  color: #000;
+}
+
+.deliveryQuotationTemplate .billpart {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.deliveryQuotationTemplate .billpart .addressPart > span {
+  font-size: 14px;
+  color: #000;
+  display: block;
+}
+.deliveryQuotationTemplate .billpart .addressPart > h4 {
+  font-size: 16px;
+  color: #000;
+  margin: 10px 0px;
+}
+.deliveryQuotationTemplate .billpart .addressPart ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.deliveryQuotationTemplate .billpart .addressPart ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.deliveryQuotationTemplate .billpart .addressPart ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.deliveryQuotationTemplate .deliveryInfo ul {
+  margin: 0px;
+  padding: 0px;
+}
+.deliveryQuotationTemplate .deliveryInfo ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.deliveryQuotationTemplate .deliveryInfo ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 16px;
+}
+.deliveryQuotationTemplate .deliveryInfo ul li span:nth-child(1) {
+  margin-right: 5px;
+  font-size: 14px;
+}
+.deliveryQuotationTemplate .attentionPart span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.deliveryQuotationTemplate .attentionPart span:nth-child(1) {
+  margin-right: 5px;
+}
+.deliveryQuotationTemplate .saleModalTable {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+}
+.deliveryQuotationTemplate .saleModalTable thead {
+  display: block;
+  width: 100%;
+}
+.deliveryQuotationTemplate .saleModalTable thead tr {
+  display: flex;
+}
+.deliveryQuotationTemplate .saleModalTable thead tr th {
+  display: block;
+  padding: 10px;
+  color: #000;
+  width: 20%;
+  border-right: 1px solid #ccc;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+.deliveryQuotationTemplate .saleModalTable thead tr th:nth-child(1) {
+  width: 60%;
+}
+.deliveryQuotationTemplate .saleModalTable thead tr th:last-child {
+  border-right: none;
+}
+.deliveryQuotationTemplate .saleModalTable tbody {
+  display: block;
+  width: 100%;
+}
+.deliveryQuotationTemplate .saleModalTable tbody tr {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.deliveryQuotationTemplate .saleModalTable tbody tr td {
+  display: block;
+  padding: 10px;
+  color: #000;
+  border-right: 1px solid #ccc;
+  width: 20%;
+  word-break: break-all;
+  word-break: break-word;
+  font-size: 14px;
+}
+.deliveryQuotationTemplate .saleModalTable tbody tr td:nth-child(1) {
+  width: 60%;
+}
+.deliveryQuotationTemplate .saleModalTable tbody tr td:last-child {
+  border-right: none;
+}
+.deliveryQuotationTemplate .saleModalTable tbody tr td span.label{
+  display: none;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+.deliveryQuotationTemplate .saleModalTable tbody tr td span{
+  display: inline-block;
+  word-break: break-all;
+  word-break: break-word;
+}
+.deliveryQuotationTemplate .explanation {
+  display: flex;
+  margin-bottom: 10px;
+}
+.deliveryQuotationTemplate .explanation span:nth-child(1) {
+  margin-right: 5px;
+  text-decoration: underline;
+}
+.deliveryQuotationTemplate .explanation span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.deliveryQuotationTemplate .other {
+  display: flex;
+  margin-bottom: 10px;
+}
+.deliveryQuotationTemplate .other span:nth-child(1) {
+  margin-right: 5px;
+  text-decoration: underline;
+}
+.deliveryQuotationTemplate .other span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.deliveryQuotationTemplate .paynumber {
+  display: flex;
+  margin-bottom: 10px;
+}
+.deliveryQuotationTemplate .paynumber span:nth-child(1) {
+  margin-right: 5px;
+  text-decoration: underline;
+}
+.deliveryQuotationTemplate .paynumber span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.deliveryQuotationTemplate .signedSection {
+  width: 250px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.deliveryQuotationTemplate .signedSection ul {
+  margin: 0px;
+  padding: 0px;
+}
+.deliveryQuotationTemplate .signedSection ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.deliveryQuotationTemplate .signedSection ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.deliveryQuotationTemplate .bottomstatment span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+
+@media screen and (max-width:499px){
+  .deliveryQuotationTemplate .deliveryQuotationLogo .addresspart{
+    max-width: 100%;
+    width: 100%;
+    padding-left: 90px;
+  }
+  .deliveryQuotationTemplate .deliveryQuotationLogo > h3{
+    width: calc(100% - 90px);
+  }
+  .deliveryQuotationTemplate .billpart .addressPart{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  .deliveryQuotationTemplate .billpart  .deliveryInfo{
+    width: 100%; 
+  }
+  .deliveryQuotationTemplate .centerhead{
+    font-size: 20px;
+  }
+  .deliveryQuotationTemplate .saleModalTable tbody tr td{
+    width: 100% !important;
+    border: none;
+    display: flex;
+  }
+  .deliveryQuotationTemplate .saleModalTable tbody tr td span.label{
+    display: inline-block;
+    position: relative;
+    min-width: 85px;
+  }
+  .deliveryQuotationTemplate .saleModalTable tbody tr td span.label::after{
+    content: ":";
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    color: #000;
+    font-weight: 600;
+  }
+  .deliveryQuotationTemplate .saleModalTable tbody tr{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-wrap: wrap;
+  }
+  .deliveryQuotationTemplate .saleModalTable thead{
+    display: none;
+  }
+  .deliveryQuotationTemplate .saleModalTable{
+    border: none;
+  }
+}

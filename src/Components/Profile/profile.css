@@ -1,0 +1,29 @@
+.profilemodifySection .formComponent .MuiDialogActions-root button {
+  border: none !important;
+  color: #fff !important;
+  border-radius: 4px;
+  background: #FE6B00 !important;
+  min-width: 100px !important;
+}
+
+.profilemodifySection .formComponent .MuiDialogActions-root button:hover {
+  border: none !important;
+  color: #fff !important;
+  border-radius: 4px;
+  background: #FE6B00 !important;
+  min-width: 100px !important;
+}
+
+/* .MuiGrid-container > .MuiGrid-item .MuiFormControl-root .MuiInputLabel-formControl {
+  font-size: 15px !important;
+} */
+.profilemodifySection .MuiGrid-container > .MuiGrid-item .MuiFormControl-root .MuiInputLabel-formControl{
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: translate(0, 24px) scale(1);
+}
+.profilemodifySection .MuiGrid-container > .MuiGrid-item .MuiFormControl-root .MuiInputLabel-formControl.MuiInputLabel-shrink {
+  transform: translate(0, 1.5px) scale(0.75);
+  transform-origin: top left;
+}

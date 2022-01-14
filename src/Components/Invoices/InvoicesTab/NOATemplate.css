@@ -1,0 +1,596 @@
+.noaDetailsSection {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #ccc;
+  /* margin-left: 15px; */
+}
+
+.noaDetailsSection .noaDetailHead > h5 {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  margin: 0px 0px 0px 0px;
+}
+.noaDetailsSection .noaDetailHead > h4 {
+  font-size: 14px;
+  text-align: center;
+  margin: 30px 0px;
+  text-align: center;
+}
+.noaDetailsSection .noaDetailHead > h4 span {
+  display: inline-block;
+  border-bottom: 1px solid #000;
+}
+.noaDetailsSection .noaDetailHead p {
+  margin: 0px;
+  font-size: 14px;
+  color: #000;
+}
+.noaDetailsSection .noaDetailHead ul {
+  margin: 20px 0px;
+  padding: 0px;
+}
+.noaDetailsSection .noaDetailHead ul li {
+  list-style: none;
+}
+.noaDetailsSection .noaDetailHead ul li span {
+  font-size: 14px;
+  color: #000;
+}
+.noaDetailsSection .noaDetailHead span {
+  display: block;
+  font-size: 14px;
+  color: #000;
+}
+
+.noaDetailsSection .noaDetailBody p {
+  margin: 0px 0px 15px 0px;
+  font-size: 14px;
+  color: #000;
+}
+.noaDetailsSection .noaDetailBody p.paraFlex{
+  display: flex;
+  align-self: flex-start;
+}
+.noaDetailsSection .noaDetailBody p.paraFlex span{
+  display: inline-block;
+  min-width: 20px;
+  word-break: break-all;
+  word-break: break-word;
+}
+/* .noaDetailsSection .noaDetailBody p.paraFlex span:nth-child(2){
+  display: inline-block;
+ 
+} */
+.noaDetailsSection .noaDetailBody .accountInfo {
+  margin: -10px 0px 30px 0px;
+  padding: 0px 0px 0px 20px;
+}
+.noaDetailsSection .noaDetailBody .accountInfo li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.noaDetailsSection .noaDetailBody .accountInfo li span {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  margin: 0px;
+}
+.noaDetailsSection .noaDetailBody span {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 15px;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+.noaDetailsSection .noaDetailBody .signedSection {
+  margin: 30px 0px;
+  padding: 0px;
+}
+.noaDetailsSection .noaDetailBody .signedSection li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.noaDetailsSection .noaDetailBody .signedSection li span {
+  display: inline-block;
+  margin: 0px;
+}
+
+.noaDetailsSection .noaDetailBody .bottomStatement {
+  font-size: 14px;
+  margin: 0px;
+}
+.noaDetailsSection .noaDetailBody .bottomStatement span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  margin: 0px;
+}
+.noaDetailsSection .noaDetailBody .bottomStatement span a {
+  text-decoration: underline;
+  display: inline-block;
+  color: #304ffe;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable {
+  display: block;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable thead {
+  display: block;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable thead tr {
+  display: flex;
+  min-height: 50px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable thead tr th {
+  /* display: flex; */
+  align-items: center;
+  color: #000;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable thead tr th:nth-child(1) {
+  width: 45%;
+  border-right: 1px solid #ccc;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable thead tr th:nth-child(2) {
+  width: 20%;
+  border-right: 1px solid #ccc;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable thead tr th:nth-child(3) {
+  width: 35%;
+}
+
+.noaDetailsSection .noaDetailBody .noaassignmentTable tbody {
+  display: block;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr {
+  display: flex;
+  min-height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 600;
+  color: #000;
+  padding: 10px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span.label {
+  display: none;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span.amount {
+  font-family: monospace;
+  font-size: 14px;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td:nth-child(1) {
+  width: 45%;
+  border-right: 1px solid #ccc;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td:nth-child(2) {
+  width: 20%;
+  border-right: 1px solid #ccc;
+}
+.noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td:nth-child(3) {
+  width: 35%;
+  justify-content: flex-end;
+}
+.noaDetailsSection .noaDetailBody .recievablestatemnt {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+.noaDetailsSection .noaDetailBody .recievablestatemnt p {
+  margin: 0px;
+}
+
+/*******************chooseNOATemplateModal css *************/
+
+.chooseNOATemplateModal .MuiDialog-paperWidthSm {
+  max-width: 750px;
+}
+.chooseNOATemplateModal .MuiDialogTitle-root .MuiIconButton-root {
+  padding: 0px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+.chooseNOATemplateModal .MuiDialogTitle-root .MuiIconButton-root svg {
+  width: 20px;
+  height: auto;
+}
+.chooseNOATemplateModal
+  .MuiDialogTitle-root
+  .MuiIconButton-root
+  .MuiIconButton-label
+  > div {
+  display: flex;
+  align-items: center;
+}
+/* .chooseNOATemplateModal .MuiDialogContent-root {
+  -ms-overflow-style: none;
+  scrollbar-width: 5px;
+}
+.chooseNOATemplateModal .MuiDialogContent-root::-webkit-scrollbar {
+  display: block;
+} */
+.chooseNOATemplateModal .choosetemplatebody {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+.chooseNOATemplateModal .choosetemplatebody .choosetemplatebodySubhead {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.chooseNOATemplateModal .choosetemplatebody .choosetemplatebodySubhead ul {
+  margin: 0px;
+  padding: 0px;
+}
+.chooseNOATemplateModal .choosetemplatebody .choosetemplatebodySubhead ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .choosetemplatebodySubhead
+  ul
+  li
+  span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .choosetemplatebodySubhead
+  > div:last-child {
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.chooseNOATemplateModal .choosetemplatebody .signedSection ul {
+  margin: 30px 0px;
+  padding: 0px;
+  width: 250px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.chooseNOATemplateModal .choosetemplatebody .signedSection ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.chooseNOATemplateModal .choosetemplatebody .signedSection ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.chooseNOATemplateModal .choosetemplatebody .invoiceModalTable {
+  display: block;
+  /* border-left: 1px solid #ccc; */
+  /* border-right: 1px solid #ccc; */
+}
+.chooseNOATemplateModal .choosetemplatebody .invoiceModalTable thead {
+  display: block;
+}
+.chooseNOATemplateModal .choosetemplatebody .invoiceModalTable thead tr {
+  display: flex;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.chooseNOATemplateModal .choosetemplatebody .invoiceModalTable thead tr th {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px;
+  border-right: 1px solid #ccc;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(1) {
+  width: 60px;
+  border-left: 1px solid #ccc;
+  white-space: nowrap;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(2) {
+  width: calc(50% - 15px);
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(3) {
+  width: calc(10% - 15px);
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(4) {
+  width: calc(20% - 15px);
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(5) {
+  width: calc(20% - 15px);
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:last-child {
+  /* border-right: none; */
+}
+.chooseNOATemplateModal .choosetemplatebody .invoiceModalTable tbody {
+  display: block;
+}
+.chooseNOATemplateModal .choosetemplatebody .invoiceModalTable tbody tr {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.chooseNOATemplateModal .choosetemplatebody .invoiceModalTable tbody tr td {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  color: #000;
+  border-right: 1px solid #ccc;
+  word-break: break-all;
+  word-break: break-word;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(1) {
+  width: 60px;
+  border-left: 1px solid #ccc;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(2) {
+  width: calc(50% - 15px);
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(3) {
+  width: calc(10% - 15px);
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(4) {
+  width: calc(20% - 15px);
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(5) {
+  width: calc(20% - 15px);
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:last-child {
+  /* border-right: none; */
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal {
+  justify-content: flex-end;
+  border-bottom: none;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(1) {
+  display: none;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(2) {
+  display: none;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(3) {
+  display: none;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(4) {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.chooseNOATemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(5) {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.chooseNOATemplateModal .choosetemplatebody .chequeStatement span:last-child {
+  min-width: 200px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 5px;
+}
+.chooseNOATemplateModal .choosetemplatebody .chequeStatement span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.chooseNOATemplateModal .choosetemplatebody .bottomStatement {
+  margin: 0px;
+}
+.chooseNOATemplateModal .choosetemplatebody .bottomStatement span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.chooseNOATemplateModal .choosetemplatebody .bottomStatement span a {
+  color: #304ffe;
+  display: inline-block;
+  text-decoration: underline;
+}
+/***********************************************************/
+
+.buyerSignedDocument .buyerSignedDocumentMain .ackBtn {
+  margin: 20px;
+  text-align: right;
+}
+
+@media screen and (max-width: 575px) {
+  .noaDetailsSection .noaDetailBody .noaassignmentTable {
+    border: none;
+  }
+  .noaDetailsSection .noaDetailBody .recievablestatemnt {
+    border-bottom: 1px solid #ccc;
+  }
+  .noaDetailsSection .noaDetailBody .noaassignmentTable thead {
+    display: none;
+  }
+  .noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr {
+    flex-wrap: wrap;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td {
+    width: 100% !important;
+  }
+  .noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span.label {
+    display: inline-block;
+    font-weight: 600;
+    min-width: 85px;
+    position: relative;
+    padding-left: 5px;
+  }
+  .noaDetailsSection
+    .noaDetailBody
+    .noaassignmentTable.investorDetailTable
+    tbody
+    tr
+    td
+    span.label {
+    display: inline-block;
+    font-weight: 600;
+    min-width: 175px;
+    position: relative;
+    padding-left: 5px;
+  }
+  .noaDetailsSection
+    .noaDetailBody
+    .noaassignmentTable
+    tbody
+    tr
+    td
+    span.label::before {
+    content: ':';
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0%;
+    /* transform: translateY(-50%); */
+    color: #000;
+    font-weight: 600;
+  }
+  .noaDetailsSection .noaDetailBody .noaassignmentTable tbody tr td span {
+    padding-left: 5px;
+    word-break: break-all;
+    word-break: break-word;
+  }
+  .noaDetailsSection
+    .noaDetailBody
+    .noaassignmentTable
+    tbody
+    tr
+    td:nth-child(3) {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .noaDetailsSection
+    .noaDetailBody
+    .noaassignmentTable.investorDetailTable
+    tbody
+    tr
+    td
+    span.label {
+    display: inline-block;
+    font-weight: 600;
+    min-width: auto;
+    position: relative;
+    padding-left: 5px;
+    width: 120px;
+  }
+  .noaDetailsSection
+    .noaDetailBody
+    .noaassignmentTable.investorDetailTable
+    tbody
+    tr
+    td
+    span {
+    width: calc(100% - 120px);
+  }
+}

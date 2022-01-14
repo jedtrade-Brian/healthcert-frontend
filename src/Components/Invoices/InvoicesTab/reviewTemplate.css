@@ -1,0 +1,60 @@
+.reviewTemplate {
+  background: #fbfbfb;
+}
+
+.reviewTemplate > h3 {
+  margin: 0px 0px 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.reviewTemplate .reviewConfirmTemplate {
+  background: #fff;
+  padding: 15px;
+}
+
+.reviewTemplate .reviewConfirmTemplate > h5 {
+  margin: 0px 0px 15px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.reviewTemplate .btnSubmit {
+  text-align: right;
+}
+
+.reviewTemplate .amendBtn {
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  margin-top: 15px;
+  margin-right: 15px;
+  min-width: 100px;
+  border-radius: 4px;
+}
+
+.reviewTemplate .amendBtn:hover {
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  margin-top: 15px;
+  margin-right: 15px;
+  min-width: 100px;
+  border-radius: 4px;
+}
+
+.reviewTemplate .createBtn {
+  border: none !important;
+  color: #fff !important;
+  border-radius: 4px;
+  background: #304ffe !important;
+  min-width: 100px !important;
+  margin-top: 15px;
+}
+
+.reviewTemplate .createBtn:hover {
+  border: none !important;
+  color: #fff !important;
+  border-radius: 4px;
+  background: #304ffe !important;
+  min-width: 100px !important;
+  margin-top: 15px;
+}

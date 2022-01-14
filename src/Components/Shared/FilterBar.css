@@ -1,0 +1,108 @@
+.date-range {
+    display: flex;
+    justify-content: space-between;
+    max-width: 530px;
+    margin-bottom: 20px;
+}
+
+.input {
+    -webkit-appearance: none;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #d3dde6;
+    color: #0e3254;
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    padding: 0 12px;
+    transition: border-color .2s;
+    width: 500px;
+    height: 40px;
+    padding-left: 43px;
+}
+
+.input-icons{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-dates {
+    -webkit-appearance: none;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #d3dde6;
+    color: #0e3254;
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    padding: 0 12px;
+    transition: border-color .2s;
+    width: 186px;
+    height: 40px;
+}
+
+.date-range_arrow {
+    flex-shrink: 0;
+    position: relative;
+    width: 36px;
+}
+
+.date-range_arrow:before {
+    border-right: 2px solid #d3dde6;
+    border-top: 2px solid #d3dde6;
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    height: 18px;
+    left: 50%;
+    margin-left: -14px;
+    margin-top: -9px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 18px;
+}
+
+.input.-focused, .input:focus, .input-dates.-focused {
+    border-color: #438cd2;
+}
+
+.range-title {
+    font-size: 18px;
+    margin-top: 7px;
+    padding-right: 20px;
+    padding-left: 22px;
+}
+
+.nice-dates {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.searchBar{
+    padding-top: 20px; padding-left: 20px
+}
+
+.nice-dates-day:before{
+    background-color: #FE6B00;
+}
+.nice-dates-day:after{
+    border: 2px solid #FE6B00;
+}
+
+@media screen and (max-width:767px){
+
+    .searchBar{
+        padding:20px 15px 0 15px;
+    }
+
+    .input, .input-dates{
+        width:100%;
+    }
+
+    .nice-dates-popover {
+        width: 90% !important;
+    }
+}

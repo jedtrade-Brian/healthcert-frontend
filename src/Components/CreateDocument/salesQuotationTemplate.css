@@ -1,0 +1,1042 @@
+.SalesQuotationDetailsSection {
+  padding: 20px;
+  max-width: 750px;
+  border: 1px solid #ccc;
+  /* margin-left: 15px; */
+}
+.SalesQuotationDetailsSection > .MuiGrid-container {
+  margin: 0px;
+  width: 100%;
+}
+.SalesQuotationDetailsSection > .MuiGrid-container > .MuiGrid-item {
+  padding: 0px;
+}
+.SalesQuotationDetailsSection > h2.quotationHead {
+  margin: 0px 0px 10px 0px;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: right;
+}
+.SalesQuotationDetailsSection
+  > .MuiGrid-container
+  > .MuiGrid-item:nth-child(2)
+  .SalesQuotationDetailHead
+  > ul {
+  max-width: 280px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.SalesQuotationDetailsSection
+  > .MuiGrid-container
+  > .MuiGrid-item:nth-child(2)
+  .SalesQuotationDetailHead
+  > ul
+  li {
+  display: flex;
+  justify-content: flex-end;
+}
+.SalesQuotationDetailsSection
+  > .MuiGrid-container
+  > .MuiGrid-item:nth-child(2)
+  .SalesQuotationDetailHead
+  > ul
+  li
+  span:nth-child(1) {
+  white-space: nowrap;
+}
+.SalesQuotationDetailsSection
+  > .MuiGrid-container
+  > .MuiGrid-item:nth-child(2)
+  .SalesQuotationDetailHead
+  > ul
+  li
+  span:nth-child(2) {
+  font-weight: 600;
+  margin-left: 3px;
+  word-break: break-all;
+  word-break: break-word;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailHead > h5 {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  margin: 0px 0px 0px 0px;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailHead > h4 {
+  font-size: 14px;
+  text-align: center;
+  margin: 30px 0px;
+  text-align: center;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailHead > h4 span {
+  display: inline-block;
+  border-bottom: 1px solid #000;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailHead p {
+  margin: 0px;
+  font-size: 14px;
+  color: #000;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailHead ul {
+  margin: 15px 0px;
+  padding: 0px;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailHead ul li {
+  list-style: none;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailHead ul li > h2 {
+  font-size: 18px;
+  margin: 0px 0px 10px 0px;
+  color: #000;
+  font-weight: 600;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailHead ul li span {
+  font-size: 14px;
+  color: #000;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailHead span {
+  display: block;
+  font-size: 14px;
+  color: #000;
+}
+
+.SalesQuotationDetailsSection .SalesQuotationDetailBody p {
+  margin: 10px 0px 15px 0px;
+  font-size: 14px;
+  color: #000;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .accountInfo {
+  margin: 30px 0px;
+  padding: 0px;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .accountInfo li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .accountInfo li span {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  margin: 0px;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailBody span {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .signedSection {
+  margin: 30px 0px;
+  padding: 0px;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .signedSection li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .signedSection li span {
+  display: inline-block;
+  margin: 0px;
+}
+
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .bottomStatement {
+  font-size: 14px;
+  margin: 0px;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .bottomStatement span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  margin: 0px;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .bottomStatement
+  span
+  a {
+  text-decoration: underline;
+  display: inline-block;
+  color: #304ffe;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable {
+  display: block;
+  /* border-left: 1px solid #ccc; */
+  /* border-right: 1px solid #ccc; */
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  thead {
+  display: block;
+  border: 1px solid #ccc;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  thead
+  tr {
+  display: flex;
+  min-height: 50px;
+
+  /* border-bottom: 1px solid #ccc; */
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  thead
+  tr
+  th {
+  /* display: flex; */
+  align-items: center;
+  color: #000;
+  padding: 10px;
+  font-size: 14px;
+  border-right: 1px solid #ccc;
+  font-weight: 600;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  thead
+  tr
+  th:nth-child(1) {
+  width: 15%;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  thead
+  tr
+  th:nth-child(2) {
+  width: calc(100% - 40%);
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  thead
+  tr
+  th:nth-child(3) {
+  width: 25%;
+  border-right: none;
+}
+
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody {
+  display: block;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr {
+  display: flex;
+  min-height: 50px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr.totalPart {
+  /* width: calc(25% + 2px); */
+  width: calc(85% + 0px);
+  margin-right: 0px;
+  margin-left: auto;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr.totalPart
+  td:nth-child(2) {
+  width: 30% !important;
+  border: none;
+  justify-content: flex-end;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr.totalPart
+  td
+  span {
+  margin: 0px;
+  display: inline-block;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr
+  td {
+  display: flex;
+  align-items: center;
+  /* font-weight: 600; */
+  color: #000;
+  padding: 10px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-right: 1px solid #ccc;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr
+  td
+  span.label {
+  display: none;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr
+  td
+  span.amount {
+  font-family: monospace;
+  float: right;
+  font-size: 14px;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr
+  td
+  span {
+  display: inline-block;
+  margin: 0px;
+  word-break: break-all;
+  word-break: break-word;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr
+  td:last-child {
+  border-right: none;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  .totalPart
+  td:nth-child(1) {
+  border-right: 1px solid #ccc;
+  width: calc(100% - 28%);
+}
+
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr
+  td:nth-child(1) {
+  width: 15%;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr
+  td:nth-child(2) {
+  width: calc(100% - 40%);
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr
+  td:nth-child(3) {
+  width: 25%;
+  justify-content: flex-end;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .recievablestatemnt {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .recievablestatemnt p {
+  margin: 0px;
+}
+
+/*******************chooseSalesQuotationTemplateModal css *************/
+
+.chooseSalesQuotationTemplateModal .MuiDialog-paperWidthSm {
+  max-width: 750px;
+}
+.chooseSalesQuotationTemplateModal .MuiDialogTitle-root .MuiIconButton-root {
+  padding: 0px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+.chooseSalesQuotationTemplateModal
+  .MuiDialogTitle-root
+  .MuiIconButton-root
+  svg {
+  width: 20px;
+  height: auto;
+}
+.chooseSalesQuotationTemplateModal
+  .MuiDialogTitle-root
+  .MuiIconButton-root
+  .MuiIconButton-label
+  > div {
+  display: flex;
+  align-items: center;
+}
+.chooseSalesQuotationTemplateModal .MuiDialogContent-root {
+  -ms-overflow-style: none;
+  scrollbar-width: 0px;
+}
+.chooseSalesQuotationTemplateModal .MuiDialogContent-root::-webkit-scrollbar {
+  display: none;
+}
+.chooseSalesQuotationTemplateModal .choosetemplatebody {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .choosetemplatebodySubhead {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .choosetemplatebodySubhead
+  ul {
+  margin: 0px;
+  padding: 0px;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .choosetemplatebodySubhead
+  ul
+  li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .choosetemplatebodySubhead
+  ul
+  li
+  span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .choosetemplatebodySubhead
+  > div:last-child {
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.chooseSalesQuotationTemplateModal .choosetemplatebody .signedSection ul {
+  margin: 30px 0px;
+  padding: 0px;
+  width: 250px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.chooseSalesQuotationTemplateModal .choosetemplatebody .signedSection ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .signedSection
+  ul
+  li
+  span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.chooseSalesQuotationTemplateModal .choosetemplatebody .invoiceModalTable {
+  display: block;
+  /* border-left: 1px solid #ccc; */
+  /* border-right: 1px solid #ccc; */
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead {
+  display: block;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr {
+  display: flex;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px;
+  border-right: 1px solid #ccc;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(1) {
+  width: 60px;
+  border-left: 1px solid #ccc;
+  white-space: nowrap;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(2) {
+  width: calc(50% - 15px);
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(3) {
+  width: calc(10% - 15px);
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(4) {
+  width: calc(20% - 15px);
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:nth-child(5) {
+  width: calc(20% - 15px);
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  thead
+  tr
+  th:last-child {
+  /* border-right: none; */
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody {
+  display: block;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  color: #000;
+  border-right: 1px solid #ccc;
+  word-break: break-all;
+  word-break: break-word;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(1) {
+  width: 60px;
+  border-left: 1px solid #ccc;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(2) {
+  width: calc(50% - 15px);
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(3) {
+  width: calc(10% - 15px);
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(4) {
+  width: calc(20% - 15px);
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:nth-child(5) {
+  width: calc(20% - 15px);
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr
+  td:last-child {
+  /* border-right: none; */
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal {
+  justify-content: flex-end;
+  border-bottom: none;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(1) {
+  display: none;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(2) {
+  display: none;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(3) {
+  display: none;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(4) {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .invoiceModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(5) {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.chooseSalesQuotationTemplateModal
+  .choosetemplatebody
+  .chequeStatement
+  span:last-child {
+  min-width: 200px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 5px;
+}
+.chooseSalesQuotationTemplateModal .choosetemplatebody .chequeStatement span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.chooseSalesQuotationTemplateModal .choosetemplatebody .bottomStatement {
+  margin: 0px;
+}
+.chooseSalesQuotationTemplateModal .choosetemplatebody .bottomStatement span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.chooseSalesQuotationTemplateModal .choosetemplatebody .bottomStatement span a {
+  color: #304ffe;
+  display: inline-block;
+  text-decoration: underline;
+}
+/***********************************************************/
+
+.SalesQuotationDetailsSection .SalesQuotationDetailHead .billto {
+  font-size: 16px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailHead
+  .createSaleaddress
+  li
+  h3 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+}
+
+.SalesQuotationDetailsSection .SalesQuotationDetailHead p.commentpart {
+  display: flex;
+  margin-bottom: 10px;
+}
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailHead
+  p.commentpart
+  span:first-child {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.SalesQuotationDetailsSection .SalesQuotationDetailBody .thankstatement {
+  font-size: 18px;
+}
+
+.SalesQuotationDetailsSection .SalesQuotationDetailHead ul.billingAdress h3 {
+  font-size: 18px;
+  margin: 0px 0px 10px 0px;
+  color: #000;
+  font-weight: 600;
+}
+
+.createsaleSection .saleTempImgBox .signatorySecion {
+  margin-top: 20px;
+}
+.createsaleSection .saleTempImgBox .signatorySecion fieldset legend {
+  width: auto;
+  font-size: 22px;
+  color: #000;
+}
+
+.createsaleSection .saleTempImgBox .signatorySecion .signatoryaddressDetails {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+.createsaleSection
+  .saleTempImgBox
+  .signatorySecion
+  .signatoryaddressDetails
+  li {
+  list-style: none;
+  width: 33.33%;
+}
+.createsaleSection
+  .saleTempImgBox
+  .signatorySecion
+  .signatoryaddressDetails
+  li
+  h4 {
+  font-size: 14px;
+  color: #000;
+}
+.createsaleSection
+  .saleTempImgBox
+  .signatorySecion
+  .signatoryaddressDetails
+  li
+  span {
+  display: block;
+  font-size: 14px;
+  color: #000;
+}
+
+.createsaleSection .saleTempImgBox .signatorySecion .publicadressSeciton {
+  margin-top: 10px;
+}
+.createsaleSection .saleTempImgBox .signatorySecion .publicadressSeciton > h4 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+}
+
+.createsaleSection
+  .saleTempImgBox
+  .signatorySecion
+  .publicadressSeciton
+  ul
+  li
+  span {
+  font-size: 14px;
+  color: #000;
+  display: inline-block;
+}
+
+@media screen and (max-width: 576px) {
+  .SalesQuotationDetailsSection > .MuiGrid-container {
+    flex-direction: column-reverse;
+  }
+  .SalesQuotationDetailsSection
+    > .MuiGrid-container
+    > .MuiGrid-item:nth-child(2)
+    .SalesQuotationDetailHead
+    > ul {
+    max-width: 100%;
+  }
+  .SalesQuotationDetailsSection
+    > .MuiGrid-container
+    > .MuiGrid-item:nth-child(2)
+    .SalesQuotationDetailHead
+    > ul
+    li {
+    justify-content: flex-start;
+  }
+  .SalesQuotationDetailsSection
+    > .MuiGrid-container
+    > .MuiGrid-item:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+    flex: 100%;
+  }
+  .SalesQuotationDetailsSection
+    > .MuiGrid-container
+    > .MuiGrid-item:nth-child(1) {
+    width: 100%;
+    max-width: 100%;
+    flex: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    tr.totalPart {
+    width: 100%;
+    min-height: auto;
+  }
+  .createsaleSection
+    .saleTempImgBox
+    .signatorySecion
+    .signatoryaddressDetails
+    li {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    thead {
+    display: none;
+  }
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    tr {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    tr
+    td {
+    width: 100% !important;
+    align-items: flex-start;
+  }
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    tr
+    td
+    span.label {
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    min-width: 100px;
+    position: relative;
+  }
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    tr
+    td:nth-child(3) {
+    justify-content: flex-start;
+  }
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    tr
+    td
+    span.label::after {
+    content: ':';
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    color: #000;
+    font-weight: 600;
+  }
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    tr.totalPart {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0px;
+  }
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    tr.totalPart
+    td
+    span {
+    min-width: 100px;
+  }
+  .saleTemplatebody
+    .SalesQuotationassignmentTable
+    tbody
+    .totalPart
+    td:nth-child(1) {
+    width: 100px !important;
+    border-right: none !important;
+  }
+
+  .saleTemplatebody
+    .SalesQuotationassignmentTable
+    tbody
+    .totalPart
+    td:nth-child(1)
+    span {
+    position: relative;
+  }
+  .saleTemplatebody
+    .SalesQuotationassignmentTable
+    tbody
+    .totalPart
+    td:nth-child(1)
+    span::after {
+    content: ':';
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    color: #000;
+    font-weight: 600;
+  }
+  .saleTemplatebody
+    .SalesQuotationassignmentTable
+    tbody
+    .totalPart
+    td:nth-child(2) {
+    width: calc(100% - 100px) !important;
+  }
+}
+
+.SalesQuotationDetailsSection
+  > .MuiGrid-container
+  > .MuiGrid-item:nth-child(2)
+  .SalesQuotationDetailHead
+  > ul
+  li.quotationDate
+  > span:nth-child(1) {
+  white-space: normal;
+}
+.SalesQuotationDetailsSection
+  > .MuiGrid-container
+  > .MuiGrid-item:nth-child(2)
+  .SalesQuotationDetailHead
+  > ul
+  li.quotationDate
+  > span:nth-child(2) {
+  white-space: nowrap;
+}
+
+.SalesQuotationDetailsSection
+  .SalesQuotationDetailBody
+  .SalesQuotationassignmentTable
+  tbody
+  tr.totalPart
+  td
+  span {
+  display: inline-block !important;
+}
+
+
+
+.SalesQuotationDetailsSection .commentpart{
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #000;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.SalesQuotationDetailsSection .commentpart > span:nth-child(1){
+  font-weight: 600;
+  margin-right: 5px;
+  white-space: nowrap;
+}
+.SalesQuotationDetailsSection .commentpart > span:nth-child(2){
+  width: calc(100% - 220px);
+}
+
+
+@media screen and (max-width:575px){
+  .SalesQuotationDetailsSection .commentpart > span{
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,1069 @@
+.createsaleSection > h3 {
+  font-size: 20px;
+  color: #000;
+  margin: 0px 0px 10px 0px;
+  font-weight: 600;
+  line-height: normal;
+}
+.createsaleSection > .billToInfo {
+  position: relative;
+  margin-bottom: 46px;
+}
+.createsaleSection > .billToInfo .salesbottomAction {
+  position: absolute;
+  top: 100%;
+  right: 0px;
+}
+.createsaleSection .MuiStepper-root {
+  background: transparent !important;
+  padding: 0px;
+}
+.createsaleSection .MuiStepper-root .MuiStepConnector-root {
+  display: none;
+}
+.createsaleSection .MuiStepper-root .MuiStep-horizontal {
+  padding: 3px 0px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.createsaleSection .MuiStepper-root .MuiStep-completed {
+  background: #FE6B00;
+}
+.createsaleSection
+  .MuiStepper-root
+  .MuiStep-completed
+  .MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  color: #fff !important;
+}
+.createsaleSection .MuiStepper-root .MuiStep-completed .MuiStepIcon-root {
+  border: none !important;
+}
+.createsaleSection .MuiStepper-root .MuiStep-completed .MuiStepIcon-root path {
+  fill: #fff;
+}
+.createsaleSection .MuiStepper-root .MuiStep-horizontal:first-child {
+  border-radius: 30px 0px 0px 30px;
+  padding-left: 5px;
+}
+.createsaleSection .MuiStepper-root .MuiStep-horizontal:last-child {
+  border-radius: 0px 30px 30px 0px;
+}
+.createsaleSection .MuiStepper-root .MuiStep-horizontal .MuiStepLabel-root {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.createsaleSection
+  .MuiStepper-root
+  .MuiStep-horizontal
+  .MuiStepLabel-root
+  .MuiStepLabel-iconContainer
+  .MuiStepIcon-root
+  .MuiStepIcon-text {
+  display: none;
+}
+.createsaleSection
+  .MuiStepper-root
+  .MuiStep-horizontal
+  .MuiStepLabel-root
+  .MuiStepLabel-iconContainer
+  .MuiStepIcon-root {
+  color: transparent;
+  width: 16px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.createsaleSection
+  .MuiStepper-root
+  .MuiStep-horizontal
+  .MuiStepLabel-root
+  .MuiStepLabel-labelContainer {
+  width: auto;
+  margin-left: 5px;
+}
+.createsaleSection
+  .MuiStepper-root
+  .MuiStep-horizontal
+  .MuiStepLabel-root
+  .MuiStepLabel-labelContainer
+  .MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  margin-top: 0px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+/****************saleTempImgBox css **************************/
+.saleTempImgBox {
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0px 0px 12px #00000008;
+  margin-top: 10px;
+}
+.saleTempImgBox > h3 {
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  color: #000;
+  font-size: 18px;
+}
+.saleTempImgBox .downloadtemplate {
+  margin-top: 30px;
+}
+.saleTempImgBox .downloadtemplate a {
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  background: orange;
+  padding: 12px;
+  border-radius: 100px;
+  color: white !important;
+}
+
+.saleTempImgBox .downloadtemplate a .MuiIconButton-root {
+  color:black;
+  background-color: white;
+  padding: 5px !important;
+  margin-right: 12px;
+
+}
+
+.saleTempImgBox .disableddownloadtemplate{
+  margin-top: 30px;
+  opacity: 0.5;
+}
+.saleTempImgBox .disableddownloadtemplate a {
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  background: orange;
+  padding: 12px;
+  border-radius: 100px;
+  color: white !important;
+  opacity: 0.5;
+}
+.saleTempImgBox .disableddownloadtemplate a .MuiIconButton-root {
+  color:black;
+  background-color: white;
+  padding: 5px !important;
+  margin-right: 12px;
+  opacity: 0.5;
+}
+
+.certificateAction {
+  margin-top: 10px;
+  text-align: right;
+}
+.createsaleSection .certificateAction{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.createsaleSection .certificateAction button{
+  margin-bottom: 10px;
+  min-width: auto;
+}
+.certificateAction .cancelBtn {
+  color: #000 !important;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-right: 10px;
+  background: #f6f6f6;
+}
+.certificateAction .cancelBtn:hover {
+  color: #000 !important;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-right: 10px;
+  background: #f6f6f6;
+}
+.certificateAction .manualBtn {
+  color: #fff !important;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+  margin-right: 10px;
+  background: #304ffe;
+}
+.certificateAction .manualBtn:hover {
+  color: #fff !important;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+  margin-right: 10px;
+  background: #FE6B00;
+}
+.certificateAction .importFile {
+  color: white !important;
+  border: 1px solid #FE6B00;
+  border-radius: 4px;
+  margin-right: 10px;
+  background: #FE6B00;
+}
+.certificateAction .importFile:hover {
+  color: white !important;
+  border: 1px solid #FE6B00;
+  border-radius: 4px;
+  margin-right: 10px;
+  background: #FE6B00;
+  opacity: 0.5;
+  transition: color 0.3s, background 0.3s, opacity 0.3s;
+}
+.certificateAction .disabledcancel {
+  color: #000 !important;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-right: 10px;
+  background: #f6f6f6;
+  opacity: 0.5;
+}
+
+.certificateAction .disabledmanual {
+  color: #fff !important;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+  margin-right: 10px;
+  background: #FE6B00;
+  opacity: 0.5;
+}
+.certificateAction .disabledimportFile {
+  color: #FE6B00 !important;
+  border: 1px solid #FE6B00;
+  border-radius: 4px;
+  margin-right: 10px;
+  background: #fff;
+  opacity: 0.5;
+}
+.certificateTemplateImgBorder img {
+  width: 300px;
+  height: 240px;
+  position: relative;
+  border: 2px solid #FE6B00 !important;
+  padding: 1.5px;
+}
+
+.certificateTemplateImgBorder div #investor {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 2px solid #FE6B00;
+}
+
+.saleTempImgBox img {
+  width: 300px;
+  height: 240px;
+  border: 2px solid #ccc;
+  padding: 1.5px;
+}
+
+.previewImageBtn {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.certificateTemplateImg {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.certificateTemplateImgBorder {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.certificateTemplateImg:hover .previewImageBtn {
+  opacity: 1;
+}
+
+.certificateTemplateImgBorder:hover .previewImageBtn {
+  opacity: 1;
+}
+
+.templateName {
+  align-self: center;
+}
+
+.previewImageBtnContent {
+  background-color: #fff;
+  border: 1px solid #FE6B00;
+  text-align: center;
+  font-size: 14px;
+  color: #FE6B00;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.previewIcon {
+  height: 12px;
+  width: 12px;
+}
+/**************************************************************/
+
+/* .billToInfo {
+  background: #fff;
+  box-shadow: 0px 0px 12px #00000008;
+  border-radius: 6px;
+} */
+.billToInfo > .MuiGrid-container {
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 0px 12px #00000008;
+  border-radius: 6px;
+}
+.billToInfo > .MuiGrid-container > .MuiGrid-root:first-child{
+  padding-right: 15px;
+  padding-left: 10px;
+}
+.billToInfo > .MuiGrid-container > .MuiGrid-root{
+  padding: 10px 0px 30px 0px;
+}
+
+.billToInfo > .MuiGrid-container > .MuiGrid-root .MuiGrid-item {
+  padding: 15px 10px 40px 10px;
+}
+.billToInfo h3 {
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+  color: #000;
+  line-height: normal;
+  font-weight: 600;
+}
+.billToInfo .orderInfo .addButton {
+  border: none;
+  background: #FE6B00;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 30px;
+  color: #fff;
+  /* margin-top: -7px; */
+  outline: none;
+  cursor: pointer;
+  /* margin-top: 10px; */
+}
+
+.billToInfo .orderInfo .MuiGrid-container {
+  width: 100%;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.billToInfo .orderInfo .MuiGrid-container > .MuiGrid-item {
+  padding-top: 0px !important;
+  padding-bottom: 15px !important;
+  padding-left: 0px !important;
+}
+.billToInfo .orderInfo .MuiGrid-container > .MuiGrid-item .MuiFormControl-root {
+  position: relative;
+}
+.billToInfo
+  .orderInfo
+  .MuiGrid-container
+  > .MuiGrid-item
+  .MuiFormControl-root
+  .MuiFormHelperText-root {
+  position: absolute;
+  color: red;
+  top: 100%;
+  margin-top: 2px;
+  line-height: normal;
+  font-size: 12px;
+}
+.billToInfo
+  .orderInfo
+  .MuiGrid-container
+  > .MuiGrid-item
+  .MuiFormControl-root
+  label
+  + .MuiInput-formControl {
+  margin-top: 0px;
+}
+
+.billToInfo
+  .orderInfo
+  .MuiGrid-container
+  > .MuiGrid-item
+  .MuiFormControl-root
+  .MuiInputLabel-formControl {
+  transform: translate(0, 10px) scale(1);
+}
+
+.billToInfo
+  .orderInfo
+  .MuiGrid-container
+  > .MuiGrid-item
+  .MuiFormControl-root
+  .MuiInputLabel-shrink {
+  transform: translate(0, -12.5px) scale(0.75);
+}
+.billToInfo .formComponent .salesTemplateForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+}
+.billToInfo .formComponent .salesTemplateForm .MuiFormControl-root {
+  width: 100%;
+  position: relative;
+}
+.billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root
+  .MuiFormHelperText-root {
+  position: absolute;
+  top: 100%;
+  margin-top: 1px;
+  line-height: normal;
+  font-size: 12px;
+}
+/* .billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root
+  .MuiInputLabel-formControl {
+  transform: translate(0, -15px) scale(1);
+} */
+
+.billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root
+  .MuiInputLabel-shrink {
+  transform: translate(0, -10.5px) scale(0.75) !important;
+}
+.billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root
+  label
+  + .MuiInput-formControl {
+  margin-top: 0px;
+}
+.billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root
+  .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+}
+.billToInfo .orderInfo .MuiFormControl-root .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+}
+.billToInfo .formComponent .salesTemplateForm .MuiFormControl-marginNormal {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-marginNormal
+  .MuiFormHelperText-root {
+  position: absolute;
+  top: 100%;
+  margin-top: 1px;
+  line-height: normal;
+}
+.billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-marginNormal
+  label
+  + .MuiInput-formControl {
+  margin-top: 0px;
+}
+.billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root.MuiFormControl-marginNormal
+  .MuiInputLabel-formControl {
+  transform: translate(0, 10px) scale(1);
+}
+.billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-marginNormal
+  .MuiInputLabel-shrink {
+  transform: translate(0, -6.5px) scale(0.75);
+}
+
+.billToInfo .formComponent .salesTemplateForm .zipCode {
+  margin: 0px 25% 30px 15px;
+  width: calc(25% - 15px);
+}
+.billToInfo .formComponent .salesTemplateForm .column12 {
+  margin: 0px 50% 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm .column6 {
+  margin: 0px 15px 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm .docDate {
+  margin: 0px 15px 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm .fullWidthColumn12 {
+  margin: 0px 15px 30px 15px;
+  width: calc(100% - 30px);
+}
+
+.billToInfo .formComponent .salesTemplateForm .docDate  svg {
+  width: 15px;
+  height: auto;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+/* .billToInfo .formComponent .salesTemplateForm > div:nth-child(1) {
+  margin: 0px 50% 30px 15px;
+  width: calc(50% - 30px);
+}
+
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(2) {
+  margin: 0px 15px 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(3) {
+  margin: 0px 15px 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(4) {
+  margin: 0px 50% 30px 15px;
+  width: calc(50% - 30px);
+}
+
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(5) {
+  margin: 0px 15px 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(6) {
+  margin: 0px 15px 30px 15px;
+  width: calc(50% - 30px);
+  margin-top: 0px !important;
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(7) {
+  margin: 0px 15px 30px 15px;
+  width: calc(50% - 30px);
+  margin-top: 0px !important;
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(8) {
+  margin: 0px 15% 30px 15px;
+  width: calc(35% - 15px);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(8) .MuiIconButton-root{
+  padding: 5px;
+}
+.billToInfo
+  .formComponent
+  .salesTemplateForm
+  > div:nth-child(8)
+  .MuiFormControl-root
+  .MuiFormHelperText-root {
+  width: max-content;
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(9) {
+  margin: 0px 15px 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(10) {
+  margin: 0px 15px 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(11) {
+  margin: 0px 50% 30px 15px;
+  width: calc(50% - 30px);
+}
+
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(8)  svg {
+  width: 15px;
+  height: auto;
+  fill: rgba(0, 0, 0, 0.3);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(9) svg {
+  width: 15px;
+  height: auto;
+  fill: rgba(0, 0, 0, 0.3);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(10) svg {
+  width: 15px;
+  height: auto;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(11) svg {
+  width: 15px;
+  height: auto;
+  fill: rgba(0, 0, 0, 0.3);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(12) {
+  margin: 0px 15px 0px 15px;
+  width: calc(100% - 30px);
+}
+
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(13) {
+  margin: 30px 15px 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(14) {
+  margin: 30px 15px 30px 15px;
+  width: calc(50% - 30px);
+}
+.billToInfo .formComponent .salesTemplateForm > div:nth-child(15) {
+  margin: 0px 50% 30px 15px;
+  width: calc(50% - 30px);
+} */
+
+
+.billToInfo .salesbottomAction .cancelBtn {
+  background: #f6f6f6 !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  border-radius: 4px;
+  margin-right: 10px;
+  min-width: 100px !important;
+}
+.billToInfo .salesbottomAction .cancelBtn:hover {
+  background: #f6f6f6 !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  border-radius: 4px;
+}
+.billToInfo .salesbottomAction .previewBtn {
+  border: none !important;
+  color: #fff !important;
+  border-radius: 4px;
+  background: #304ffe !important;
+  min-width: 100px !important;
+}
+.billToInfo .salesbottomAction .previewBtn:hover {
+  border: none !important;
+  color: #fff !important;
+  border-radius: 4px;
+  background: #FE6B00 !important;
+}
+
+.billToInfo .orderInfo .deleteBtn {
+  padding: 5px;
+  margin-top: 0px;
+}
+.billToInfo .orderInfo .deleteBtn svg {
+  width: 25px;
+  height: auto;
+  fill: #ff0000;
+}
+
+.createsaleSection .salebottomAction {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.createsaleSection .salebottomAction .amendBtn {
+  background: #f6f6f6;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-right: 10px;
+  min-width: 70px;
+}
+.createsaleSection .salebottomAction .amendBtn:hover {
+  background: #f6f6f6;
+  color: #000;
+}
+.createsaleSection .salebottomAction .confirmBtn {
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  background: #FE6B00;
+  min-width: 100px;
+}
+.createsaleSection .salebottomAction .confirmBtn:hover {
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  background: #FE6B00;
+}
+.createsaleSection .salebottomAction .returnBtn {
+  border: 1px solid #FE6B00;
+  color: #FE6B00;
+  border-radius: 4px;
+  min-width: 100px;
+}
+.createsaleSection .salebottomAction .returnBtn:hover {
+  border: 1px solid #FE6B00;
+  color: #FE6B00;
+  border-radius: 4px;
+  background-color: #fff;
+  min-width: 100px;
+}
+
+/**************salesDocumentOptions css*************************/
+
+.salesDocumentOptions .salesDocumentHead svg {
+  display: block;
+  margin: 0px auto;
+  fill: #304ffe;
+}
+.salesDocumentOptions .salesDocumentHead > h5 {
+  margin: 10px 0px;
+  text-align: center;
+  color: #304ffe;
+  font-size: 22px;
+  line-height: normal;
+}
+.salesDocumentOptions .salesDocumentHead > ul {
+  margin: 0px;
+  padding: 0px;
+}
+.salesDocumentOptions .salesDocumentHead > ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+.salesDocumentOptions .salesDocumentOrder {
+  margin: 0px 10px;
+  background: #f6f6f6;
+  padding: 10px;
+  margin-top: 10px;
+}
+.salesDocumentOptions .salesDocumentOrder .successfullmessageBodytitle > h3 {
+  border-bottom: 1px solid #707070;
+  margin: 0px;
+}
+.salesDocumentOptions
+  .salesDocumentOrder
+  .successfullmessageBodytitle
+  > h3
+  span {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #304ffe;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+.salesDocumentOptions .salesDocumentOrder ul {
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+.salesDocumentOptions .salesDocumentOrder ul li {
+  list-style: none;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+.salesDocumentOptions .salesDocumentOrder ul li span {
+  display: inline-block;
+  word-break: break-all;
+  word-break: break-word;
+  font-size: 14px;
+  color: #000;
+}
+.salesDocumentOptions .salesDocumentOrder ul li span:nth-child(1) {
+  width: 106px;
+}
+.salesDocumentOptions .salesDocumentOrder ul li span:nth-child(2) {
+  width: 10px;
+  text-align: center;
+}
+.salesDocumentOptions .salesDocumentOrder ul li span:nth-child(3) {
+  width: calc(100% - 115px);
+  font-weight: 600;
+  padding-left: 5px;
+}
+.salesDocumentOptions h5 {
+  font-size: 16px;
+  margin: 10px 0px 5px 0px;
+  text-align: center;
+  color: #000;
+}
+/* .salesDocumentOptions .progressSteps .MuiStepper-root {
+  padding: 0px;
+}
+.salesDocumentOptions
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-completed
+  .MuiStepIcon-root.MuiStepIcon-completed {
+  color: #1fa81b;
+}
+.salesDocumentOptions
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-completed
+  .MuiStepLabel-labelContainer
+  .MuiTypography-root {
+  color: #1fa81b;
+  margin-top: 5px;
+}
+.salesDocumentOptions
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiStepLabel-labelContainer
+  .MuiTypography-root {
+  margin-top: 5px;
+  color: #000;
+}
+.salesDocumentOptions
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiStepIcon-text {
+  display: none;
+}
+.salesDocumentOptions
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiSvgIcon-root {
+  color: #f1f1f1;
+}
+.salesDocumentOptions
+  .progressSteps
+  .MuiStepper-root
+  .MuiStep-root
+  .MuiStepConnector-line {
+  border-color: #f1f1f1;
+} */
+
+.salesDocumentOptions .salesDocumentSignatory {
+  margin: 0px 10px;
+  background: #f6f6f6;
+  padding: 10px;
+  margin-top: 10px;
+}
+.salesDocumentOptions .salesDocumentSignatory .signatorymessageBodytitle > h3 {
+  border-bottom: 1px solid #707070;
+  margin: 0px;
+}
+.salesDocumentOptions
+  .salesDocumentSignatory
+  .signatorymessageBodytitle
+  > h3
+  span {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #304ffe;
+  font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.salesDocumentOptions .salesDocumentSignatory ul {
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+.salesDocumentOptions .salesDocumentSignatory ul li {
+  list-style: none;
+  margin-bottom: 5px;
+  display: flex;
+}
+.salesDocumentOptions .salesDocumentSignatory ul li span {
+  display: inline-block;
+  word-break: break-all;
+  word-break: break-word;
+  font-size: 14px;
+  color: #000;
+}
+.salesDocumentOptions .salesDocumentSignatory ul li span:nth-child(1) {
+  width: 107px;
+}
+.salesDocumentOptions .salesDocumentSignatory ul li span:nth-child(2) {
+  width: 10px;
+  text-align: center;
+}
+.salesDocumentOptions .salesDocumentSignatory ul li span:nth-child(3) {
+  width: calc(100% - 117px);
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.salesDocumentOptions .MuiDialogTitle-root .MuiIconButton-root {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  padding: 5px;
+  display: block;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.salesDocumentOptions .MuiDialogContent-root {
+  -ms-overflow-style: none;
+  scrollbar-width: 0px;
+}
+.salesDocumentOptions .MuiDialogContent-root::-webkit-scrollbar {
+  display: none;
+}
+/***********************************************************/
+
+@media screen and (max-width:1055px){
+  .billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root
+  .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+}
+.billToInfo .orderInfo .MuiFormControl-root .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+}
+}
+
+
+@media screen and (max-width:991px){
+  .billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root
+  .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+}
+.billToInfo .orderInfo .MuiFormControl-root .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width:825px){
+  .billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root
+  .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+}
+.billToInfo .orderInfo .MuiFormControl-root .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+}
+}
+@media screen and (max-width:767px){
+
+  .billToInfo
+  .formComponent
+  .salesTemplateForm
+  .MuiFormControl-root
+  .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+}
+.billToInfo .orderInfo .MuiFormControl-root .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+}
+  .createsaleSection{
+    min-height: auto;
+    position: fixed;
+    top: 80px;
+    height: calc(100% - 100px);
+    width: calc(100% - 0px);
+    left: 0px;
+    padding: 0px 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: 0px;
+  }
+  .createsaleSection::-webkit-scrollbar{
+    display: none;
+  }
+
+  .billToInfo > .MuiGrid-container > .MuiGrid-root{
+    width: 100%;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .billToInfo > .MuiGrid-container > .MuiGrid-root{
+    padding: 10px 15px 15px 15px !important;
+  }
+  .billToInfo .formComponent .salesTemplateForm > div{
+    margin-bottom: 20px !important;
+  }
+  .billToInfo .orderInfo .MuiGrid-container > .MuiGrid-item{
+    margin-bottom: 10px;
+  }
+
+  /* .salesDocumentOptions.successfullysentModal */
+}
+
+@media screen and (max-width:575px){
+  .salesDocumentOptions.successfullysentModal  .MuiDialog-paperWidthSm{
+    width: calc(100% - 30px);
+    margin: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+  max-height: calc(100% - 30px);
+  }
+}
+
+@media screen and (max-width:479px){
+  .saleTempImgBox{
+    padding: 10px 15px;
+  }
+  .createsaleSection .downloadtemplate .MuiIconButton-root{
+    padding: 5px;
+  }
+  .saleTempImgBox > h3{
+    font-size: 16px;
+  }
+  /* .billToInfo .orderInfo .deleteBtn{
+    margin-top: -30px;
+  } */
+  .billToInfo .formComponent .salesTemplateForm > div{
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    margin-right: 15px !important;
+  }
+ 
+  .createsaleSection .MuiStepper-root .MuiStep-horizontal .MuiStepLabel-root .MuiStepLabel-labelContainer .MuiStepLabel-label.MuiStepLabel-alternativeLabel{
+    font-size: 10px;
+  }
+  .createsaleSection .MuiStepper-root .MuiStep-horizontal .MuiStepLabel-root .MuiStepLabel-iconContainer .MuiStepIcon-root{
+    width: 15px;
+  }
+
+  .billToInfo .orderInfo .MuiGrid-container > .MuiGrid-item{
+    width: 100%;
+    flex:100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  .billToInfo .orderInfo .MuiGrid-container{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  /* .salesDocumentOptions .progressSteps .MuiStepper-root .MuiStep-root{
+    padding: 0px 5px;
+  }
+  .salesDocumentOptions .progressSteps .MuiStepper-root .MuiStep-root .MuiStepLabel-labelContainer .MuiTypography-root{
+    font-size: 10px;
+  }
+  .salesDocumentOptions .progressSteps .MuiStepper-root .MuiStep-root .MuiStepConnector-alternativeLabel {
+    top: 12px;
+    left: calc(-50% + 12px);
+    right: calc(50% + 12px);
+    position: absolute;
+ } */
+}
+
+
+.MuiGrid-container > .MuiGrid-item .MuiFormControl-root .MuiInputLabel-formControl {
+  transform: translate(0, 10px) scale(1);
+  font-size: 15px;
+}
+

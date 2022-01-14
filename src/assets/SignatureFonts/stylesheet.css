@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Sundiary';
+    src: url(Sundiary.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'MonsieurLaDoulaise';
+    src: url(MonsieurLaDoulaise.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'MrDehaviland';
+    src: url(MrDehaviland.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Andragogy';
+    src: url(Andragogy.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'JohnBulgarry';
+    src: url(JohnBulgarry.ttf) format('truetype');
+}

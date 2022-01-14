@@ -1,0 +1,384 @@
+.purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6) {
+  font-family: monospace;
+  /* float: right; */
+  font-size: 14px;
+}
+
+.purchaseInvoiceTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+  min-width: auto;
+  padding: 5px;
+}
+.purchaseInvoiceTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn .MuiButton-label{
+    font-size: 14px;
+  }
+.purchaseInvoiceTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn:hover {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+}
+
+.PurchasePurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .revokeBtn {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px !important;
+  min-width: auto;
+  padding: 5px;
+}
+.PurchasePurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .revokeBtn .MuiButton-label{
+  font-size: 14px;
+}
+.PurchasePurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .revokeBtn:hover {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px !important;
+}
+
+
+/***********************************************************************/
+.purchaseInvoiceTable {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.purchaseInvoiceTable .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.purchaseInvoiceTable .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.purchaseInvoiceTable .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+/* .salesOverviewTable.PurchasePurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+} */
+.purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: #f4f4fb;
+}
+.purchaseInvoiceTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* ==================== NOA ============================================== */
+
+.purchaseInvoiceTable  .ReactTable.-striped .rt-tr.-odd{
+  background: #fff;
+}
+
+.PurchaseNoaSelect  .ReactTable.-striped .rt-tr.-odd{
+  background: #fff;
+}
+
+.PurchaseNoaSelect {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.PurchaseNoaSelect .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.PurchaseNoaSelect .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.PurchaseNoaSelect .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+.PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+}
+.PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: #f4f4fb;
+}
+.PurchaseNoaSelect
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/************************************************************************/
+
+
+@media screen and (max-width:767px){
+  .purchaseInvoiceTable .ReactTable .rt-thead{
+    display: none;
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody{
+    min-width: auto !important;
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    position: relative;
+    padding-left: 130px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+    width: 100% !important;
+    max-width: 100% !important;
+   padding-left: 0px; 
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+    position: relative;
+    padding-left: 60px;
+  } 
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+    content: "S. :";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+    content: "Company Name :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ 
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+    content: "Supplier Email :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(4)::before{
+    content: "Invoice No. : ";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6)::before{
+    content: "Invoice Amount ";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(5)::before{
+    content: "Currency :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(7)::before{
+    content: "Status :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(8)::before{
+    content: "Invoice Date :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(9){
+    padding-left: 10px;
+    width: auto !important;
+    max-width: 30% !important;
+  }
+
+  /* ======================================NOA============================ */
+
+  .PurchaseNoaSelect .ReactTable .rt-thead{
+    display: none;
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody{
+    min-width: auto !important;
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    position: relative;
+    padding-left: 155px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+    width: 100% !important;
+    max-width: 100% !important;
+   padding-left: 0px; 
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+    position: relative;
+    padding-left: 60px;
+  } 
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+    content: "S no. :";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ 
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+    content: "NOA Name :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+    content: "Financial Institute :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(4)::before{
+    content: "Creation Date & Time :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(5)::before{
+    content: "No. of Invoices :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6)::before{
+    content: "Invoice No. :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+}
+
+
+@media screen and (max-width:575px){
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .purchaseInvoiceTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(7){
+    max-width: 60% !important;
+  }
+  .PurchaseNoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

@@ -1,0 +1,112 @@
+.col-sm-12 {
+    padding: 0;
+    align-items: center;
+}
+
+.section {
+    border: 1px solid #707070;
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 35px;
+    max-width: 1050px;
+}
+
+.section .row {
+    align-items: center;
+}
+
+.section .sectionHead {
+    margin-bottom: 30px;
+}
+
+.section .row .col-sm-7 {
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+}
+
+hr {
+    border-top: 0.8px solid #707070;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.removePadding {
+    padding: 0 !important;
+}
+
+.drawing {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg.checkmark {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+details .arrowRight {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transition: all 0.3s 0s ease;
+    -ms-transition: all 0.3s 0s ease;
+    transition: all 0.3s 0s ease;
+}
+
+.optionDetails {
+    padding-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.optionForm {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+details[open] .arrowRight {
+    transform: rotate(450deg);
+    -webkit-transform: rotate(450deg);
+    -ms-transform: rotate(450deg);
+    -webkit-transition: all 0.3s 0s ease;
+    -ms-transition: all 0.3s 0s ease;
+    transition: all 0.3s 0s ease;
+}
+
+.nice-dates-grid {
+    height: 385px !important;
+}
+
+.nice-dates-day {
+    height: 64px !important;
+}
+
+.nice-dates-day:before {
+    border: 2px solid #FE6B00;
+    right: 12.5% !important;
+    left: 12.5% !important;
+}
+
+.nice-dates-day:after {
+    border: 2px solid #FE6B00;
+    right: 12.5% !important;
+    left: 12.5% !important;
+}
+
+#heightSpacing {
+    height: 20px;
+}

@@ -1,0 +1,397 @@
+.purchasesaction {
+  display: flex;
+  /* align-items: center; */
+  padding: 10px 15px 0px 15px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  min-height: 59px;
+}
+.purchasesaction .purchasesactionfirst {
+  margin: 0px auto 0px 0px;
+  min-height: 30px;
+}
+.purchasesaction .purchasesactionfirst button {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.purchasesaction .purchasesactionfirst button .MuiButton-label > span {
+  width: 30px;
+  color: #000;
+  background: #f4f4fb;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.purchasesaction .purchasesactionfirst button:first-child {
+  border-right: 1px solid #00000029;
+  border-top: 1px solid #00000029;
+  border-left: 1px solid #00000029;
+  border-bottom: 1px solid #00000029;
+  border-radius: 4px 0px 0px 4px;
+  background: #fff;
+}
+
+.purchasesaction .purchasesactionfirst button:nth-child(2) {
+  /* border-right: 1px solid #00000029; */
+  border-top: 1px solid #00000029;
+  /* border-left: 1px solid #00000029; */
+  border-bottom: 1px solid #00000029;
+  background: #fff;
+  border-radius: 0px;
+}
+
+.purchasesaction .purchasesactionfirst button:last-child {
+  border-right: 1px solid #00000029;
+  border-top: 1px solid #00000029;
+  border-left: 1px solid #00000029;
+  border-bottom: 1px solid #00000029;
+  border-radius: 0px 4px 4px 0px;
+  background: #fff;
+}
+
+.purchasesaction .purchasesactionfirst button.showButton {
+  transform: scale(1.05);
+  border: none;
+  background: #304ffe;
+  color: #ffff;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+}
+.purchasesaction .purchasesactionSecond  .dashboardDateRangeBtn{
+  min-height: 36px;
+}
+.purchasesaction .purchasesactionSecond > button:first-child {
+  color: #304ffe;
+  border: 1px solid #304ffe;
+  border-radius: 6px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.purchasesaction .purchasesactionSecond > button:last-child {
+  background: #304ffe;
+  height: 36px;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+.purchasesaction .purchasesactionSecond {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  /* margin-right: 0px;
+  margin-left: auto; */
+}
+
+.purchasesaction
+  .purchasesactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root {
+  margin: 0px;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+}
+
+.purchasesaction
+  .purchasesactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputLabel-formControl.MuiInputLabel-shrink {
+  transform: translate(5px, -6.5px) scale(0.75);
+  transform-origin: top left;
+  background: #fff;
+  padding: 0px 5px;
+}
+
+.purchasesaction
+  .purchasesactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInput-formControl {
+  margin-top: 10px;
+}
+
+.purchasesaction
+  .purchasesactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root
+  input {
+  padding: 5px;
+}
+
+.purchasesaction
+  .purchasesactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root
+  .MuiInputAdornment-root
+  .MuiIconButton-root
+  svg {
+  width: 15px;
+  height: auto;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.purchasesaction .purchasesactionSecond > button {
+  background: #304ffe;
+  color: #fff;
+  min-width: 115px;
+  margin-left: 10px;
+}
+
+.purchasesaction
+  .purchasesactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root::before {
+  display: none;
+}
+
+.purchasesOverviewTable {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+
+.purchasesOverviewTable .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+
+.purchasesOverviewTable  .ReactTable.-striped .rt-tr.-odd{
+  background: #fff;
+}
+
+.purchasesOverviewTable .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+
+.purchasesOverviewTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+
+.purchasesOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+  cursor: pointer !important;
+}
+
+.purchasesOverviewTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group:nth-child(2n)
+  .rt-tr {
+  background: #f4f4fb;
+}
+
+.purchasesOverviewTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+
+.purchasesOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: pointer !important;
+}
+
+/***********************Revoke Btn**************************/
+
+.DashboardPurchasesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+}
+
+.DashboardPurchasesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn:hover {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+}
+
+/********************************************************************/
+.DashboardPurchasesTable .ReactTable .rt-thead .rt-resizable-header-content{
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+.DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: auto;
+  font-size: 14px;
+}
+
+.DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: auto;
+}
+
+.DashboardPurchasesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-last-child(1) {
+  color: orange;
+}
+
+
+@media screen and (max-width:767px){
+  .DashboardPurchasesTable .ReactTable .rt-thead{
+    display: none;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody{
+    min-width: auto !important;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    position: relative;
+    padding-left: 130px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+    width: 100% !important;
+    max-width: 100% !important;
+   padding-left: 0px; 
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+    position: relative;
+    padding-left: 60px;
+  } 
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+    content: "S no. :";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+    content: "Document Name :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+    content: "Company :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(4)::before{
+    content: "Document Type :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(5)::before{
+    content: "Creation Date :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6)::before{
+    content: "Last Updated :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(7)::before{
+    content: "Status :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+}
+
+@media screen and (max-width:575px){
+  .DashboardPurchasesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width:479px){
+  .purchasesaction .purchasesactionSecond{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .purchasesaction .purchasesactionSecond > div{
+width: 100%;
+margin-bottom: 10px;
+  }
+  .purchasesaction .purchasesactionSecond > div .dashboardDateRangeBtn{
+    width: 100%;
+  }
+  .purchasesaction .purchasesactionSecond > button{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .purchasesaction .purchasesactionfirst{
+    width: 100%;
+  }
+  .purchasesaction .purchasesactionfirst  > button{
+    width: 100%;
+    border-radius: 4px !important;
+  }
+  .purchasesaction .purchasesactionfirst button:nth-child(2){
+    border-right: 1px solid #00000029;
+    border-left: 1px solid #00000029;
+  }
+  .purchasesaction .purchasesactionfirst button.showButton{
+    transform: scale(1.01);
+  }
+}

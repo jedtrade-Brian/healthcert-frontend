@@ -1,0 +1,834 @@
+.invoicetabs {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+.invoicetabs .MuiButton-root {
+  width: 50%;
+  background: #f5f5f5;
+}
+.invoicetabs .MuiButton-root:first-child {
+  border-radius: 4px 0px 0px 4px;
+}
+.invoicetabs .MuiButton-root:last-child {
+  border-radius: 0px 4px 4px 0px;
+}
+.invoicetabs .MuiButton-root .MuiButton-label {
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+.invoicetabs .MuiButton-root.activeButton {
+  background: #304ffe;
+}
+.invoicetabs .MuiButton-root.activeButton .MuiButton-label {
+  color: #fff;
+  font-weight: 500;
+}
+
+.invoiceviewcreateAction {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 15px 10px 15px;
+}
+
+.invoiceviewcreateAction .financingBtn {
+  border: 1px solid #000;
+  color: #000;
+  line-height: normal;
+  margin-right: 10px;
+}
+
+.invoiceviewcreateAction .verifyinvoiceBtn {
+  border: 1px solid #304ffe;
+  color: #304ffe;
+  line-height: normal;
+  margin-right: 10px;
+}
+
+.invoiceviewcreateAction .createinvoiceBtn {
+  color: #fff;
+  background: #304ffe;
+  line-height: normal;
+}
+
+.invoiceviewcreateAction .createinvoiceBtn:hover {
+  color: #fff;
+  background: #304ffe;
+  line-height: normal;
+}
+
+/********************financingModalClass css ********************/
+.financingModalClass .MuiDialog-paperWidthSm {
+  max-width: 430px;
+  width: 100%;
+}
+
+.financingModalClass .MuiDialog-paperWidthSm .MuiDialogTitle-root {
+  display: flex;
+  align-items: center;
+}
+.financingModalClass .MuiDialog-paperWidthSm .MuiDialogTitle-root > h6 {
+  width: 100%;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 48px;
+}
+
+.financingModalClass
+  .MuiDialog-paperWidthSm
+  .MuiDialogTitle-root
+  > .MuiIconButton-root {
+  color: #000;
+}
+
+.financingModalClass
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .financingDetailfield
+  > div {
+  margin-bottom: 10px;
+}
+.financingModalClass
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .financingDetailfield
+  > div
+  > .MuiFormControl-root {
+  width: 100%;
+  margin: 0px;
+}
+.financingModalClass
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .financingDetailfield
+  > div
+  > .MuiFormControl-root
+  .MuiInput-root
+  input::placeholder {
+  color: rgba(0, 0, 0, 0.9);
+}
+.financingModalClass
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .financingDetailfield
+  > div
+  > .MuiFormControl-root
+  > .MuiInput-root {
+  min-height: 48px;
+}
+
+.financingModalClass
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .financingDetailfield
+  > div
+  > .MuiFormControl-root
+  > .MuiInputLabel-formControl
+  + .MuiInput-root {
+  min-height: auto;
+}
+
+.financingModalClass .MuiDialog-paperWidthSm .MuiDialogActions-root {
+  padding: 10px !important;
+}
+.financingModalClass
+  .MuiDialog-paperWidthSm
+  .MuiDialogActions-root
+  > .MuiButton-root {
+  width: 100%;
+  background: #304ffe !important;
+  color: #fff !important;
+  padding: 10px 15px;
+  border-radius: 6px !important;
+  border: 0px !important;
+}
+/***************************************************************/
+
+/**********************chooseTemplateModal css ***********************/
+.chooseTemplateModal .MuiDialog-paperWidthSm {
+  max-width: 700px;
+  width: 100%;
+}
+.chooseTemplateModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .choosetemplatebody
+  > h5 {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0px 0px 18px 0px;
+}
+.chooseTemplateModal .MuiDialog-paperWidthSm .MuiDialogActions-root {
+  padding: 15px !important;
+  border-top: 1px solid #cccccc;
+}
+.chooseTemplateModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogActions-root
+  .choostemplateActions {
+  display: flex;
+  align-items: center;
+}
+.chooseTemplateModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogActions-root
+  .choostemplateActions
+  .cancelbtn {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  margin-right: 10px;
+  padding: 6px 15px;
+  font-weight: 600;
+  border-radius: 6px !important;
+}
+.chooseTemplateModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogActions-root
+  .choostemplateActions
+  .autogenerateBtn {
+  background: #304ffe !important;
+  color: #fff !important;
+  margin-right: 10px;
+  border-radius: 6px !important;
+}
+.chooseTemplateModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogActions-root
+  .choostemplateActions
+  .importfileBtn {
+  border: 1px solid #304ffe;
+  color: #304ffe;
+  padding: 6px 15px;
+}
+/*********************************************************************/
+
+/************************successfullyModal css ******************************/
+
+.successfullyModal .MuiDialog-paperWidthSm {
+  max-width: 700px;
+  width: 100%;
+}
+
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullMeassage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullMeassage
+  > svg {
+  fill: #304ffe;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullMeassage
+  > h5 {
+  margin: 10px 0px 10px 0px;
+  color: #304ffe;
+  font-size: 22px;
+  font-weight: 600;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullMeassage
+  > ul {
+  margin: 0px;
+  padding: 0px;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullMeassage
+  > ul
+  li {
+  list-style: none;
+  text-align: center;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullMeassage
+  > ul
+  li
+  span {
+  display: inline-block;
+  font-size: 16px;
+  color: #000;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullmessageBody {
+  margin: 15px 15px 0px 15px;
+  padding: 15px 10px;
+  background: #f6f6f6;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullmessageBody
+  .successfullmessageBodytitle
+  > h3 {
+  margin: 0px;
+  border-bottom: 1px solid #707070;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullmessageBody
+  .successfullmessageBodytitle
+  > h3
+  > span {
+  padding-bottom: 10px;
+  color: #000;
+  display: inline-block;
+  border-bottom: 2px solid #304ffe;
+}
+
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullmessageBody
+  > ul {
+  padding: 0px;
+}
+
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullmessageBody
+  > ul
+  li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullmessageBody
+  > ul
+  li
+  > span:first-child {
+  font-size: 14px;
+  color: #000;
+  width: 150px;
+  display: inline-block;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullmessageBody
+  > ul
+  li
+  > span:nth-child(2) {
+  width: 20px;
+}
+.successfullyModal
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .successfullmessageBody
+  > ul
+  li
+  > span:last-child {
+  font-size: 14px;
+  color: #000;
+  width: calc(100% - 170px);
+  display: inline-block;
+  font-weight: 600;
+  padding-left: 30px;
+  word-break: break-all;
+}
+
+.noaBackBTn {
+  padding: 0px 15px;
+  margin-bottom: 10px;
+}
+.noaBackBTn button {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+.noaBackBTn button span {
+  display: flex;
+  align-items: center;
+}
+.noaBackBTn button span svg {
+  width: 20px;
+  height: auto;
+}
+/******************************************************************************/
+
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6) {
+  font-family: monospace;
+  /* float: right; */
+  font-size: 14px;
+}
+
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .revokeBtn {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+  min-width: auto;
+  padding: 5px;
+}
+
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .revokeBtnDisabled {
+  color: #ff00004d !important;
+  background: #fff !important;
+  border: 1px solid #ff00004d !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+  min-width: auto;
+  padding: 5px;
+}
+
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .revokeBtn .MuiButton-label{
+  font-size: 14px;
+}
+.invoiceSalesTab
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn:hover {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+}
+
+.invoiceSalesTab
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:last-child
+  button {
+  visibility: visible !important;
+  padding: 0px;
+}
+
+.invoiceSalesTab .ReactTable .rt-thead .rt-tr .rt-th:last-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.invoiceSalesTab .ReactTable .rt-thead .rt-tr .rt-th:last-child .pretty{
+  display: flex;
+  align-items: center;
+}
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:last-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .pretty{
+  display: flex;
+  align-items: center;
+}
+.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .revokeBtn {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px !important;
+  min-width: auto;
+  padding: 5px;
+}
+.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .revokeBtn .MuiButton-label{
+  font-size: 14px;
+}
+.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td .revokeBtn:hover {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px !important;
+}
+
+.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:last-child button {
+  visibility: visible !important;
+  /* padding: 0px; */
+}
+
+/***********************invoiceSalesTable css********************/
+
+.invoiceSalesTab  .ReactTable.-striped .rt-tr.-odd{
+  background: #fff;
+}
+
+.NoaSelect  .ReactTable.-striped .rt-tr.-odd{
+  background: #fff;
+}
+
+
+
+.invoiceSalesTab {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.invoiceSalesTab .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.invoiceSalesTab .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.invoiceSalesTab .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+/* .salesOverviewTable.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+} */
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: #f4f4fb;
+}
+.invoiceSalesTab
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/***************************************************************/
+
+/******************* NoaSelect table css**********************/
+.NoaSelect {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.NoaSelect .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.NoaSelect .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.NoaSelect .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.NoaSelect .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+.NoaSelect.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+}
+.NoaSelect .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: #f4f4fb;
+}
+.NoaSelect
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/**********************************************************/
+
+/**************************************************************/
+
+@media screen and (max-width:767px){
+  .invoiceSalesTab .ReactTable .rt-thead{
+    display: none;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody{
+    min-width: auto !important;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    position: relative;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    position: relative;
+    padding-left: 130px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+    width: 100% !important;
+    max-width: 100% !important;
+   padding-left: 0px; 
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+    position: relative;
+    padding-left: 60px;
+  } 
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+    content: "S. :";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+    content: "Company Name :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ 
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+    content: "Buyer's Email :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(4)::before{
+    content: "Invoice No. :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6)::before{
+    content: "Invoice Amount ";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(5)::before{
+    content: "Currency :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(7)::before{
+    content: "Invoice Date :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(8)::before{
+    content: "Status :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(9){
+    padding-left: 10px;
+    width: auto !important;
+    max-width: 30% !important;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(10){
+    padding-left: 10px;
+    width: auto !important;
+    justify-content: flex-start;
+  }
+
+
+
+  .NoaSelect .ReactTable .rt-thead{
+    display: none;
+  }
+  .NoaSelect .ReactTable .rt-tbody{
+    min-width: auto !important;
+  }
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    position: relative;
+    padding-left: 155px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+    width: 100% !important;
+    max-width: 100% !important;
+   padding-left: 0px; 
+  }
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+    position: relative;
+    padding-left: 60px;
+  } 
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+    content: "S. :";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ 
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+    content: "NOA Name :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+    content: "Financial Institute :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(4)::before{
+    content: "Creation Date & Time :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(5)::before{
+    content: "Total Invoices :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6)::before{
+    content: "Approved Invoices :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(7)::before{
+    content: "Declined Invoices :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  /* .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6)::before{
+    content: "Invoice Due Date :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  } */
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(8){
+    padding-left: 10px;
+ 
+  }
+}
+
+/****************************************************************/
+
+
+
+@media screen and (max-width:575px){
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(8){
+    padding-left: 10px;
+    width: auto !important;
+    max-width: 60% !important;
+  }
+  .invoiceSalesTab .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(9) {
+    padding-left: 10px;
+    width: auto !important;
+    justify-content: flex-start;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  .NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

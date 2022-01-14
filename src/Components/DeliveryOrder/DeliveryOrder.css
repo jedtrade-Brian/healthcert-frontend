@@ -1,0 +1,611 @@
+/**********************TAB START****************************/
+.DeliveryOrderTab > h3{
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+  font-weight: 600;
+  color: #000;
+
+}
+
+.studentDetailsContainer{
+  padding: 25px;
+}
+
+.salesQtnTab .salesHeader > h3{
+  font-size: 20px !important;
+  margin: 0px 0px 15px 15px !important;
+  padding-top: 12px;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.studentDetailsRow{
+  margin-bottom: 15px;
+}
+
+.studentDetailsTitle{
+  display: inline-block;
+  width: 125px;
+  font-size: 16px;
+  color: #707070;
+}
+
+.studentDetailsTitle2{
+  display: inline-block;
+  width: 125px;
+  font-size: 16px;
+  color: #707070;
+  padding-left: 30px;
+
+}
+
+.studentDetailsValue{
+  display: inline-block;
+  width:300px;
+  font-weight: 600;
+  padding-left: 30px;
+  font-size: 16px;
+ 
+}
+
+@media screen and (max-width:1190px){
+  .studentDetailsRow{
+    margin-bottom: 0;
+  }
+  
+  .studentDetailsTitle{
+    display: block;
+    width: 125px;
+    font-size: 16px;
+    color: #707070;
+  }
+  
+  .studentDetailsTitle2{
+    display: block;
+    width: 125px;
+    font-size: 16px;
+    color: #707070;
+    padding-left: 0px;
+  
+  }
+  
+  .studentDetailsValue{
+    display: block;
+    width:300px;
+    font-weight: 600;
+    padding-left: 0px;
+    font-size: 16px;
+    margin-bottom:15px;
+   
+  }
+}
+
+
+.DeliveryOrderTab .MuiAppBar-colorPrimary {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0px;
+}
+.DeliveryOrderTab .MuiAppBar-colorPrimary .MuiTabs-indicator {
+  display: none;
+}
+.DeliveryOrderTab
+  .MuiAppBar-colorPrimary
+  .MuiTabs-flexContainer
+  > button .MuiTab-wrapper{
+    font-size: 16px;
+    color: rgba(0,0,0,.5);
+    font-weight: 600;
+  }
+.DeliveryOrderTab
+  .MuiAppBar-colorPrimary
+  .MuiTabs-flexContainer
+  > button.Mui-selected {
+  background: #fff;
+  border-radius: 4px 4px 0px 0px;
+ 
+}
+.DeliveryOrderTab
+  .MuiAppBar-colorPrimary
+  .MuiTabs-flexContainer
+  > button.Mui-selected .MuiTab-wrapper{
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+  }
+.DeliveryOrderTab .MuiBox-root {
+  background: #fff;
+  box-shadow: 0px 0px 12px #00000008;
+  border-radius: 0px 6px 6px 6px;
+}
+/**********************TAB ENDS****************************/
+
+.DeliveryOrderTable {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: -50px; */
+}
+.DeliveryOrderTable > div {
+  width: 100%;
+}
+.DeliveryOrderTable .createDeliveryOrderBtn {
+  color: #fff;
+  /* background: #304ffe; */
+  background: #304ffe6b;
+  cursor: not-allowed !important;
+  line-height: normal;
+  /* float: right; */
+  margin: 15px 15px 10px auto;
+  display: block;
+}
+.DeliveryOrderTable .createDeliveryOrderBtn:hover {
+  color: #fff;
+  background:  #304ffe6b;
+  line-height: normal;
+}
+/* float: right; */
+  /* margin: 18px; */
+
+.DeliveryOrderTab .purchaseTab .MuiBox-root {
+  border-radius: 6px 6px 6px 6px;
+  padding-top: 30px;
+
+}
+
+/***********************Revoke Btn**************************/
+
+.DeliverySalesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+  min-width: auto;
+  padding: 5px 10px;
+}
+.DeliverySalesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn .MuiButton-label{
+  font-size: 14px;
+}
+.DeliverySalesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn:hover {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+}
+
+.DeliveryPurchaseTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+  min-width: auto;
+  padding: 5px 10px;
+}
+
+.DeliveryPurchaseTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn:hover {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+}
+.DeliveryPurchaseTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn .MuiButton-label{
+    font-size: 14px;
+  }
+/********************************************************************/
+
+.DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: auto;
+  font-size: 14px;
+}
+.DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:last-child{
+  text-overflow: inherit;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: auto;
+}
+
+.DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: auto;
+}
+
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: auto;
+}
+.PurchaseOrderTable {
+  display: flex;
+  /* margin-top: 15px; */
+}
+.PurchaseOrderTable > div {
+  width: 100%;
+}
+
+.DeliveryOrderTab .salesHeader > h3{
+  font-size: 20px !important;
+  margin: 0px 0px 15px 15px !important;
+  padding-top: 12px;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+
+/*************************************************************/
+
+.DeliverySalesTable {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.DeliverySalesTable .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.DeliverySalesTable .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.DeliverySalesTable .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+.DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+.DeliverySalesTable.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+}
+.DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: white !important;
+}
+.DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr:hover {
+  background: lightgoldenrodyellow !important;
+  transition: background 0.3s;
+}
+
+.DeliverySalesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: auto;
+}
+
+
+/**********************************************************/
+
+/***************************************************************/
+.DeliveryPurchaseTable {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.DeliveryPurchaseTable .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.DeliveryPurchaseTable .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.DeliveryPurchaseTable .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+.DeliveryPurchaseTable.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: #f4f4fb !important;
+}
+.DeliveryPurchaseTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+
+
+/***************************************************************/
+
+
+@media screen and (max-width:767px){
+  .DeliveryOrderTab{
+    min-height: auto;
+    position: fixed;
+    top: 80px;
+    height: calc(100% - 100px);
+    width: calc(100% - 0px);
+    left: 0px;
+    padding: 0px 20px;
+    overflow-y: auto;
+     overflow-x: hidden;
+     -ms-overflow-style: none;
+     scrollbar-width: 0px;
+  }
+.DeliveryOrderTab::-webkit-scrollbar{
+  display: none;
+}
+  .DeliverySalesTable .ReactTable .rt-thead{
+    display: none;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody{
+    min-width: auto !important;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    position: relative;
+    padding-left: 130px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+    width: 100% !important;
+    max-width: 100% !important;
+   padding-left: 0px; 
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+    position: relative;
+    padding-left: 60px;
+  } 
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+    content: "S no. :";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2){
+    padding-left: 165px;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+    content: "Student ID :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+    content: "NRIC :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(4)::before{
+    content: "Email :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(5)::before{
+    content: "Name :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6)::before{
+    content: "Date of Birth :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(7)::before{
+    content: "No. of Certs :";
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ 
+
+
+  .DeliveryPurchaseTable .ReactTable .rt-thead{
+  display: none;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody{
+  min-width: auto !important;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr{
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+  position: relative;
+  padding-left: 130px;
+  word-break: break-all;
+  word-break: break-word;
+  width: 50% !important;
+  max-width: 50% !important;
+  white-space: normal;
+  font-size: 14px;
+  min-height: 31px;
+  margin: 0px;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1){
+  width: 100% !important;
+  max-width: 100% !important;
+ padding-left: 0px; 
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot{
+  position: relative;
+  padding-left: 60px;
+} 
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(1) .dot::before{
+  content: "S no. :";
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-weight: 600;
+  color: #000;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2){
+  padding-left: 165px;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2)::before{
+  content: "Delivery Order's Name :";
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: 600;
+  color: #000;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(3)::before{
+  content: "Invoice No. :";
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: 600;
+  color: #000;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(4)::before{
+  content: "Invoice Amount :";
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: 600;
+  color: #000;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(5)::before{
+  content: "Invoice Date :";
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: 600;
+  color: #000;
+}
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(6)::before{
+  content: "Invoice Due Date :";
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: 600;
+  color: #000;
+}
+/* .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(7)::before{
+  content: "Action :";
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: 600;
+  color: #000;
+} */
+.DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(7){
+  padding-left: 10px;
+}
+}
+
+
+@media screen and (max-width:599px){
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+}
+
+
+
+@media screen and (max-width:399px){
+  .DeliverySalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2){
+    padding-left: 10px;
+    padding-top: 25px;
+  }
+  .DeliveryPurchaseTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td:nth-child(2){
+    padding-left: 10px;
+    padding-top: 25px;
+  }
+}

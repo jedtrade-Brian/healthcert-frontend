@@ -1,0 +1,333 @@
+.invoiceQuotationTemplate {
+  padding: 15px;
+  border: 1px solid #cccc;
+  max-width: 700px;
+  width: auto;
+  margin-top: 10px;
+}
+.invoiceQuotationTemplate .invoiceQuotationLogo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.invoiceQuotationTemplate .invoiceQuotationLogo > h3 {
+  font-size: 18px;
+  color: #000;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.invoiceQuotationTemplate .invoiceQuotationLogo .logo {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.invoiceQuotationTemplate .invoiceQuotationLogo .addresspart {
+  max-width: 200px;
+  width: auto;
+  margin-right: 0px;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.invoiceQuotationTemplate .invoiceQuotationLogo .addresspart ul {
+  margin: 0px;
+  padding: 0px;
+}
+.invoiceQuotationTemplate .invoiceQuotationLogo .addresspart ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.invoiceQuotationTemplate .invoiceQuotationLogo .addresspart ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.invoiceQuotationTemplate .centerhead {
+  margin: 10px 0px;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.invoiceQuotationTemplate .billpart {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.invoiceQuotationTemplate .billpart .addressPart > span {
+  font-size: 12px;
+  color: #000;
+  display: block;
+}
+.invoiceQuotationTemplate .billpart .addressPart > h4 {
+  font-size: 16px;
+  color: #000;
+  margin: 10px 0px;
+}
+.invoiceQuotationTemplate .billpart .addressPart ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.invoiceQuotationTemplate .billpart .addressPart ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.invoiceQuotationTemplate .billpart .addressPart ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.invoiceQuotationTemplate .deliveryInfo ul {
+  margin: 0px;
+  padding: 0px;
+}
+.invoiceQuotationTemplate .deliveryInfo ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.invoiceQuotationTemplate .deliveryInfo ul li:last-child {
+  margin-bottom: 0px;
+}
+.invoiceQuotationTemplate .deliveryInfo ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.invoiceQuotationTemplate .deliveryInfo ul li span:last-child {
+  font-size: 15px;
+}
+
+.invoiceQuotationTemplate .saleModalTable {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+  border-bottom: none;
+  border-left: none;
+}
+.invoiceQuotationTemplate .saleModalTable thead {
+  display: block;
+  width: 100%;
+}
+.invoiceQuotationTemplate .saleModalTable thead tr {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.invoiceQuotationTemplate .saleModalTable thead tr th {
+  display: block;
+  padding: 10px;
+  color: #000;
+  width: 22.5%;
+  border-right: 1px solid #ccc;
+  text-align: left;
+  font-weight: 600;
+}
+.invoiceQuotationTemplate .saleModalTable thead tr th:nth-child(1) {
+  width: 10%;
+  border-left: 1px solid #ccc;
+}
+.invoiceQuotationTemplate .saleModalTable thead tr th:last-child {
+  border-right: none;
+}
+.invoiceQuotationTemplate .saleModalTable tbody {
+  display: block;
+  width: 100%;
+}
+.invoiceQuotationTemplate .saleModalTable tbody tr {
+  display: flex;
+  justify-content: flex-end;
+  /* border-top: 1px solid #ccc; */
+  border-bottom: 1px solid #ccc;
+}
+.invoiceQuotationTemplate .saleModalTable tbody tr td {
+  display: block;
+  padding: 10px;
+  color: #000;
+  border-right: 1px solid #ccc;
+  width: 22.5%;
+  word-break: break-all;
+  word-break: break-word;
+}
+.invoiceQuotationTemplate .saleModalTable tbody tr td span.label{
+  display: none;
+}
+.invoiceQuotationTemplate .saleModalTable tbody tr td:nth-child(1) {
+  width: 10%;
+  border-left: 1px solid #ccc;
+}
+.invoiceQuotationTemplate .saleModalTable tbody tr td:last-child {
+  border-right: none;
+}
+.invoiceQuotationTemplate .saleModalTable tbody .totalpart tr {
+  border-top: none;
+  border-bottom: none;
+}
+.invoiceQuotationTemplate .saleModalTable tbody .totalpart tr td {
+  border-right: 1px solid #ccc;
+}
+.invoiceQuotationTemplate .saleModalTable tbody .totalpart tr td:last-child {
+  border-right: none;
+  border-bottom: 1px solid #ccc;
+}
+.invoiceQuotationTemplate .saleModalTable tbody .totalpart tr td:nth-child(4) {
+  /* border-left: 1px solid #ccc; */
+  border-bottom: 1px solid #ccc;
+}
+.invoiceQuotationTemplate .saleModalTable tbody .totalpart tr td:nth-child(1) {
+ width: 22.6%;
+ border-bottom: 1px solid #ccc;
+}
+.invoiceQuotationTemplate .saleModalTable tbody .totalpart tr td:nth-child(2) {
+  border-right: none;
+}
+.invoiceQuotationTemplate .bottomstatment span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.invoiceQuotationTemplate .signedSection {
+  width: 250px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.invoiceQuotationTemplate .signedSection ul {
+  margin: 0px;
+  padding: 0px;
+}
+.invoiceQuotationTemplate .signedSection ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+
+.invoiceQuotationTemplate .signedSection ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.invoiceQuotationTemplate .chequestatement {
+  margin: 20px 0px;
+}
+.invoiceQuotationTemplate .chequestatement span {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+}
+.invoiceQuotationTemplate .chequestatement span.underline {
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+
+@media screen and (max-width:767px){
+  .invoiceQuotationTemplate .saleModalTable thead tr th{
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody tr td{
+    font-size: 14px;
+  }
+
+  .invoiceQuotationTemplate .invoiceQuotationLogo > h3{
+    width: calc(100% - 90px);
+  }
+}
+
+
+@media screen and (max-width:575px){
+  .invoiceQuotationTemplate .saleModalTable thead{
+    display: none;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody tr td{
+    display: flex;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody tr td span{
+    display: inline-block;
+    word-break: break-all;
+    word-break: break-word;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody tr td span.label{
+    display: inline-block;
+    position: relative;
+    min-width: 110px;
+    font-weight: 600;
+    color: #000;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody tr td span.label::after{
+    content: ":";
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    
+  }
+  .invoiceQuotationTemplate .saleModalTable{
+    border: none;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody  > tr td:nth-child(1){
+    border-left: none;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody  > tr{
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody tr > td{
+    width: 100% !important;
+    border: none;
+  }
+
+  .invoiceQuotationTemplate .saleModalTable tbody .totalpart{
+    border: 1px solid #ccc;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody .totalpart tr{
+    border-bottom: 1px solid #ccc;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody .totalpart tr:last-child{
+    border-bottom: none;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody .totalpart tr td{
+    border-bottom: none !important;
+    border-left: none;
+    border-right: 1px solid #ccc;
+  }
+  .invoiceQuotationTemplate .saleModalTable tbody .totalpart tr td:last-child{
+    border-right: none;
+  }
+}
+
+
+@media screen and (max-width:499px){
+  .invoiceQuotationTemplate .invoiceQuotationLogo .addresspart{
+    max-width: 100%;
+    width: 100%;
+    padding-left: 90px;
+  }
+
+  .invoiceQuotationTemplate .billpart .addressPart{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .invoiceQuotationTemplate .billpart .deliveryInfo{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="204.063" viewBox="0 0 190 204.063">
+  <defs>
+    <filter id="smallBox" x="0" y="0" width="190" height="204.063" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="linkedInBox" transform="translate(-998 -1001)">
+    <g transform="matrix(1, 0, 0, 1, 998, 1001)" filter="url(#smallBox)">
+      <path id="smallBox-2" data-name="smallBox" d="M28.237-42.2l82.025,21.814C119.8-18.364,130-11.361,130-2.311V84.7c0,9.049-8.837,16.385-19.738,16.385H19.738C8.837,101.083,0,93.747,0,84.7V-23.781C0-48.752,28.237-42.2,28.237-42.2Z" transform="translate(30 69.98)" fill="#fff"/>
+    </g>
+    <text id="LinkedIn" transform="translate(1044 1153)" fill="#304ffe" font-size="20" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">LinkedIn</tspan></text>
+    <text id="Follow" transform="translate(1044 1127)" font-size="16" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Follow</tspan></text>
+    <g id="Ellipse_105" data-name="Ellipse 105" transform="translate(1044 1052)" fill="#fff" stroke="#304ffe" stroke-width="1.5">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24.25" fill="none"/>
+    </g>
+    <path id="linkedIn-2" data-name="linkedIn" d="M4.925,22H.363V7.312H4.925ZM2.642,5.309A2.654,2.654,0,1,1,5.283,2.642,2.664,2.664,0,0,1,2.642,5.309ZM22,22H17.444V14.85c0-1.7-.034-3.889-2.371-3.889-2.371,0-2.735,1.851-2.735,3.767V22H7.782V7.312h4.375v2h.064a4.793,4.793,0,0,1,4.316-2.372c4.616,0,5.465,3.04,5.465,6.988V22Z" transform="translate(1058 1066)" fill="#304ffe"/>
+  </g>
+</svg>

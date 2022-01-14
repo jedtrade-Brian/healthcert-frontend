@@ -1,0 +1,47 @@
+.Sidebar .sidebarHeader {
+    background: #15A063;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+  }
+  .Sidebar .sidebarHeader > svg {
+    width: 30px;
+    height: auto;
+  }
+  .Sidebar .sidebarHeader > span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+  }
+  /* .Sidebar .sidebarHeader .MuiIconButton-root {
+    margin-right: 0px;
+    padding: 0px;
+    margin-left: auto;
+  }
+  .Sidebar .sidebarHeader .MuiIconButton-root svg {
+    width: 20px;
+    height: auto;
+    fill: #fff;
+  } */
+
+  .jss106 {
+    width: 73px;
+    height: 4px;
+    margin: 8px auto 0;
+    display: block;
+    background-color: #ff3366;
+}
+
+.MuiOutlinedInput-root {
+  position: relative;
+  border-radius: 4px;
+  background-color: white;
+}
+
+
+@media screen and (max-width:1199px){
+  header #menu ul li:nth-child(n+7) a{
+    padding: 10px 15px;
+  }
+}

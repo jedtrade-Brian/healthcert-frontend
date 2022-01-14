@@ -1,0 +1,198 @@
+/*
+.Sidebar {
+  background: linear-gradient(#EA0A2A, #FE6B00);
+  min-height: 100vh;
+}
+*/
+
+.Sidebar > .MuiIconButton-root {
+  padding: 0px;
+  margin: 15px 10px;
+}
+.Sidebar > .MuiIconButton-root svg {
+  fill: #fff;
+}
+/* .Sidebar .MuiDrawer-paper {
+  width: 230px;
+  background-image: url('./../../../assets/SidebarBackground.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.Sidebar .MuiDrawer-paper::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 54px);
+  top: 54px;
+  background-color: rgba(48, 79, 254, 0.5);
+} */
+.Sidebar .sidebarHeader {
+  background: #EA0A2A;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 1px 15px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 1px 15px 0px rgba(0,0,0,1);
+  box-shadow: 0px 1px 15px 0px rgba(0,0,0,1);
+}
+.Sidebar .sidebarHeader > svg {
+  width: 30px;
+  height: auto;
+}
+.Sidebar .sidebarHeader > span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 10px;
+}
+/* .Sidebar .sidebarHeader .MuiIconButton-root {
+  margin-right: 0px;
+  padding: 0px;
+  margin-left: auto;
+}
+.Sidebar .sidebarHeader .MuiIconButton-root svg {
+  width: 20px;
+  height: auto;
+  fill: #fff;
+} */
+.Sidebar .outerDivForLists {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.Sidebar .outerDivForLists .lists {
+  padding: 0px;
+  height: calc(100vh - 198px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: 0px;
+}
+
+.Sidebar .outerDivForLists .lists .logout .MuiListItem-root svg path {
+  fill: none !important;
+}
+.Sidebar .outerDivForLists .lists .logout .MuiListItem-root:hover svg path {
+  fill: none !important;
+  stroke: #fff !important;
+}
+.Sidebar .outerDivForLists .lists::-webkit-scrollbar {
+  display: none;
+}
+.Sidebar .outerDivForLists .lists .MuiListItem-root {
+  position: relative;
+}
+.Sidebar .outerDivForLists .lists .MuiListItem-root .MuiTypography-root {
+  color: #fff;
+}
+.Sidebar .outerDivForLists .lists .MuiListItem-root::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: calc(100% - 88px);
+  height: 1px;
+  background: #fff;
+  bottom: 0px;
+  left: 72px;
+}
+.Sidebar .outerDivForLists .lists .MuiListItem-root svg path {
+  fill: #fff;
+}
+
+.active .MuiListItem-root,
+/* .Sidebar .outerDivForLists .lists .MuiListItem-root:hover {
+  background: #fff;
+}
+.Sidebar .outerDivForLists .lists .MuiListItem-root:hover .MuiTypography-root {
+  color: #FE6B00;
+}
+.Sidebar .outerDivForLists .lists .MuiListItem-root:hover svg {
+  fill: #FE6B00;
+}
+.Sidebar .outerDivForLists .lists .MuiListItem-root:hover svg g {
+  fill: #FE6B00;
+}
+.Sidebar .outerDivForLists .lists .MuiListItem-root:hover svg path {
+  fill: #FE6B00;
+} */
+
+/**************************Active Tab CSS****************************************/
+.Sidebar
+  .outerDivForLists
+  .lists
+  .active
+  .MuiListItem-root
+  .MuiTypography-root {
+  color: #FE6B00;
+}
+.Sidebar .outerDivForLists .lists .active .MuiListItem-root svg {
+  fill: #FE6B00;
+}
+.Sidebar .outerDivForLists .lists .active .MuiListItem-root svg g {
+  fill: #FE6B00;
+}
+.Sidebar .outerDivForLists .lists .active .MuiListItem-root svg path {
+  fill: #FE6B00;
+}
+/***************************Active Tab Ends***************************************/
+
+.Sidebar .sidebarFotter {
+  padding: 10px 0px 10px 10px;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.Sidebar .sidebarFotter > svg {
+  width: 18px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.Sidebar .profilePart {
+  padding: 15px 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+.Sidebar .profilePart > div {
+  width: calc(100% - 35px);
+}
+.Sidebar .profilePart > div > h5 {
+  font-size: 16px;
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  margin: 0px 0px 3px 0px;
+  line-height: normal;
+  cursor: pointer;
+}
+.Sidebar .profilePart > div > span {
+  font-size: 13px;
+  width: 100%;
+  color: #fff;
+  display: block;
+  white-space: normal;
+  word-break: break-all;
+  word-break: break-word;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.Sidebar .profilePart .MuiAvatar-colorDefault {
+  background: #fff;
+  color: #304ffe;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+

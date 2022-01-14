@@ -1,0 +1,94 @@
+body {
+  /* background-color: #e0e0e0; */
+  color: #333;
+  /* font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.privacySection #container div.container {
+  background: #fff;
+  padding-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.privacySection header#scrollHeader {
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  left: 0;
+  top: 0px;
+  padding: 7px 10px 5px 10px;
+  background: #fff;
+  border-radius: 0px;
+  height: 71px;
+}
+
+.privacySection header#scrollHeader .logo {
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0px;
+  background: #fff;
+  border-radius: 0px;
+  height: 50px;
+}
+
+.privacySection header#scrollHeader .logo .path {
+  fill: #304ffe;
+}
+.privacySection header#scrollHeader .logo .oval {
+  stroke: #304ffe;
+}
+
+.privacySection #container {
+  padding-top: 71px;
+}
+.privacySection #container div.container > .row {
+  margin: 0px 0px;
+}
+.privacySection #container div.container > .row h2 {
+  font-size: 26px;
+}
+.privacySection #container div.container > .row p {
+  line-height: 28px;
+}
+.col-ms-12 {
+  width: 100%;
+}
+article {
+  display: block;
+}
+.col-ms-12 h2 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.col-ms-12 p {
+  margin-bottom: 15px;
+}
+.col-ms-12 a {
+  color: #3177b3;
+  outline: 0;
+  text-decoration: none;
+  padding: 5px;
+}
+.col-ms-12 a:hover {
+  color: #3177b3;
+  text-decoration: underline;
+}
+.col-ms-12 ul {
+  margin-bottom: 15px;
+}
+.col-ms-12 ul li {
+  margin-left: 15px;
+  list-style-type: disc;
+}
+
+@media screen and (min-width: 1500px) {
+  .privacySection .container {
+    width: 1170px !important;
+  }
+}

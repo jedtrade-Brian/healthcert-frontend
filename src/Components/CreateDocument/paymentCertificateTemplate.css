@@ -1,0 +1,332 @@
+.paymentCertificateQuotationTemplate {
+  padding: 15px;
+  border: 1px solid #cccc;
+  max-width: 700px;
+}
+.paymentCertificateQuotationTemplate .paymentCertificateQuotationLogo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.paymentCertificateQuotationTemplate .paymentCertificateQuotationLogo > h3 {
+  font-size: 18px;
+  color: #000;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.paymentCertificateQuotationTemplate .paymentCertificateQuotationLogo .logo {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paymentCertificateQuotationTemplate
+  .paymentCertificateQuotationLogo
+  .addresspart {
+  width: 200px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.paymentCertificateQuotationTemplate
+  .paymentCertificateQuotationLogo
+  .addresspart
+  ul {
+  margin: 0px;
+  padding: 0px;
+}
+.paymentCertificateQuotationTemplate
+  .paymentCertificateQuotationLogo
+  .addresspart
+  ul
+  li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.paymentCertificateQuotationTemplate
+  .paymentCertificateQuotationLogo
+  .addresspart
+  ul
+  li
+  span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.paymentCertificateQuotationTemplate .centerhead {
+  margin: 10px 0px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+}
+
+.paymentCertificateQuotationTemplate .billpart {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.paymentCertificateQuotationTemplate .billpart .addressPart > span {
+  font-size: 12px;
+  color: #000;
+  display: block;
+}
+.paymentCertificateQuotationTemplate .billpart .addressPart > h4 {
+  font-size: 16px;
+  color: #000;
+  margin: 10px 0px;
+}
+.paymentCertificateQuotationTemplate .billpart .addressPart ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.paymentCertificateQuotationTemplate .billpart .addressPart ul li {
+  list-style: none;
+  margin-bottom: 3px;
+  line-height: normal;
+}
+.paymentCertificateQuotationTemplate .billpart .addressPart ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.paymentCertificateQuotationTemplate .deliveryInfo ul {
+  margin: 0px;
+  padding: 0px;
+}
+.paymentCertificateQuotationTemplate .deliveryInfo ul li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+.paymentCertificateQuotationTemplate .deliveryInfo ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.paymentCertificateQuotationTemplate .deliveryInfo ul li span:last-child {
+  font-size: 15px;
+}
+
+.paymentCertificateQuotationTemplate .claimSummary {
+  display: inline-block;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.paymentCertificateQuotationTemplate .saleModalTable {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+}
+.paymentCertificateQuotationTemplate .saleModalTable thead {
+  display: block;
+  width: 100%;
+}
+.paymentCertificateQuotationTemplate .saleModalTable thead tr {
+  display: flex;
+}
+.paymentCertificateQuotationTemplate .saleModalTable thead tr th {
+  display: block;
+  padding: 10px;
+  color: #000;
+  width: 15%;
+  border-right: 1px solid #ccc;
+  font-size: 13px;
+  font-weight: 600;
+  /* word-break: break-all; */
+  /* word-break: break-word; */
+  text-align: left;
+}
+.paymentCertificateQuotationTemplate .saleModalTable thead tr th:nth-child(1) {
+  width: 10%;
+}
+.paymentCertificateQuotationTemplate .saleModalTable thead tr th:last-child {
+  border-right: none;
+}
+.paymentCertificateQuotationTemplate .saleModalTable tbody {
+  display: block;
+  width: 100%;
+}
+.paymentCertificateQuotationTemplate .saleModalTable tbody tr {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.paymentCertificateQuotationTemplate .saleModalTable tbody tr td {
+  display: block;
+  padding: 10px;
+  color: #000;
+  border-right: 1px solid #ccc;
+  width: 15%;
+  word-break: break-all;
+  word-break: break-word;
+  font-size: 14px;
+}
+.paymentCertificateQuotationTemplate .saleModalTable tbody tr td span.label{
+  display: none;
+}
+.paymentCertificateQuotationTemplate .saleModalTable tbody tr td span{
+  display: inline-block;
+}
+.paymentCertificateQuotationTemplate .saleModalTable tbody tr td:nth-child(1) {
+  width: 10%;
+}
+.paymentCertificateQuotationTemplate .saleModalTable tbody tr td:last-child {
+  border-right: none;
+}
+.paymentCertificateQuotationTemplate
+  .saleModalTable
+  tbody
+  tr.totalpart
+  td:nth-child(1) {
+  width: 55%;
+  font-weight: 600;
+}
+.paymentCertificateQuotationTemplate
+  .saleModalTable
+  tbody
+  tr.totalpart
+  td:nth-child(2) {
+  width: 45%;
+}
+.paymentCertificateQuotationTemplate .bottomstatment span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.paymentCertificateQuotationTemplate .signedSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.paymentCertificateQuotationTemplate .signedSection ul {
+  margin: 0px;
+  padding: 0px;
+  width: 250px;
+}
+.paymentCertificateQuotationTemplate .signedSection ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.paymentCertificateQuotationTemplate .signedSection ul li span{
+  font-size: 14px;
+}
+.paymentCertificateQuotationTemplate .signedSection .notepart {
+  width: calc(100% - 260px);
+  margin-right: 10px;
+}
+.paymentCertificateQuotationTemplate .signedSection .notepart span {
+  font-size: 14px;
+  color: #000;
+}
+
+@media screen and (max-width:767px){
+  .paymentCertificateQuotationTemplate .saleModalTable{
+    border: none;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable thead{
+    display: none;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr{
+    flex-wrap: wrap;
+    
+    margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr td{
+    width: 100%;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr td span.label{
+    display: inline-block;
+    font-weight: 600;
+    min-width: 195px;
+    position: relative;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr td span.label::after{
+    content: ":";
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color: #000;
+    font-weight: 600;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr td:nth-child(1){
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:575px){
+  .paymentCertificateQuotationTemplate .signedSection .notepart{
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .paymentCertificateQuotationTemplate .signedSection ul {
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+  .paymentCertificateQuotationTemplate .paymentCertificateQuotationLogo .addresspart{
+    width: 100%;
+    padding-left: 90px;
+  }
+  .paymentCertificateQuotationTemplate .billpart .addressPart{
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  .paymentCertificateQuotationTemplate .billpart .deliveryInfo{
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:479px){
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr td span.label{
+    display: inline-block;
+    font-weight: 600;
+    min-width: auto;
+    width: auto;
+    position: relative;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr td span.label::after{
+    content: ":";
+    display: inline-block;
+    position: absolute;
+    right: -5px;
+    top: 0;
+    color: #000;
+    font-weight: 600;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr td span{
+    width: 100%;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr.totalpart td:nth-child(1){
+    width: 100%;
+  }
+  .paymentCertificateQuotationTemplate .saleModalTable tbody tr.totalpart td:nth-child(2){
+    width: 100%;
+  }
+}

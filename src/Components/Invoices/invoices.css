@@ -1,0 +1,67 @@
+.invoiceSection .invoiceHeader > h3{
+  font-size: 20px !important;
+  margin: 0px 0px 15px 15px !important;
+  padding-top: 12px;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.invoiceSection .MuiAppBar-colorPrimary {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0px;
+}
+
+.invoiceSection .MuiAppBar-colorPrimary .MuiTabs-indicator {
+  display: none;
+}
+
+.invoiceSection
+  .MuiAppBar-colorPrimary
+  .MuiTabs-flexContainer
+  > button.Mui-selected {
+  background: #fff;
+  border-radius: 4px 4px 0px 0px;
+ 
+}
+.invoiceSection
+  .MuiAppBar-colorPrimary
+  .MuiTabs-flexContainer
+  > button.Mui-selected .MuiTab-wrapper{
+    color: #000;
+    font-weight: 600;
+  }
+  .invoiceSection
+  .MuiAppBar-colorPrimary
+  .MuiTabs-flexContainer
+  > button .MuiTab-wrapper{
+    color: rgba(0,0,0,0.5);
+    font-size: 16px;
+    font-weight: 600;
+  }
+.invoiceSection .MuiBox-root {
+  background: #fff;
+  box-shadow: 0px 0px 12px #00000008;
+  border-radius: 0px 6px 6px 6px;
+}
+
+
+@media screen and (max-width:767px){
+
+  .invoiceSection{
+    min-height: auto;
+      position: fixed;
+      top: 80px;
+      height: calc(100% - 100px);
+      width: calc(100% - 0px);
+      left: 0px;
+      padding: 0px 20px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      -ms-overflow-style: none;
+      scrollbar-width: 0px;
+  }
+  .invoiceSection::-webkit-scrollbar{
+    display: none;
+  }
+}

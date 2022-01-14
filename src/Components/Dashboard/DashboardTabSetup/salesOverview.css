@@ -1,0 +1,1590 @@
+.salesaction {
+  display: flex;
+  /* align-items: center; */
+  padding: 10px 15px 0px 15px;
+  min-height: 59px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.salesaction .saleactionfirst {
+  margin-left: 0px;
+  margin-right: auto;
+}
+.salesaction .saleactionfirst button {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.salesaction .saleactionfirst button .MuiButton-label > span {
+  width: 30px;
+  color: #000;
+  background: #f4f4fb;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.salesaction .saleactionfirst button:first-child {
+  border-right: 1px solid #00000029;
+  border-top: 1px solid #00000029;
+  border-left: 1px solid #00000029;
+  border-bottom: 1px solid #00000029;
+  border-radius: 4px 0px 0px 4px;
+  background: #fff;
+}
+
+.salesaction .saleactionfirst button:nth-child(2) {
+  /* border-right: 1px solid #00000029; */
+  border-top: 1px solid #00000029;
+  /* border-left: 1px solid #00000029; */
+  border-bottom: 1px solid #00000029;
+  background: #fff;
+}
+
+.salesaction .saleactionfirst button:last-child {
+  border-right: 1px solid #00000029;
+  border-top: 1px solid #00000029;
+  border-left: 1px solid #00000029;
+  border-bottom: 1px solid #00000029;
+  border-radius: 0px 4px 4px 0px;
+  background: #fff;
+}
+
+.salesaction .saleactionfirst button.showButton {
+  transform: scale(1.05);
+  border: none;
+  background: #304ffe;
+  color: #ffff;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+}
+.salesaction .saleactionSecond {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+
+  flex-wrap: wrap;
+  /* margin-right: 0px;
+  margin-left: auto; */
+}
+.salesaction .saleactionSecond .MuiInputLabel-outlined{
+  font-size: 15px !important;
+}
+.salesaction .saleactionSecond .dashboardDateRangeBtn {
+  margin-bottom: 10px;
+  width: 240px;
+  min-height: 39px;
+}
+.salesaction .saleactionSecond .dashboardDateRangeBtn > span {
+  font-size: 16px;
+}
+.salesaction .saleactionSecond > button {
+  background: #304ffe;
+  color: #fff;
+  min-width: 115px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.salesaction .saleactionSecond > .MuiGrid-container .MuiFormControl-root {
+  margin: 0px;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+}
+
+.salesaction
+  .saleactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputLabel-formControl.MuiInputLabel-shrink {
+  transform: translate(5px, -6.5px) scale(0.75);
+  transform-origin: top left;
+  background: #fff;
+  padding: 0px 5px;
+}
+.salesaction
+  .saleactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root::before {
+  display: none;
+}
+.salesaction
+  .saleactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root::after {
+  display: none;
+}
+
+.salesaction
+  .saleactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root
+  input {
+  padding: 5px;
+}
+
+.salesaction
+  .saleactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInputBase-root
+  .MuiInputAdornment-root
+  .MuiIconButton-root
+  svg {
+  width: 15px;
+  height: auto;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.salesaction
+  .saleactionSecond
+  > .MuiGrid-container
+  .MuiFormControl-root
+  .MuiInput-formControl {
+  margin-top: 10px;
+}
+
+/***************DashboardSalesTable css *****************/
+
+.DashboardSalesTable {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.DashboardSalesTable .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.DashboardSalesTable .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.DashboardSalesTable .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.DashboardSalesTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.DashboardSalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+.DashboardSalesTable.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+}
+.DashboardSalesTable .ReactTable .rt-tbody .rt-tr-group:nth-child(2n) .rt-tr {
+  background: #f4f4fb;
+}
+.DashboardSalesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.DashboardSalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: pointer;
+  font-size: 14px;
+}
+/********************DashboardSalesTable Ends*************************************/
+
+/***************************dashinoviceOverviewTable css ***********************/
+
+.dashinoviceOverviewTable {
+  padding: 0px 15px;
+  margin-top: 5px;
+}
+.dashinoviceOverviewTable .ReactTable .rt-thead {
+  background: #f4f4fb;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.dashinoviceOverviewTable .ReactTable .rt-thead .rt-tr {
+  padding-top: 0px;
+}
+.dashinoviceOverviewTable .ReactTable .rt-thead .rt-resizable-header-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.dashinoviceOverviewTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: none;
+}
+.dashinoviceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  border-radius: 4px;
+}
+.dashinoviceOverviewTable.NoaSelect .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+  cursor: pointer;
+}
+.dashinoviceOverviewTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group:nth-child(2n)
+  .rt-tr {
+  background: #f4f4fb;
+}
+.dashinoviceOverviewTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-child(2) {
+  font-weight: 600;
+}
+.dashinoviceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+  cursor: pointer;
+  font-size: 14px;
+}
+/************************************************************************/
+
+/********************withLink starts**************************************/
+
+.DashboardSalesTable  .ReactTable.-striped .rt-tr.-odd{
+  background: #fff;
+}
+
+.DashboardSalesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-last-child(1) {
+  text-decoration: underline;
+  color: blue;
+}
+
+.DashboardSalesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td:nth-last-child(2) {
+  color: orange;
+}
+/**************************withLink Ends*********************************************/
+
+/******************documentOptions modal css ********************/
+.documentOptions .MuiDialog-paperWidthSm {
+  max-width: 700px;
+  width: 100%;
+}
+
+.documentOptions .MuiDialog-paperWidthSm .MuiDialogTitle-root {
+  display: flex;
+  align-items: center;
+}
+.documentOptions .MuiDialog-paperWidthSm .MuiDialogTitle-root > h6 {
+  width: calc(100% - 48px);
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.documentOptions
+  .MuiDialog-paperWidthSm
+  .MuiDialogTitle-root
+  > .MuiIconButton-root {
+  color: #000;
+}
+
+.documentOptions .MuiDialog-paperWidthSm .MuiDialogContent-root .documentflex {
+  display: flex;
+  margin: 0px -15px;
+  flex-wrap: wrap;
+}
+.documentOptions
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .documentflex
+  > div
+  > svg {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.documentOptions
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .documentflex
+  > div
+  > svg
+  path {
+  fill: #fff;
+}
+.documentOptions
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .documentflex
+  > div
+  > span {
+  display: inline-block;
+  color: #fff;
+}
+.documentOptions
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .documentflex
+  .salesquesiton {
+  width: calc(50% - 30px);
+  margin: 0px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #4791ff;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.documentOptions
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .documentflex
+  .deliveryOrder {
+  width: calc(50% - 30px);
+  margin: 0px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #eec73d59;
+  /* background: #eec73d; */
+  padding: 30px;
+  border-radius: 10px;
+  cursor: not-allowed;
+  /* cursor: pointer; */
+}
+
+.documentOptions
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .documentflex
+  .paymentCertificate {
+  width: calc(50% - 30px);
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #02bc77;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.documentOptions
+  .MuiDialog-paperWidthSm
+  .MuiDialogContent-root
+  .documentflex
+  .invoice {
+  width: calc(50% - 30px);
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ff2366;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/****************************************************************/
+/**************************saleModalTemplate***************************/
+.saleModaleTemplate .buyerSignedDocument {
+  padding: 0px;
+}
+.saleModaleTemplate .MuiDialogContent-root {
+  padding: 10px 15px !important;
+}
+.saleModaleTemplate .MuiDialog-paperWidthSm {
+  max-width: 800px;
+}
+.saleModaleTemplate .saleTemplatebody > h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  text-align: right;
+  margin: 0px;
+  line-height: normal;
+}
+.saleModaleTemplate .saleTemplatebody .companySection > h4 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  /* text-align: right; */
+  margin: 0px;
+  line-height: normal;
+}
+.saleModaleTemplate .saleTemplatebody .companySection > ul {
+  margin: 0px;
+  padding: 0px;
+}
+.saleModaleTemplate .saleTemplatebody .companySection > ul > li {
+  list-style: none;
+}
+.saleModaleTemplate .saleTemplatebody .companySection > ul > li > span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+
+.saleModaleTemplate .saleTemplatebody > .flexbox {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .billpart {
+  width: 50%;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .billpart > span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .billpart > h4 {
+  margin: 5px 0px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  line-height: normal;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .billpart > ul {
+  margin: 0px 0px;
+  padding: 0px;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .billpart > ul > li {
+  list-style: none;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .billpart > ul > li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .datepart {
+  width: 50%;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .datepart > ul.itemfirst {
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .datepart > ul.itemfirst li {
+  list-style: none;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.saleModaleTemplate
+  .saleTemplatebody
+  > .flexbox
+  > .datepart
+  > ul.itemfirst
+  li:last-child {
+  margin-bottom: 0px;
+}
+.saleModaleTemplate
+  .saleTemplatebody
+  > .flexbox
+  > .datepart
+  > ul.itemfirst
+  li
+  span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.saleModaleTemplate .saleTemplatebody > .flexbox > .datepart > ul {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .datepart > ul li {
+  list-style: none;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.saleModaleTemplate
+  .saleTemplatebody
+  > .flexbox
+  > .datepart
+  > ul
+  li:last-child {
+  margin-bottom: 0px;
+}
+.saleModaleTemplate .saleTemplatebody > .flexbox > .datepart > ul li span {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.saleModaleTemplate .saleTemplatebody .commentpart {
+  margin: 20px 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.saleModaleTemplate .saleTemplatebody .questionstatement {
+  margin: 10px 0px 15px 0px;
+}
+.saleModaleTemplate .saleTemplatebody .questionstatement p {
+  margin: 0px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+}
+.saleModaleTemplate .saleTemplatebody .commentpart span:nth-child(2) {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  width: calc(100% - 220px);
+}
+.saleModaleTemplate .saleTemplatebody .commentpart span:nth-child(1){
+  font-weight: 600;
+  margin-right: 5px;
+  white-space: nowrap;
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable {
+  display: block;
+}
+
+.saleModaleTemplate .saleTemplatebody .saleModalTable thead {
+  display: block;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable thead tr {
+  display: flex;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable thead tr th {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px;
+  border-right: 1px solid #ccc;
+  font-weight: 600;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable thead tr th:nth-child(1) {
+  width: 80px;
+  border-left: 1px solid #ccc;
+  white-space: nowrap;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable thead tr th:nth-child(2) {
+  width: calc(100% - 230px);
+  min-width: 100px;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable thead tr th:last-child {
+  width: 150px;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable tbody {
+  display: block;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable tbody tr {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable tbody tr td {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  color: #000;
+  border-right: 1px solid #ccc;
+  word-break: break-all;
+  word-break: break-word;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable tbody tr td:nth-child(1) {
+  width: 80px;
+  border-left: 1px solid #ccc;
+  min-width: 58.7px;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable tbody tr td:nth-child(2) {
+  width: calc(100% - 230px);
+  min-width: 100px;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable tbody tr td:last-child {
+  width: 150px;
+}
+.saleModaleTemplate .saleTemplatebody .saleModalTable tbody tr.bottomTotal {
+  justify-content: flex-end;
+  border-bottom: none;
+}
+.saleModaleTemplate
+  .saleTemplatebody
+  .saleModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(1) {
+  display: none;
+}
+.saleModaleTemplate
+  .saleTemplatebody
+  .saleModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(2) {
+  display: none;
+}
+.saleModaleTemplate
+  .saleTemplatebody
+  .saleModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(3) {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 151px;
+}
+.saleModaleTemplate
+  .saleTemplatebody
+  .saleModalTable
+  tbody
+  tr.bottomTotal
+  td:nth-child(3)
+  span {
+  display: inline-block;
+}
+.saleModaleTemplate .saleTemplatebody .termscondition > span {
+  display: block;
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+}
+.saleModaleTemplate .saleTemplatebody .termscondition > ul {
+  margin: 0px;
+  padding: 0px;
+}
+.saleModaleTemplate .saleTemplatebody .termscondition > ul li {
+  list-style: none;
+}
+.saleModaleTemplate
+  .saleTemplatebody
+  .termscondition
+  > ul
+  li
+  span:nth-child(1) {
+  width: 12px;
+  margin-right: 3px;
+}
+.saleModaleTemplate .saleTemplatebody .termscondition > ul li span {
+  display: inline-flex;
+  font-size: 12px;
+  color: #000;
+  width: calc(100% - 15px);
+}
+
+.saleModaleTemplate .saleTemplatebody .bottomStatement {
+  margin: 20px 0px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+}
+.saleModaleTemplate .saleTemplatebody .signedSection {
+  margin: 0px;
+  padding: 0px;
+  max-width: 270px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.saleModaleTemplate .saleTemplatebody .signedSection li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.saleModaleTemplate .saleTemplatebody .signedSection li span:first-child {
+  margin-right: 10px;
+}
+.saleModaleTemplate .saleTemplatebody .signedSection li span {
+  font-size: 14px;
+  display: inline-block;
+}
+.saleModaleTemplate .saleTemplatebody .signedSection li:last-child {
+  margin-bottom: 0px;
+}
+
+.saleTemplatebody .SalesQuotationassignmentTable {
+  display: block;
+}
+.saleTemplatebody .SalesQuotationassignmentTable thead {
+  display: block;
+  border: 1px solid #ccc;
+}
+.saleTemplatebody .SalesQuotationassignmentTable thead tr {
+  display: flex;
+  min-height: 50px;
+}
+.saleTemplatebody .SalesQuotationassignmentTable thead tr th {
+  /* display: flex; */
+  align-items: center;
+  color: #000;
+  padding: 10px;
+  font-size: 14px;
+  border-right: 1px solid #ccc;
+  font-weight: 600;
+}
+.saleTemplatebody .SalesQuotationassignmentTable thead tr th:nth-child(1) {
+  width: 15%;
+}
+.saleTemplatebody .SalesQuotationassignmentTable thead tr th:nth-child(2) {
+  width: calc(100% - 40%);
+}
+.saleTemplatebody .SalesQuotationassignmentTable thead tr th:nth-child(3) {
+  width: 25%;
+  border-right: none;
+}
+
+.saleTemplatebody .SalesQuotationassignmentTable tbody {
+  display: block;
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr {
+  display: flex;
+  min-height: 50px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr.totalPart {
+  /* width: calc(25% + 2px); */
+  width: calc(85% + 0px);
+  margin-right: 0px;
+  margin-left: auto;
+}
+.saleTemplatebody
+  .SalesQuotationassignmentTable
+  tbody
+  tr.totalPart
+  td:nth-child(2) {
+  width: 30% !important;
+  border: none;
+  justify-content: flex-end;
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr.totalPart td span {
+  margin: 0px;
+  display: inline-block;
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr td {
+  display: flex;
+  align-items: center;
+  color: #000;
+  padding: 10px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-right: 1px solid #ccc;
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr td span.label {
+  display: none;
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr td span {
+  display: inline-block;
+  margin: 0px;
+  word-break: break-all;
+  word-break: break-word;
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr td span.amount {
+  font-family: monospace;
+  float: right;
+  font-size: 14px;
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr td:last-child {
+  border-right: none;
+}
+.saleTemplatebody
+  .SalesQuotationassignmentTable
+  tbody
+  .totalPart
+  td:nth-child(1) {
+  border-right: 1px solid #ccc;
+  width: calc(100% - 28%);
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr td:nth-child(1) {
+  width: 15%;
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr td:nth-child(2) {
+  width: calc(100% - 40%);
+}
+.saleTemplatebody .SalesQuotationassignmentTable tbody tr td:nth-child(3) {
+  width: 25%;
+  justify-content: flex-end;
+}
+/***********************************************************************/
+
+/***********************Revoke Btn**************************/
+
+/* .DashboardSalesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+}
+
+.DashboardSalesTable
+  .ReactTable
+  .rt-tbody
+  .rt-tr-group
+  .rt-tr
+  .rt-td
+  .revokeBtn:hover {
+  color: #ff0000 !important;
+  background: #fff !important;
+  border: 1px solid #ff0000 !important;
+  border-radius: 7px !important;
+  height: 30px !important;
+  margin: 0px;
+} */
+
+/********************************************************************/
+/****************************NOA Template*****************************************/
+
+.noaTemplate > span {
+  display: inline-block;
+  color: #000;
+  font-size: 12px;
+}
+.noaTemplate .documentpart {
+  margin: 10px 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  align-items: flex-start;
+  padding-left: 10px;
+  justify-content: space-between;
+}
+.noaTemplate .documentpart li {
+  list-style: none;
+  width: calc(33.3% - 10px);
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.noaTemplate .documentpart li span.check {
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  min-height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid #304ffe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.noaTemplate .documentpart li span.check svg {
+  color: #304ffe;
+  width: 25px;
+  height: auto;
+}
+.noaTemplate .documentpart li span {
+  color: #000;
+  font-size: 13px;
+  display: inline-block;
+  line-height: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .DashboardSalesTable .ReactTable .rt-thead {
+    display: none;
+  }
+  .DashboardSalesTable .ReactTable .rt-tbody {
+    min-width: auto !important;
+  }
+  .DashboardSalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .DashboardSalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+    position: relative;
+    padding-left: 153px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .DashboardSalesTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(1) {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0px;
+  }
+  .DashboardSalesTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(1)
+    .dot {
+    position: relative;
+    padding-left: 60px;
+  }
+ /* =============================================== */
+ .DashboardSalesTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(1)
+    .dot::before {
+    content: 'S. :';
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ .DashboardSalesTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(2)::before {
+    content: 'Document Ref. No. :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ .DashboardSalesTable 
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(3)::before {
+    content: 'Company :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ .DashboardSalesTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(4)::before {
+    content: 'Document Type :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ .DashboardSalesTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(5)::before {
+    content: 'Creation Date & Time :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ .DashboardSalesTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(6)::before {
+    content: 'Last Updated :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ .DashboardSalesTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(7)::before {
+    content: 'Status :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+ .DashboardSalesTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(8)::before {
+    content: 'NOA :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .saleModaleTemplate .MuiDialog-paperWidthSm {
+    max-width: calc(100% - 30px);
+    max-height: calc(100% - 30px);
+    margin: 0px;
+  }
+
+  .saleModaleTemplate .saleTemplatebody .companySection > h4 {
+    font-size: 18px;
+  }
+  .saleModaleTemplate .saleTemplatebody > h3 {
+    font-size: 18px;
+  }
+  .saleModaleTemplate .saleTemplatebody > .flexbox > .billpart {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .saleModaleTemplate .saleTemplatebody > .flexbox > .datepart {
+    width: 100%;
+  }
+  .saleModaleTemplate
+    .saleTemplatebody
+    > .flexbox
+    > .datepart
+    > ul.itemfirst
+    li {
+    justify-content: flex-start;
+  }
+  .saleModaleTemplate .saleTemplatebody > .flexbox > .datepart > ul li {
+    justify-content: flex-start;
+  }
+
+  /**********************************.dashinoviceOverviewTable css********************/
+
+  .dashinoviceOverviewTable .ReactTable .rt-thead {
+    display: none;
+  }
+  .dashinoviceOverviewTable .ReactTable .rt-tbody {
+    min-width: auto !important;
+  }
+  .dashinoviceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr {
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .dashinoviceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+    position: relative;
+    padding-left: 130px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+    margin: 0px;
+  }
+  .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(1) {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0px;
+  }
+  .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(1)
+    .dot {
+    position: relative;
+    padding-left: 60px;
+  }
+  .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(1)
+    .dot::before {
+    content: 'S no. :';
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(2)::before {
+    content: 'Supplier Name :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(3)::before {
+    content: 'Pending Invoices :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(4)::before {
+    content: 'Invoice Financed :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  /***********************************************************************************/
+
+  /***********************************dashDeclined dashinoviceOverviewTable css***************/
+
+  .dashDeclined .dashinoviceOverviewTable .ReactTable .rt-thead {
+    display: none;
+  }
+  .dashDeclined .dashinoviceOverviewTable .ReactTable .rt-tbody {
+    min-width: auto !important;
+  }
+  .dashDeclined
+    .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr {
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+  }
+  .dashDeclined
+    .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td {
+    position: relative;
+    padding-left: 130px;
+    word-break: break-all;
+    word-break: break-word;
+    width: 50% !important;
+    max-width: 50% !important;
+    white-space: normal;
+    font-size: 14px;
+    min-height: 31px;
+  }
+  .dashDeclined
+    .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(1) {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0px;
+  }
+  .dashDeclined
+    .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(1)
+    .dot {
+    position: relative;
+    padding-left: 60px;
+  }
+  .dashDeclined
+    .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(1)
+    .dot::before {
+    content: 'S no. :';
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .dashDeclined
+    .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(2)::before {
+    content: 'Supplier Name :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+  .dashDeclined
+    .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td:nth-child(3)::before {
+    content: 'Invoice Financed :';
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  /**************************************************************************************/
+}
+
+@media screen and (max-width: 575px) {
+  .saleModaleTemplate .saleTemplatebody .commentpart span{
+    width: 100% !important;
+  }
+  .documentOptions .MuiDialog-paperWidthSm .MuiDialogTitle-root > h6 {
+    font-size: 16px;
+  }
+  .dashboardTabComponent
+    .MuiAppBar-colorPrimary
+    .MuiTabs-flexContainer
+    > button {
+    padding: 5px 10px;
+  }
+  .DashboardSalesTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .dashinoviceOverviewTable .ReactTable .rt-tbody .rt-tr-group .rt-tr .rt-td {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .dashDeclined
+    .dashinoviceOverviewTable
+    .ReactTable
+    .rt-tbody
+    .rt-tr-group
+    .rt-tr
+    .rt-td {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .salesaction .saleactionSecond {
+    margin-left: 0px;
+  }
+  .dashboardSection
+    .dashboardHeader
+    .dashboardHeaderBtn
+    button
+    .MuiButton-label {
+    font-size: 13px;
+  }
+  .dashboardSection .dashboardHeader .dashHeaderPeformance {
+    display: flex;
+    align-items: center;
+  }
+  .dashboardSection .dashboardHeader .dashboardHeaderBtn {
+    display: flex;
+    align-items: center;
+  }
+  /* .dashboardSection .dashboardHeader .dashboardHeaderBtn button{
+    border-radius: 4px !important;
+  } */
+  .dashboardSection
+    .dashboardHeader
+    .dashboardHeaderBtn
+    button.highlightButton {
+    transform: scale(1.01) !important;
+  }
+  .documentOptions .MuiDialog-paperWidthSm {
+    max-width: calc(100% - 30px);
+    max-height: calc(100% - 30px);
+    margin: 0px;
+  }
+  .noaTemplate .documentpart li span.check {
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    min-height: 25px;
+  }
+  .noaTemplate .documentpart li span.check svg {
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .noaTemplate .documentpart {
+    padding-left: 0px;
+  }
+  .noaTemplate .documentpart li span.check {
+    margin-right: 5px;
+  }
+  .noaTemplate .documentpart li span {
+    font-size: 11px;
+  }
+  /* .saleModalTable.dashsaleModal */
+  .saleModalTable.dashsaleModal tbody tr.bottomTotal td:nth-child(3) {
+    width: 100% !important;
+  }
+  .saleModalTable.dashsaleModal
+    tbody
+    tr.bottomTotal
+    td:nth-child(3)
+    span:first-child {
+    min-width: 58.7px;
+    width: 70px;
+  }
+  .documentOptions
+    .MuiDialog-paperWidthSm
+    .MuiDialogContent-root
+    .documentflex
+    > div
+    > svg {
+    width: 35px;
+    height: auto;
+  }
+  .documentOptions
+    .MuiDialog-paperWidthSm
+    .MuiDialogContent-root
+    .documentflex
+    .salesquesiton {
+    width: calc(100% - 30px);
+    padding: 15px;
+  }
+  .documentOptions
+    .MuiDialog-paperWidthSm
+    .MuiDialogContent-root
+    .documentflex
+    .deliveryOrder {
+    width: calc(100% - 30px);
+    padding: 15px;
+  }
+  .documentOptions
+    .MuiDialog-paperWidthSm
+    .MuiDialogContent-root
+    .documentflex
+    .paymentCertificate {
+    width: calc(100% - 30px);
+    margin: 0px 15px 15px 15px;
+    padding: 15px;
+  }
+  .documentOptions
+    .MuiDialog-paperWidthSm
+    .MuiDialogContent-root
+    .documentflex
+    .invoice {
+    width: calc(100% - 30px);
+    padding: 15px;
+  }
+  .dashboardTabComponent
+    .MuiAppBar-colorPrimary
+    .MuiTabs-flexContainer
+    > button
+    .MuiTab-wrapper {
+    font-size: 12px !important;
+  }
+  .salesaction .saleactionfirst {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .salesaction .saleactionfirst > button {
+    width: 100%;
+    border-radius: 4px !important;
+  }
+  .salesaction .saleactionfirst button.showButton {
+    transform: scale(1.01);
+  }
+  .salesaction .saleactionSecond {
+    width: 100%;
+  }
+  .salesaction .saleactionSecond .dashboardDateRangeBtn {
+    width: 100%;
+  }
+  .salesaction .saleactionSecond > div {
+    width: 100%;
+  }
+  .salesaction .saleactionSecond > button {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .dashboardSection .dashboardHeader .dashboardHeaderBtn {
+    width: 100%;
+    margin-right: 0px !important;
+    flex-wrap: wrap;
+  }
+  .dashboardSection .dashboardHeader .dashboardHeaderBtn button {
+    margin-bottom: 10px;
+    padding: 5px;
+    min-width: 21%;
+  }
+  .dashboardSection
+    .dashboardHeader
+    .dashboardHeaderBtn
+    button
+    .MuiButton-label {
+    font-size: 11px;
+  }
+  .dashboardSection .dashboardHeader .dashHeaderPeformance {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .salesaction .saleactionfirst button:nth-child(2) {
+    border-right: 1px solid #00000029;
+    border-left: 1px solid #00000029;
+  }
+
+  .saleTemplatebody .SalesQuotationassignmentTable tbody tr.totalPart {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .saleTemplatebody .SalesQuotationassignmentTable thead {
+    display: none;
+  }
+  .saleTemplatebody .SalesQuotationassignmentTable tbody tr {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .saleTemplatebody .SalesQuotationassignmentTable tbody tr td {
+    width: 100% !important;
+    align-items: flex-start;
+  }
+
+  .saleTemplatebody .SalesQuotationassignmentTable tbody tr td:nth-child(3) {
+    justify-content: flex-start;
+  }
+  .saleTemplatebody .SalesQuotationassignmentTable tbody tr td span.label {
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    min-width: 100px;
+    position: relative;
+  }
+  .saleTemplatebody
+    .SalesQuotationassignmentTable
+    tbody
+    tr
+    td
+    span.label::after {
+    content: ':';
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    color: #000;
+    font-weight: 600;
+  }
+  .saleTemplatebody .SalesQuotationassignmentTable tbody tr.totalPart {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0px;
+  }
+  .saleTemplatebody .SalesQuotationassignmentTable tbody tr.totalPart td span {
+    min-width: 100px;
+  }
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    .totalPart
+    td:nth-child(1) {
+    width: 100px !important;
+    border-right: none !important;
+  }
+
+  .saleTemplatebody
+    .SalesQuotationassignmentTable
+    tbody
+    .totalPart
+    td:nth-child(1)
+    span {
+    position: relative;
+  }
+  .saleTemplatebody
+    .SalesQuotationassignmentTable
+    tbody
+    .totalPart
+    td:nth-child(1)
+    span::after {
+    content: ':';
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    color: #000;
+    font-weight: 600;
+  }
+  .SalesQuotationDetailsSection
+    .SalesQuotationDetailBody
+    .SalesQuotationassignmentTable
+    tbody
+    .totalPart
+    td:nth-child(2) {
+    width: calc(100% - 100px) !important;
+  }
+}

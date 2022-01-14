@@ -1,0 +1,11 @@
+*:80
+root /www/public
+log stdout
+errors
+
+proxy /api {$APIENDPOINT}
+
+rewrite {
+  if {path} not_match ^/(api)
+  to {path} {path}/ /
+}

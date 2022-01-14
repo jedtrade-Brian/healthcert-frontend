@@ -1,0 +1,103 @@
+.dashboardDateRangeBtn {
+    width: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    line-height: 30px;
+    /* margin-bottom: 20px; */
+    margin-left: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+  }
+  .dashboardDateRangeBtn svg {
+    fill: rgba(0, 0, 0, 0.3);
+  }
+
+
+  @media screen and (max-width:575px){
+    .customeDatePicker  .MuiDialog-paperScrollPaper{
+      margin: 0px;
+      max-width: calc(100% - 30px);
+      max-height: calc(100% - 30px);
+    }
+    .customeDatePicker .MuiDialogContent-root{
+      padding: 10px 6px 0px 6px!important;
+    }
+    .customeDatePicker .rdrMonth{
+      width: auto;
+      padding: 0px;
+    }
+  }
+
+  /* =================================== Stepper ================================= */
+  .progressSteps {
+    overflow-x: auto;
+  }
+
+ .progressSteps .MuiStepper-root {
+    padding: 0px;
+  }
+
+    .progressSteps
+    .MuiStepper-root
+    .MuiStep-completed
+    .MuiStepIcon-root.MuiStepIcon-completed {
+    color: #1fa81b;
+  }
+
+    .progressSteps
+    .MuiStepper-root
+    .MuiStep-completed
+    .MuiStepLabel-labelContainer
+    .MuiTypography-root {
+    color: #1fa81b;
+    margin-top: 5px;
+  }
+
+    .progressSteps
+    .MuiStepper-root
+    .MuiStep-root
+    .MuiStepLabel-labelContainer
+    .MuiTypography-root {
+    margin-top: 5px;
+    color: #000;
+  }
+
+    .progressSteps
+    .MuiStepper-root
+    .MuiStep-root
+    .MuiStepIcon-text {
+    display: none;
+  }
+
+    .progressSteps
+    .MuiStepper-root
+    .MuiStep-root
+    .MuiSvgIcon-root {
+    color: #f1f1f1;
+  }
+
+    .progressSteps
+    .MuiStepper-root
+    .MuiStep-root
+    .MuiStepConnector-line {
+    border-color: #f1f1f1;
+  }
+
+
+  @media screen and (max-width:479px){
+   .progressSteps .MuiStepper-root .MuiStep-root{
+      padding: 0px 5px;
+    }
+   .progressSteps .MuiStepper-root .MuiStep-root .MuiStepLabel-labelContainer .MuiTypography-root{
+      font-size: 10px;
+    }
+   .progressSteps .MuiStepper-root .MuiStep-root .MuiStepConnector-alternativeLabel {
+      top: 12px;
+      left: calc(-50% + 12px);
+      right: calc(50% + 12px);
+      position: absolute;
+   }
+  }
