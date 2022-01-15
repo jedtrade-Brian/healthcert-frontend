@@ -23,7 +23,7 @@ export default class TvCertDetailsView extends React.Component {
         let wrapDocString = JSON.stringify(this.props.wrapDocInfo)
         const blob = new Blob([wrapDocString], {type: "application/json"});
         const jsonUrl = URL.createObjectURL(blob);
-
+        console.log(jsonUrl);
         let downloadLink = document.createElement("a");
         downloadLink.href = jsonUrl;
         downloadLink.download = `${this.props.certificate.transcriptId}-${this.props.certificate.docType}.json`;
@@ -53,14 +53,21 @@ export default class TvCertDetailsView extends React.Component {
         console.log('email QR Code Clicked!');
         let certificate = this.props.certificate
         const canvas = document.getElementById(certificate.docHash);
+        console.log(certificate.docHash);
+        
+        console.log(canvas);
+
         const qrURL = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
     }
 
     retrieveUrl = () => {
         let certificate = this.props.certificate
+        
         const canvas = document.getElementById(certificate.docHash);
-        const qrURL = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
-        this.setState({ qrURL: qrURL })
+
+        console.log();
+        //const qrURL = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+        //this.setState({ qrURL: qrURL })
     }
 
     convertFromUnix = (dateTime) => {
@@ -107,19 +114,19 @@ export default class TvCertDetailsView extends React.Component {
                     <div className="col-sm-9">
                         <div className="detailsRow">
                             <span className="detailsTitle">Patient ID:</span> 
-                            <span className="detailsValue">{certificate.PatientId}</span>
+                            <span className="detailsValue">{certificate.patientId}</span>
                         </div>
                         <div className="detailsRow">
                             <span className="detailsTitle">Patient Name:</span>
-                            <span className="detailsValue">{certificate.patientFirstName}</span>
+                            <span className="detailsValue">{certificate.name}</span>
                         </div>
                         <div className="detailsRow">
                             <span className="detailsTitle">Issued On:</span>
                             <span className="detailsValue">{this.convertFromUnix(certificate.issuedOn)}</span>
                         </div>
                         <div className="detailsRow">
-                            <span className="detailsTitle">Course Name</span>
-                            <span className="detailsValue">{certificate.title}</span>
+                            <span className="detailsTitle">Test Name</span>
+                            <span className="detailsValue">{certificate.testName}</span>
                         </div>
                         <div className="detailsRow">
                             <div className="dropdown">
@@ -159,7 +166,7 @@ export default class TvCertDetailsView extends React.Component {
                                     Email
                                 </button>
                                 <div className="dropdown-menu" aria-labelledby="emailDropdown">
-                                    <button className="dropdown-item"  onClick={() => this.emailPDF()} >Email PDF</button>
+                                    <button className="dropdown-item" onClick={() => this.emailPDF()} >Email PDF</button>
                                     <button className="dropdown-item" onClick={() => this.emailJSON()} >Email JSON</button>
                                     <button className="dropdown-item" onClick={() => this.emailQRCode()} >Email QR Code</button>
                                 </div>
@@ -168,9 +175,12 @@ export default class TvCertDetailsView extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-3">
+                        
                         <QRCode 
-                            id= {certificate.docHash}
-                            value= {`https://jviewer.sandbox158.run/?docHash=${certificate.docHash}`}
+                        
+                            id= {certificate.documentId}
+                            //value= {`https://jviewer.sandbox158.run/?docHash=${certificate.docHash}`}
+                            value= {`https://dev.opencerts.io/?q=%7B%22type%22%3A%22DOCUMENT%22%2C%22payload%22%3A%7B%22uri%22%3A%22https%3A%2F%2Fjedtrade-eugene.github.io%2Fffb1e61f-30ec-419c-9e0c-baa844d876b1-HCPCR.json%22%2C%22key%22%3A%222b1236683c3a842ed4a0bb032c1cf668e24bcaf8ce599aeef502c93cb628152c%22%7D%7D`}
                             size={140}
                             level={"M"}
                             includeMargin={true}

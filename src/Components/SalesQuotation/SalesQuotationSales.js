@@ -33,9 +33,13 @@ class SalesQuotationSales extends Component {
     };
   }
 
+  
+
   componentDidMount() {
     this.formatCertificateData(this.props.data);
     this.toggleChangeValue();
+
+    
   }
 
   componentDidUpdate() {
@@ -102,7 +106,12 @@ class SalesQuotationSales extends Component {
   formatCertificateData = (data) => {
     let filterCerts = data.sort((a, b) => a.issuedOn - b.issuedOn).reverse();
 
+    
+
     let formatedData = filterCerts.map((cert) => {
+
+      
+
       const formatedCert = Object.assign({}, cert);
       if(cert.issuedOn === 0){
         formatedCert.issuedOn = "Pending"
@@ -454,6 +463,8 @@ class SalesQuotationSales extends Component {
   sortByHeader = (columnId) => {
     console.log(`Column Header {${columnId}} Clicked!`);
     this.SortCertificateData(this.props.data, columnId);
+
+    
     this.toggleChangeValue();
 
   }
@@ -502,6 +513,7 @@ class SalesQuotationSales extends Component {
     const columns = nameColumn.concat(salesQuotationSale.columns).concat(actionColumn);
     return (
       <div>
+        
         <BackdropLoader open={this.props.loader} />
           <div className="salesQtnTable">
             <div>
@@ -516,9 +528,11 @@ class SalesQuotationSales extends Component {
               }
             </div>
             <div className="salesOverviewTable SalesQuotationSalesTable">
+            
               {this.props.data && (
                 <NewReactTableComponent
-                  listData={this.state.formatedCert ? this.state.formatedCert : []}
+                  listData={this.state.formatedCert ? this.state.formatedCert : []}  
+                  
                   listConfig={salesQuotationSale}
                   columns={columns}
                   onHeaderClick={this.sortByHeader}
@@ -529,7 +543,9 @@ class SalesQuotationSales extends Component {
                   }}
                   filterChangeValue={this.state.changeValue}
                 />
-              )}           
+              )
+              } 
+                       
             </div>
             {this.state.openDeclinedModal && (
               <ConfirmationPopUp
