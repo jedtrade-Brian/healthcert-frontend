@@ -1,34 +1,94 @@
 .detailsBox {
-    min-height: 240px;
-    padding-top: 50px;
-    padding-left: 30px;
+    
+    height:240px;
+   
+    padding-bottom: 5px;
+    padding-left:5px;
+    padding-right:5px;
+    
     max-width: 100%;
+    border-style:none;
+    border-color:#000;
+    border-width: 5px;
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
+    margin-left:6px;
+    margin-top: -10px;
+  
 }
 
 .widthMatchParent {
-    max-width: 700px !important;
+    max-width: 730px !important;
 }
 
 .detailsTitle {
     display: inline-block;
-    width: 110px;
-    font-size: 16px;
+    width: 95px;
+    font-size: 12px;
     color: #707070;
+    font-weight: bold;
+    border-style:none;
+    border-color:#000;
+    border-width: 2px;
+    
 }
 
 .detailsValue {
     font-weight: 600;
-    padding-left: 30px;
-    font-size: 16px;
+    font-size: 12px;
+    border-style: none;
+    border-width:1px;
+    border-color:#f00;
+    overflow: hidden;
+    
+    
+    
+}
+
+.col-sm-9 {
+    border-style: none;
+    border-width:1px;
+    border-color:#f00;
+    padding: 0%;
+    max-width:86%;
+    float:left;
+}
+
+.col-sm-3 {
+    border-style: none;
+    border-width:1px;
+    border-color:#00f;
+    padding: 0%;
+    max-width:13%;
+    float:right;
+    padding: 0%;
+    margin-top:30px;
+    margin-left: 5px;
 }
 
 .detailsRow {
-    margin-bottom: 8px;
+    
+    border-style: none;
+    border-color:#ff0;
+    border-width:2px;
+
+    
 }
 
 .dropdown {
     display: inline-block !important;
     padding-right: 20px;
-    margin-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 8px;
+    padding-bottom: 5px;
+    border-style: none;
+    border-color:#ff0;
+    border-width:2px;
+   
 }
+
+.btn {
+   font-size: 12px;
+   font-weight: bold;
+}
+

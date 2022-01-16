@@ -11,6 +11,10 @@ import ReactDOM from 'react-dom'
 import {emailCertificatePDF} from '../../../services/createDocumentService'
 import { messagePopup } from '../../../services/messagePopupService.jsx';
 
+
+
+
+
 export default class TvCertDetailsView extends React.Component {
     constructor (props) {
         super(props);
@@ -48,6 +52,8 @@ export default class TvCertDetailsView extends React.Component {
         console.log('email JSON Clicked!');
         const blob = new Blob([this.props.certificate.wrapDocInfo], {type: "application/json"});
         const jsonUrl = URL.createObjectURL(blob);
+
+        console.log();
     }
     emailQRCode = () => {
         console.log('email QR Code Clicked!');
@@ -104,14 +110,23 @@ export default class TvCertDetailsView extends React.Component {
             }
             return `${date} ${month} ${year}, ${hour}:${mins} ${timeType}`
         }
-      }
+    }
+
+   
 
     render () {
         let certificate = this.props.certificate
+        
         return (
-            <div className="container widthMatchParent">
-                <div className="row detailsBox">
+            
+            <div className=" widthMatchParent">
+                <div className=" detailsBox">
                     <div className="col-sm-9">
+                        
+                        <div className="detailsRow">
+                            <span className="detailsTitle">Certificate No:</span>
+                            <span className="detailsValue">{certificate.reference}</span>
+                        </div>
                         <div className="detailsRow">
                             <span className="detailsTitle">Patient ID:</span> 
                             <span className="detailsValue">{certificate.patientId}</span>
@@ -125,9 +140,23 @@ export default class TvCertDetailsView extends React.Component {
                             <span className="detailsValue">{this.convertFromUnix(certificate.issuedOn)}</span>
                         </div>
                         <div className="detailsRow">
-                            <span className="detailsTitle">Test Name</span>
+                            <span className="detailsTitle">Test Name:</span>
                             <span className="detailsValue">{certificate.testName}</span>
                         </div>
+                        <div className="detailsRow">
+                            <span className="detailsTitle">Certificate Store:</span>
+                            <span className="detailsValue">{certificate.issuerDocStore}</span>
+                        </div>
+                        <div className="detailsRow">
+                            <span className="detailsTitle">Certificate Hash:</span>
+                            <span className="detailsValue">{certificate.docHash}</span>
+                        </div>
+                        
+                        <div className="detailsRow">
+                            <span className="detailsTitle">Merkleroot:</span>
+                            <span className="detailsValue">{certificate.merkleroot}</span>
+                        </div>
+                        
                         <div className="detailsRow">
                             <div className="dropdown">
                                 <button 
@@ -174,14 +203,18 @@ export default class TvCertDetailsView extends React.Component {
                             
                         </div>
                     </div>
+
+                    
+
                     <div className="col-sm-3">
-                        
+                   
                         <QRCode 
-                        
-                            id= {certificate.documentId}
-                            //value= {`https://jviewer.sandbox158.run/?docHash=${certificate.docHash}`}
-                            value= {`https://dev.opencerts.io/?q=%7B%22type%22%3A%22DOCUMENT%22%2C%22payload%22%3A%7B%22uri%22%3A%22https%3A%2F%2Fjedtrade-eugene.github.io%2Fffb1e61f-30ec-419c-9e0c-baa844d876b1-HCPCR.json%22%2C%22key%22%3A%222b1236683c3a842ed4a0bb032c1cf668e24bcaf8ce599aeef502c93cb628152c%22%7D%7D`}
-                            size={140}
+                            
+                            id= {certificate.reference}
+                            
+                            //value= {`https://jviewer.sandbox158.run/?docHash=${certificate.id}`}
+                            value= {`https://dev.opencerts.io/?q=%7B%22type%22%3A%22DOCUMENT%22%2C%22payload%22%3A%7B%22uri%22%3A%22https%3A%2F%2Fjedtrade-eugene.github.io%2F${certificate.reference}-HCPCR.json%22%2C%22key%22%3A%222b1236683c3a842ed4a0bb032c1cf668e24bcaf8ce599aeef502c93cb628152c%22%7D%7D`}
+                            size={80}
                             level={"M"}
                             includeMargin={true}
                         />
