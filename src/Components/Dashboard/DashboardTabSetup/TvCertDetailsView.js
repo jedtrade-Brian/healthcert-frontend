@@ -122,7 +122,10 @@ export default class TvCertDetailsView extends React.Component {
             <div className=" widthMatchParent">
                 <div className=" detailsBox">
                     <div className="col-sm-9">
-                        
+                        <div className="detailsRow">
+                            <span className="detailsTitle">Issued By:</span>
+                            <span className="detailsValue" style={{fontSize:"16px"}}>uni1ds.sandbox158.run</span>
+                        </div>
                         <div className="detailsRow">
                             <span className="detailsTitle">Certificate No:</span>
                             <span className="detailsValue">{certificate.reference}</span>
@@ -214,7 +217,7 @@ export default class TvCertDetailsView extends React.Component {
                             
                             //value= {`https://jviewer.sandbox158.run/?docHash=${certificate.id}`}
                             value= {`https://dev.opencerts.io/?q=%7B%22type%22%3A%22DOCUMENT%22%2C%22payload%22%3A%7B%22uri%22%3A%22https%3A%2F%2Fjedtrade-eugene.github.io%2F${certificate.reference}-HCPCR.json%22%2C%22key%22%3A%222b1236683c3a842ed4a0bb032c1cf668e24bcaf8ce599aeef502c93cb628152c%22%7D%7D`}
-                            size={80}
+                            size={95}
                             level={"M"}
                             includeMargin={true}
                         />

@@ -17,16 +17,10 @@ export default class TvCertModalIFrame extends React.Component {
     }
 
     render () {
-        return (
-            
-              
+        return (  
         <>
             
             
-            
-        
-
-
             <iframe scrolling="no" 
             
                 style={{height:"1550px", width:"98.5%", marginTop:"-430px", marginLeft:"6.5px", marginRight:"6.5px"}} 

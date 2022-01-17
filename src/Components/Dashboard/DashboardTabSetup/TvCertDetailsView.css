@@ -1,11 +1,9 @@
 .detailsBox {
     
-    height:240px;
+    height:265px;
    
     padding-bottom: 5px;
-    padding-left:5px;
-    padding-right:5px;
-    
+   
     max-width: 100%;
     border-style:none;
     border-color:#000;
@@ -47,11 +45,11 @@
 }
 
 .col-sm-9 {
-    border-style: none;
+    border-style:none ;
     border-width:1px;
     border-color:#f00;
     padding: 0%;
-    max-width:86%;
+    max-width:85%;
     float:left;
 }
 
@@ -60,11 +58,10 @@
     border-width:1px;
     border-color:#00f;
     padding: 0%;
-    max-width:13%;
+    max-width:15%;
     float:right;
-    padding: 0%;
     margin-top:30px;
-    margin-left: 5px;
+    margin-right: 0px;
 }
 
 .detailsRow {
