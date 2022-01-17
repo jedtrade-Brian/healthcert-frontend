@@ -94,12 +94,16 @@ class DeliveryOrderTab extends Component {
     }
 
     let filteredStudents = students.filter((student) => {
-        const studentName = student.name.toLowerCase();
-        const email = student.email.toLowerCase();
-        const studentId = student.studentId.toString().toLowerCase();
-        const nric = student.nric.toString().toLowerCase();
+        console.log(student.patientName);
+        console.log(student.patientEmail);
+        console.log(student.patientId);
+        console.log(student.patientNRIC);
+        const pName = student.patientName.toLowerCase();
+        const pEmail = student.patientEmail.toLowerCase();
+        const pId = student.patientId.toString().toLowerCase();
+        const pNRIC = student.patientNRIC.toString().toLowerCase();
         query = query.toString().toLowerCase();
-        return (studentName.includes(query) || email.includes(query) || nric.includes(query) || studentId.includes(query));
+        return (pName.includes(query) || pEmail.includes(query) || pNRIC.includes(query) || pId.includes(query));
     });
 
     this.setState({ filteredStudents: filteredStudents });

@@ -77,7 +77,7 @@ class CreateDocument extends Component {
     switch (type) {
       case "TVCertificate":
         this.setState({
-          heading: "Create Jupyton Certificate",
+          heading: "Create Certificate",
           formConfig: TVCertificateConfigRight,
           infoHeading: "Subject Information"
         });

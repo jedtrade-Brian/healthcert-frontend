@@ -177,16 +177,18 @@ class SalesQuotationTab extends Component {
   filterCerts = (certs, query) => {
     if (!query) {
       let allCerts = this.state.certificateList
+      
       this.setState({ filteredCertList: allCerts });
     }
 
     let filteredCerts = certs.filter((cert) => {
-        const studentName = cert.studentName.toLowerCase() + " " + cert.studentLastName.toLowerCase();
-        const courseName = cert.courseName.toLowerCase();
+        console.log(cert.transcriptId)
+        const Name = cert.name.toLowerCase();
+        const testName = cert.testName.toLowerCase();
         const transcriptId = cert.transcriptId.toString().toLowerCase();
-        const studentId = cert.studentId.toString().toLowerCase();
+        const patientId = cert.patientId.toString().toLowerCase();
         query = query.toString().toLowerCase();
-        return (studentName.includes(query) || courseName.includes(query) || transcriptId.includes(query) || studentId.includes(query));
+        return (Name.includes(query) || testName.includes(query) || transcriptId.includes(query) || patientId.includes(query));
     });
 
     this.setState({ filteredCertList: filteredCerts });

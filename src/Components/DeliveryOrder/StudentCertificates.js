@@ -222,12 +222,12 @@ export class StudentCertificates extends Component {
     }
 
     let filteredCerts = certs.filter((cert) => {
-        const studentName = cert.studentName.toLowerCase() + " " + cert.studentLastName.toLowerCase();
-        const courseName = cert.courseName.toLowerCase();
+        const patientName = cert.name.toLowerCase();
+        const testName = cert.testName.toLowerCase();
         const transcriptId = cert.transcriptId.toString().toLowerCase();
-        const studentId = cert.studentId.toString().toLowerCase();
+        const patientId = cert.patientId.toString().toLowerCase();
         query = query.toString().toLowerCase();
-        return (studentName.includes(query) || courseName.includes(query) || transcriptId.includes(query) || studentId.includes(query));
+        return (patientName.includes(query) || testName.includes(query) || transcriptId.includes(query) || patientId.includes(query));
     });
 
     console.log("Filter Certs: ", filteredCerts)
@@ -413,7 +413,7 @@ export class StudentCertificates extends Component {
             <span className="studentDetailsTitle">Student Name</span>
             <span className="studentDetailsValue">{this.state.certificateList[0].studentFullName}</span>
             <span className="studentDetailsTitle2">Student ID</span>
-            <span className="studentDetailsValue">{this.state.certificateList[0].studentId}</span>
+            <span className="studentDetailsValue">{this.state.certificateList[0].patientId}</span>
           </div>
 
           <div className="studentDetailsRow">
