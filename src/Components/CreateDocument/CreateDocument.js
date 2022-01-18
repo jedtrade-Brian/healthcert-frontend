@@ -129,17 +129,24 @@ class CreateDocument extends Component {
     return (
       <div className="createsaleSection">
         <h3>{this.state.heading}</h3>
+        
         <div>
           <Stepper
             activeStep={this.state.activeStep}
-            // className={this.state.activeStep === 1 ? "completed" : ""}
+            //className={this.state.activeStep === 1 ? "completed" : ""}
             alternativeLabel
+            
           >
             {steps.map(label => (
+              
               <Step key={label}>
+                
                 <StepLabel>{label}</StepLabel>
+                
+               
               </Step>
             ))}
+            
           </Stepper>
         </div>
         {

@@ -20,6 +20,7 @@
 }
 .createsaleSection .MuiStepper-root .MuiStepConnector-root {
   display: none;
+ 
 }
 .createsaleSection .MuiStepper-root .MuiStep-horizontal {
   padding: 3px 0px;
@@ -27,6 +28,7 @@
 }
 .createsaleSection .MuiStepper-root .MuiStep-completed {
   background: #15A063;
+ 
 }
 .createsaleSection
   .MuiStepper-root
@@ -36,16 +38,17 @@
 }
 .createsaleSection .MuiStepper-root .MuiStep-completed .MuiStepIcon-root {
   border: none !important;
+
 }
 .createsaleSection .MuiStepper-root .MuiStep-completed .MuiStepIcon-root path {
   fill: #fff;
 }
 .createsaleSection .MuiStepper-root .MuiStep-horizontal:first-child {
-  border-radius: 30px 0px 0px 30px;
+  border-radius: 5px 0px 0px 5px;
   padding-left: 5px;
 }
 .createsaleSection .MuiStepper-root .MuiStep-horizontal:last-child {
-  border-radius: 0px 30px 30px 0px;
+  border-radius: 0px 5px 5px 0px;
 }
 .createsaleSection .MuiStepper-root .MuiStep-horizontal .MuiStepLabel-root {
   flex-direction: row;
@@ -89,7 +92,7 @@
   .MuiStepLabel-label.MuiStepLabel-alternativeLabel {
   margin-top: 0px;
   color: rgba(0, 0, 0, 0.5);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /****************saleTempImgBox css **************************/
@@ -251,7 +254,7 @@
 
 .saleTempImgBox img {
   width: 300px;
-  height: 240px;
+  height: 400px;
   border: 2px solid #ccc;
   padding: 1.5px;
 }
@@ -290,6 +293,7 @@
 
 .templateName {
   align-self: center;
+  font-weight: bold;
 }
 
 .previewImageBtnContent {
@@ -686,7 +690,7 @@
   border: none;
   color: #fff;
   border-radius: 4px;
-  background: #FE6B00;
+  background: #15A063;
   min-width: 100px;
 }
 .createsaleSection .salebottomAction .confirmBtn:hover {

@@ -667,53 +667,8 @@ class SelectTemplate extends Component {
       <div>
         <div className="saleTempImgBox">
           <h3>Choose A Template</h3>
-          <span
-            className={
-              this.state.isSelected === 'any'
-                ? "certificateTemplateImgBorder"
-                : "certificateTemplateImg"
-            }
-            onClick={this.enableButtons}
-            id='any'
-          >
-            <img src={anyUrl} alt="Combine Templates Option" />
-            <div className="templateName">Multiple Templates</div>
-          </span>
-          <span
-            className={
-              this.state.isSelected === 'ADCS_Doc'
-                ? "certificateTemplateImgBorder"
-                : "certificateTemplateImg"
-            }
-            onClick={this.enableButtons}
-            id='ADCS_Doc'
-          >
-            <img src={ADCSUrl} alt="ADCS Template" />
-            <div className="templateName">ADCS Template</div>
-            <div className="previewImageBtn">
-              <button className="previewImageBtnContent" onClick={() => this.openTemplateModal('ADCS_Doc')}>
-                <FontAwesomeIcon icon={faExpand} className="previewIcon" /> Preview
-              </button>
-            </div>
-          </span>
-          <span
-            className={
-              this.state.isSelected === 'DICT_Doc'
-                ? "certificateTemplateImgBorder"
-                : "certificateTemplateImg"
-            }
-            onClick={this.enableButtons}
-            id = 'DICT_Doc'
-          >
-            <img src={DICTUrl} alt="DICT Template" />
-            <div className="previewImageBtn">
-              <button className="previewImageBtnContent" onClick={() => this.openTemplateModal('DICT_Doc')}>
-                <FontAwesomeIcon icon={faExpand} className="previewIcon" /> Preview
-              </button>
-            </div>
-            <div className="templateName">DICT Template</div>
-          </span>
-
+          
+          
 
 
 
@@ -771,99 +726,7 @@ class SelectTemplate extends Component {
 
 
 
-          <span
-            className={
-              this.state.isSelected === 'ADSM_Doc'
-                ? "certificateTemplateImgBorder"
-                : "certificateTemplateImg"
-            }
-            onClick={this.enableButtons}
-            id = 'ADSM_Doc'
-          >
-            <img src={ADSMUrl} alt="ADSM Template" />
-            <div className="previewImageBtn">
-              <button className="previewImageBtnContent" onClick={() => this.openTemplateModal('ADSM_Doc')}>
-                <FontAwesomeIcon icon={faExpand} className="previewIcon" /> Preview
-              </button>
-            </div>
-            <div className="templateName">ADSM Template</div>
-          </span>
-
-
-
-
-
-
-
-
-          <span
-            className={
-              this.state.isSelected === 'PGDSLI_Doc'
-                ? "certificateTemplateImgBorder"
-                : "certificateTemplateImg"
-            }
-            onClick={this.enableButtons}
-            id = 'PGDSLI_Doc'
-          >
-            <img src={PGDSLIUrl} alt="PGDSLI Template" />
-            <div className="previewImageBtn">
-              <button className="previewImageBtnContent" onClick={() => this.openTemplateModal('PGDSLI_Doc')}>
-                <FontAwesomeIcon icon={faExpand} className="previewIcon" /> Preview
-              </button>
-            </div>
-            <div className="templateName">PGDSLI Template</div>
-          </span>
-
-
-
-
-
-
-          <span
-            className={
-              this.state.isSelected === 'PDDMCS_Doc'
-                ? "certificateTemplateImgBorder"
-                : "certificateTemplateImg"
-            }
-            onClick={this.enableButtons}
-            id = 'PDDMCS_Doc'
-          >
-            <img src={PDDMCSUrl} alt="PDDMCS Template" />
-            <div className="previewImageBtn">
-              <button className="previewImageBtnContent" onClick={() => this.openTemplateModal('PDDMCS_Doc')}>
-                <FontAwesomeIcon icon={faExpand} className="previewIcon" /> Preview
-              </button>
-            </div>
-            <div className="templateName">PDDMCS Template</div>
-          </span>
-
-
-
-
-
-
-
-
-
-
-
-          <span
-            className={
-              this.state.isSelected === 'TwoApprover_Doc'
-                ? "certificateTemplateImgBorder"
-                : "certificateTemplateImg"
-            }
-            onClick={this.enableButtons}
-            id = 'TwoApprover_Doc'
-          >
-            <img src={TwoApproverUrl} alt="Two Approvers Template" />
-            <div className="previewImageBtn">
-              <button className="previewImageBtnContent" onClick={() => this.openTemplateModal('TwoApprover_Doc')}>
-                <FontAwesomeIcon icon={faExpand} className="previewIcon" /> Preview
-              </button>
-            </div>
-            <div className="templateName">Two Approvers Template</div>
-          </span>
+         
           
           <div className={ this.state.isDisabled === true
                   ? "disableddownloadtemplate"

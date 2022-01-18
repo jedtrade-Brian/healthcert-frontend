@@ -318,6 +318,7 @@ class SalesQuotationTab extends Component {
   // }
 
   getCertificateData = async (docHash = null) => {
+    console.log(docHash);
     try {
       console.log('Retrieving Certificate...')
       const response = await getCertificateList()
@@ -328,23 +329,35 @@ class SalesQuotationTab extends Component {
             certificate = certificate.sort(function(a, b){ 
               return new Date(b.issuedOn) - new Date(a.issuedOn); 
             }).map((item)=>{
-                return {
-                ...item,              
-                status: this.getSalesQuotationStatus(item.revoked,item.issuedOn),
+              console.log(item);
+              console.log('1',item.revoked,'2',item.issuedOn,'3',item.signed,'4',item.docHash)
+              //   return {
+              //   ...item, 
+                     
+              //   status: this.getSalesQuotationStatus(item.revoked,item.issuedOn),
+
+                
+              // }
+
+              
+            if(docHash === item.docHash){
+              return {
+                ...item,
+                //status: this.getSalesQuotationStatus(item.revoked,item.signed),
+                revoked: true,
               }
-            // if(docHash && docHash === item.docHash){
-            //   return {
-            //     ...item,
-            //     // status: this.getSalesQuotationStatus(item.revoked,item.signed),
-            //     revoked: true,
-            //   }
-            // }else{
-            //   return {
-            //     ...item,
-            //     // revoked: true,
-            //     status: this.getSalesQuotationStatus(item.revoked,item.signed),
-            //   }
-            // } 
+              
+            }else{
+              return {
+                
+                ...item,
+                
+                //revoked: true,
+                status: this.getSalesQuotationStatus(item.revoked,item.signed),
+              }
+              
+           } 
+           
           })
         }
         
@@ -398,7 +411,7 @@ class SalesQuotationTab extends Component {
       }
     });
 
-    console.log(currentCerts);
+    //console.log(currentCerts);
   }
 
   handleCloseQuotation = () => {
