@@ -199,7 +199,7 @@ class DeliveryOrderTab extends Component {
     return (
       <div className='DeliveryOrderTab'>
         <div className="salesHeader row">
-          <h3>Students</h3>
+          <h3>Patient</h3>
           <Tooltip title='refresh' placement="right-end">
               <IconButton aria-label="upload picture" onClick={this.onRefresh}>
                 <RefreshIcon htmlColor='#15A063'/>
@@ -217,7 +217,7 @@ class DeliveryOrderTab extends Component {
             onChange={this.handleTabs}
             aria-label='simple tabs example'
           >
-            <Tab className='tab' label='Students' {...a11yProps(0)} />
+            <Tab className='tab' label='Patients' {...a11yProps(0)} />
             {/* <Tab className='tab' label='Purchases' {...a11yProps(1)} /> */}
           </Tabs>
         </AppBar>

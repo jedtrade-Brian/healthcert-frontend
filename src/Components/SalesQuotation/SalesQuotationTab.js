@@ -329,8 +329,8 @@ class SalesQuotationTab extends Component {
             certificate = certificate.sort(function(a, b){ 
               return new Date(b.issuedOn) - new Date(a.issuedOn); 
             }).map((item)=>{
-              console.log(item);
-              console.log('1',item.revoked,'2',item.issuedOn,'3',item.signed,'4',item.docHash)
+              //console.log(item);
+              console.log('1',item.revoked,'2',item.issuedOn,'3',item.merkleroot,'4',item.docHash)
                 return {
                 ...item, 
                      
@@ -338,7 +338,7 @@ class SalesQuotationTab extends Component {
 
                 
               }
-
+              
               
           //   if(docHash === item.docHash){
           //     return {
@@ -362,7 +362,9 @@ class SalesQuotationTab extends Component {
         }
         
         this.setState({loader: false, certificateList: certificate , filteredCertList: certificate })
+        
       }
+      
     } catch (error) {
       console.log('Retrieve Certificate', error)
       console.log('ok');
@@ -420,7 +422,8 @@ class SalesQuotationTab extends Component {
   };
 
   handleRevokedClick = async (data) => {
-    //  console.log('Data : ',data);
+     console.log('Data : ',data);
+    
      this.setState({loader: true})
      let response = null
      try {      
@@ -430,7 +433,8 @@ class SalesQuotationTab extends Component {
        console.log('Error : ', error);
      }
      if(response){
-       await this.getCertificateData(data.docHash)
+       await Promise.all([this.getCertificateData(data.docHash), this.onRefresh()]);
+       //await this.getCertificateData(data.docHash);
      }
   }
 

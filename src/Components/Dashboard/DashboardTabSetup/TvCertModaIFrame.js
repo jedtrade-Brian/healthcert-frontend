@@ -13,6 +13,8 @@ export default class TvCertModalIFrame extends React.Component {
         console.log("TVCertModalFrame: this.state.viewer: ",this.state.viewer);
     }
 
+    
+
     closeLoader = () => {
         this.setState({ loader: false })
     }
