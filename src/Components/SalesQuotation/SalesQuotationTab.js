@@ -331,32 +331,32 @@ class SalesQuotationTab extends Component {
             }).map((item)=>{
               console.log(item);
               console.log('1',item.revoked,'2',item.issuedOn,'3',item.signed,'4',item.docHash)
-              //   return {
-              //   ...item, 
+                return {
+                ...item, 
                      
-              //   status: this.getSalesQuotationStatus(item.revoked,item.issuedOn),
+                status: this.getSalesQuotationStatus(item.revoked,item.issuedOn),
 
                 
-              // }
+              }
 
               
-            if(docHash === item.docHash){
-              return {
-                ...item,
-                //status: this.getSalesQuotationStatus(item.revoked,item.signed),
-                revoked: true,
-              }
+          //   if(docHash === item.docHash){
+          //     return {
+          //       ...item,
+          //       //status: this.getSalesQuotationStatus(item.revoked,item.signed),
+          //       revoked: true,
+          //     }
               
-            }else{
-              return {
+          //   }else{
+          //     return {
                 
-                ...item,
+          //       ...item,
                 
-                //revoked: true,
-                status: this.getSalesQuotationStatus(item.revoked,item.signed),
-              }
+          //       //revoked: true,
+          //       status: this.getSalesQuotationStatus(item.revoked,item.signed),
+          //     }
               
-           } 
+          //  } 
            
           })
         }
@@ -365,6 +365,7 @@ class SalesQuotationTab extends Component {
       }
     } catch (error) {
       console.log('Retrieve Certificate', error)
+      console.log('ok');
       if(error.response && error.response.status === 400){
         if(this.errorCount <= 5){
           this.getCertificateData();

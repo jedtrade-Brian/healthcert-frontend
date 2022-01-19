@@ -845,6 +845,7 @@ class ConfirmTemplate extends Component {
 
   handleClose = () => {
     this.props.history.push('/Certificate');
+    window.location.reload();
   };
 
   getDocumentType = () => {

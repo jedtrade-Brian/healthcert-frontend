@@ -7,8 +7,9 @@ export default class TvCertModalIFrame extends React.Component {
         this.state = {
             loader: true,
             viewer:process.env.REACT_APP_Viewer_URL??'https://jcert-viewer-enhanced.sandbox158.run',
+            
         }
-        console.log("TVCertModalFrame: this.props.docHash: ",this.props.reference);
+        console.log("TVCertModalFrame: this.props.docHash: ",this.props.docHash);
         console.log("TVCertModalFrame: this.state.viewer: ",this.state.viewer);
     }
 
