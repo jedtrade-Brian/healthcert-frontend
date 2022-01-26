@@ -337,7 +337,8 @@ export class BatchDetails extends Component {
         console.log('Error : ', error);
       }
       if(response){
-        this.getBatchCertificatesData(data.docHash)
+        await Promise.all([this.getBatchCertificatesData(data.docHash), this.onRefresh()]);
+        //this.getBatchCertificatesData(data.docHash)
       }
   }
 

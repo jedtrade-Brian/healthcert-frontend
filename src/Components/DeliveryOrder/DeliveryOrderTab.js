@@ -98,12 +98,12 @@ class DeliveryOrderTab extends Component {
         console.log(student.patientEmail);
         console.log(student.patientId);
         console.log(student.patientNRIC);
-        const pName = student.patientName.toLowerCase();
-        const pEmail = student.patientEmail.toLowerCase();
-        const pId = student.patientId.toString().toLowerCase();
-        const pNRIC = student.patientNRIC.toString().toLowerCase();
+        const patientName = student.patientName.toLowerCase();
+        const patientEmail = student.patientEmail.toLowerCase();
+        const patientId = student.patientId.toString().toLowerCase();
+        const patientNRIC = student.patientNRIC.toString().toLowerCase();
         query = query.toString().toLowerCase();
-        return (pName.includes(query) || pEmail.includes(query) || pNRIC.includes(query) || pId.includes(query));
+        return (patientName.includes(query) || patientEmail.includes(query) || patientId.includes(query) || patientNRIC.includes(query));
     });
 
     this.setState({ filteredStudents: filteredStudents });

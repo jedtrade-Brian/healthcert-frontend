@@ -264,6 +264,7 @@ export class StudentCertificates extends Component {
         students.push({
           docHash : studentCertDetails[i].docHash, 
           docType : studentCertDetails[i].docType, 
+          issuerDocStore : studentCertDetails[i].issuerDocStore, 
           patientId:studentDetails.studentId, 
           name:studentNames[0], 
           studentLastName:studentNames[studentNames.length-1], 
@@ -275,6 +276,8 @@ export class StudentCertificates extends Component {
           wrapDocInfo : studentCertDetails[i].wrapDocInfo, 
           studentEmail: studentDetails.email, 
           birth: studentDetails.dob, 
+          reference: studentCertDetails[i].reference,
+          merkleroot: studentCertDetails[i].merkleroot,
           effectiveDate:studentDetails.effectiveDate})
       }
       
@@ -369,7 +372,9 @@ export class StudentCertificates extends Component {
         console.log('Error : ', error);
       }
       if(response){
-        this.getStudentsCertificatesData(data.docHash)
+        
+        await Promise.all([this.getStudentsCertificatesData(data.docHash), this.onRefresh()]);
+        //this.getStudentsCertificatesData(data.docHash)
       }
   }
 

@@ -813,7 +813,7 @@ class SelectTemplate extends Component {
         >
           <DialogTitle id='customized-dialog-title' onClose={this.handleCloseModal} ></DialogTitle>
           <DialogContent>
-            <img src={this.state.previewImage} height="650px" width="700px" style={{paddingTop: "35px"}} />
+            <img src={this.state.previewImage} height="700px" width="500px" style={{paddingTop: "35px"}} />
           </DialogContent>
         </Dialog>
       </div>
